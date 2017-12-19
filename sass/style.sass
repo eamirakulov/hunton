@@ -1,0 +1,1101 @@
+/* Theme name: Hunton
+ * Version: 1.0 */
+
+$main-text: #313233
+$text: #919396
+$orange: #EF4622
+$green: #7AC142
+$blue: #228CEF
+#preloadedImages
+	width: 0px
+	height: 0px
+	display: inline
+	background-image: url(img/fb.svg)
+	background-image: url(img/tw.svg)
+	background-image: url(img/ln.svg)
+	background-image: url(img/ourteam-hover.svg)
+	background-image: url(img/partners-hover.svg)
+	background-image: url(img/testimonials-hover.svg)
+	background-image: url(img/training-hover.svg)
+	background-image: url(img/casestudies-hover.svg)
+	background-image: url(img/safety-hover.svg)
+	background-image: url(img/arrowl-hover.svg)
+	background-image: url(img/arrowr-hover.svg)
+	background-image: url(img/phone2.svg)
+	background-image: url()
+
+
+body
+	margin: 0
+	font-family: 'Open Sans', sans-serif
+	color: #939598
+	font-size: 12px
+
+.container
+	margin: 0 auto
+	max-width: initial
+	width: 90%
+
+.content
+	padding-top: 42px
+	padding-bottom: 66px
+
+img
+	max-width: 100%
+
+@media only screen and (min-width: 601px)
+	.container
+		width: 85%
+		margin: 0 auto
+
+@media only screen and (min-width: 993px)
+	.container
+		width: 90%
+		margin: 0 auto
+
+.side-nav
+	top: 75px
+	text-transform: uppercase
+
+.toggle-mobile
+	display: none
+	width: 30px
+	position: absolute
+	right: 20px
+	top: 50%
+	margin-top: -10px
+
+	span
+		display: block
+		height: 2px
+		background: $green
+		width: 100%
+		margin: 4px 0
+
+	@media (max-width: 767px)
+		display: block
+
+header
+	background: #fff
+	padding: 15px 0
+	position: fixed
+	z-index: 999
+	top: 0
+	left: 0
+	width: 100%
+
+	@media (max-width: 1024px)
+		text-align: center
+
+	@media (max-width: 767px)
+		text-align: left
+		position: relative
+
+	&.shadow
+		box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25)
+
+	.row
+		margin-bottom: 0
+
+	.logo
+		img
+			width: 140px
+
+	.main-menu
+		@media (max-width: 767px)
+			display: none
+		ul
+			margin: 0
+			padding: 0 30px
+			list-style: none
+			display: flex
+			justify-content: space-between
+
+			li
+				display: inline-block
+				line-height: 44px
+
+				> ul
+					display: none
+					position: absolute
+					width: 100%
+					background: #fff
+					padding: 25px
+					margin-top: -1px
+					z-index: 99
+					left: 0
+					box-shadow: 0px 13px 20px 0px rgba(0, 0, 0, 0.25)
+
+					li
+						display: block
+						margin: 0 0 10px 0
+						line-height: 22px
+
+				&:hover
+					> ul
+						display: block
+
+				a
+					color: $main-text
+					font-size: 12px
+					font-weight: bold
+					text-transform: uppercase
+					display: inline-block
+					position: relative
+
+					&:hover
+						color: $blue
+
+					&.active
+						padding: 0 0 3px 0
+						color: $blue
+
+						&:after
+							content: " "
+							display: block
+							position: absolute
+							bottom: 0px
+							height: 1px
+							z-index: 999
+							left: 0
+							width: 100%
+							background: $blue
+							transition: all 0.25s linear
+
+	.contact
+		text-align: right
+		@media (max-width: 767px)
+			display: none
+
+		@media (max-width: 1024px)
+			text-align: center
+			margin-top: 10px
+
+		a
+			display: inline-block
+			vertical-align: middle
+
+		img
+			width: 28px
+			margin: 7px 10px 0 0
+			@media (max-width: 1024px)
+				display: none
+
+
+.social
+	position: fixed
+	right: 20px
+	top: 30%
+	z-index: 999
+	@media (max-width: 767px)
+		display: none
+
+	a
+		display: block
+		width: 18px
+		height: 18px
+		margin-bottom: 15px
+
+		&.fb
+			background: url(img/fb-default.svg) no-repeat center
+			&:hover
+				background: url(img/fb.svg) no-repeat center
+
+		&.tw
+			background: url(img/tw-default.svg) no-repeat center
+			&:hover
+				background: url(img/tw.svg) no-repeat center
+		&.ln
+			background: url(img/ln-default.svg) no-repeat center
+			&:hover
+				background: url(img/ln.svg) no-repeat center
+
+	img
+		width: 18px
+		margin-bottom: 15px
+
+.intro
+	position: relative
+
+	.scroll
+		position: absolute
+		left: -38px
+		top: 66%
+		z-index: 999
+
+		img
+			width: 17px
+			height: 119px
+
+.main-slider
+	.slick-dots
+		position: absolute
+		left: -35px
+		top: 40%
+
+		button
+			background: #fff
+			font-size: 0
+			border-radius: 10px
+			width: 10px
+			padding: 0
+			height: 10px
+			border: 1px solid $text
+			margin-bottom: 20px
+
+		.slick-active
+			button
+				background: $blue
+				border: 1px solid $blue
+
+
+	.item
+		min-height: 660px
+		position: relative
+
+		.item-content
+			position: relative
+			z-index: 9
+			text-align: center
+			top: 240px
+			max-width: 840px
+			margin: 0 auto
+			@media (max-width: 767px)
+				top: 70px
+
+
+		h1
+			font-size: 45px
+			font-weight: bold
+			color: #fff
+			@media (max-width: 767px)
+				font-size: 35px
+				padding: 0 20px
+
+
+		p
+			font-size: 18px
+			margin-top: 17px
+			color: #fff
+			@media (max-width: 767px)
+				font-size: 16px
+				padding: 0 20px
+
+		.play-btn
+			margin: 0 auto
+			width: 80px
+			height: 80px
+			display: block
+
+			img
+				width: 60px
+
+			.rotate
+				position: relative
+				top: -70px
+				left: -10px
+				width: 80px
+				-webkit-animation: rotation 5s infinite linear
+
+				@-webkit-keyframes rotation
+					from
+						-webkit-transform: rotate(0deg)
+					to
+						-webkit-transform: rotate(359deg)
+
+		&:before
+			content: " "
+			display: block
+			position: absolute
+			top: 0
+			left: 0
+			z-index: 8
+			width: 100%
+			height: 100%
+			background: rgba(0, 0, 0, 0.6)
+
+.modal iframe
+	width: 100%
+
+section.content-section
+	clear: both
+	padding: 80px 0
+
+	@media (max-width: 1024px)
+		min-height: auto
+		padding: 60px 0
+	@media (max-width: 767px)
+		padding: 30px 0
+
+	h2
+		font-size: 42px
+		font-weight: bold
+		color: $main-text
+		margin: 0 0 25px 0
+		position: relative
+
+		.num
+			position: absolute
+			top: -45px
+			left: 0
+			z-index: -1
+			font-size: 130px
+			font-weight: bold
+			color: #F7F7F7
+			margin: 0
+
+		&:before
+			content: " "
+			display: block
+			position: absolute
+			top: -20px
+			left: 200px
+			height: 1px
+			width: 160px
+			background: $orange
+
+			@media (max-width: 767px)
+				left: 100px
+
+	p
+		color: $text
+		font-size: 16px
+		line-height: 30px
+
+	.learn
+		font-size: 14px
+		font-weight: bold
+		color: $blue
+		display: inline-block
+		position: relative
+		text-transform: uppercase
+		letter-spacing: 4px
+
+		&:after
+			content: " "
+			display: block
+			position: absolute
+			bottom: 0px
+			height: 1px
+			left: 0
+			width: 100%
+			background: $blue
+			transition: all 0.25s linear
+
+		&:hover
+			&:after
+				width: 50%
+				left: 50%
+
+#why
+	padding-top: 130px
+	@media (max-width: 1024px)
+		min-height: 100vh
+
+
+#services
+	.btn-green
+		font-size: 14px
+		margin-top: 20px
+
+#safety
+	ul
+		list-style: none
+		margin: 0
+		padding: 0
+
+		li
+			padding-left: 25px
+			background: url(img/check.svg) no-repeat left
+			background-size: 15px
+			font-size: 14px
+			font-weight: bold
+			color: $main-text
+			line-height: 28px
+
+.valign-wrapper
+	@media (max-width: 767px)
+		display: block
+
+.r-grid
+	position: relative
+
+	@media (max-width: 767px)
+		display: none
+
+	a
+		display: block
+		width: 155px
+		height: 155px
+		position: absolute
+
+		&.team
+			background: url(img/ourteam.svg) no-repeat center
+			top: 0
+			right: 77.5px
+
+			&:hover
+				background: url(img/ourteam-hover.svg) no-repeat center
+
+		&.partners
+			background: url(img/partners.svg) no-repeat center
+			top: 0
+			right: 232.5px
+
+			&:hover
+				background: url(img/partners-hover.svg) no-repeat center
+
+		&.test
+			background: url(img/testimonials.svg) no-repeat center
+			top: 77.5px
+			right: 0
+			&:hover
+				background: url(img/testimonials-hover.svg) no-repeat center
+
+		&.training
+			background: url(img/training.svg) no-repeat center
+			top: 77.5px
+			right: 310px
+			&:hover
+				background: url(img/training-hover.svg) no-repeat center
+
+		&.case
+			background: url(img/casestudies.svg) no-repeat center
+			top: 155px
+			right: 77.5px
+			&:hover
+				background: url(img/casestudies-hover.svg) no-repeat center
+
+		&.safety
+			background: url(img/safety.svg) no-repeat center
+			top: 155px
+			right: 232.5px
+			&:hover
+				background: url(img/safety-hover.svg) no-repeat center
+
+	.rombus
+		width: 95px
+		position: absolute
+		right: 183.5px
+		top: 105px
+
+
+::-webkit-scrollbar
+	width: 8px
+	background-color: rgba(0,0,0,0)
+	-webkit-border-radius: 100px
+
+::-webkit-scrollbar:hover
+	background-color: rgba(0, 0, 0, 0.09)
+
+::-webkit-scrollbar-thumb:vertical
+	background: rgba(0,0,0,0.3)
+	-webkit-border-radius: 100px
+
+::-webkit-scrollbar-thumb:vertical:active
+	background: rgba(0,0,0,0.4)
+	-webkit-border-radius: 100px
+
+#whats
+	.tabs-box
+		box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.25)
+		position: relative
+
+		.scroll-nav
+			background: #fff
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			padding-left: 1px
+
+			a,
+			span
+				vertical-align: middle
+				margin-right: -1px
+
+			.count
+				font-size: 12px
+				font-weight: 500
+				color: $text
+				padding: 15px 0
+				text-align: center
+				width: 50px
+				height: 50px
+				display: inline-block
+				background: rgba(189, 195, 209, 0.2)
+
+
+				.current
+					color: $blue
+
+			.arrow-left
+				display: inline-block
+				width: 50px
+				height: 50px
+				background: rgba(189, 195, 209, 0.2) url(img/arrowl.svg) no-repeat center
+				background-size: 9.5px
+
+				&:hover
+					background: rgba(189, 195, 209, 0.2) url(img/arrowl-hover.svg) no-repeat center
+					background-size: 9.5px
+
+			.arrow-right
+				display: inline-block
+				width: 50px
+				height: 50px
+				background: rgba(189, 195, 209, 0.2) url(img/arrowr.svg) no-repeat center
+				background-size: 9.5px
+
+				&:hover
+					background: rgba(189, 195, 209, 0.2) url(img/arrowr-hover.svg) no-repeat center
+					background-size: 9.5px
+
+	.tab-content
+		padding: 20px
+
+	#news
+		padding-bottom: 50px
+
+
+		h3
+			font-size: 26px
+			font-weight: bold
+			color: $main-text
+			margin: 0 0 15px 0
+
+		.item
+			padding-top: 20px
+
+		.thumb
+			img
+				width: 100%
+
+		.excerpt
+			p
+				color: $text
+				font-size: 15px
+				line-height: 28px
+				margin: 0 0 15px 0
+
+			a
+				font-size: 10px
+
+		.meta
+			margin-top: 25px
+			padding-top: 15px
+			border-top: 1px solid #BDC3D1
+
+			span
+				font-size: 12px
+				font-weight: 300
+				color: $text
+
+				&.date
+					padding-left: 25px
+					background: url(img/clock.svg) no-repeat left center
+					margin-right: 20px
+
+				&.cat
+					padding-left: 25px
+					background: url(img/news.svg) no-repeat left center
+
+				&.comments
+					padding-left: 25px
+					background: url(img/comments.svg) no-repeat left center
+					float: right
+
+	.tabs
+		position: relative
+
+		.tab
+			padding: 0 0.5px
+
+			a
+				background: #58647B
+				color: #BDC3D1
+				font-size: 11px
+				font-weight: bold
+
+				&:hover,
+				&.active
+					color: #fff
+					background: $blue
+
+		.indicator
+			display: none
+
+#faq
+	.faq-box
+		padding: 50px
+		background: #F7F7F7
+		box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.25)
+
+		h3
+			font-size: 26px
+			font-weight: bold
+			color: $main-text
+			margin: 0 0 15px 0
+
+		p
+			color: $text
+			font-size: 15px
+			line-height: 28px
+			margin: 0 0 15px 0
+
+	.faq-list
+		height: auto
+
+		.tab
+			float: none
+			display: block
+			text-align: left
+			line-height: initial
+			height: auto
+			margin-bottom: 15px
+
+		.indicator
+			display: none
+
+		a
+			color: $main-text
+			font-size: 18px
+			font-weight: 400
+			position: relative
+			display: inline-block
+			text-transform: initial
+			width: auto
+			padding: 0 0 3px 0
+
+			&:hover,
+			&.active
+				color: $blue
+
+				&:after
+					content: " "
+					display: block
+					position: absolute
+					bottom: 0px
+					height: 1px
+					left: 0
+					width: 100%
+					background: $blue
+					transition: all 0.25s linear
+
+#careers
+	img
+		max-width: 100%
+
+	.btn-green
+		font-size: 14px
+		margin-top: 20px
+
+#contact
+	h2
+		margin-bottom: 40px
+
+	.addr
+		font-size: 18px
+		font-weight: 400
+		color: $main-text
+		padding-left: 40px
+		background: url(img/marker.svg) no-repeat left top
+		background-size: 20px
+
+	.phone
+		font-size: 18px
+		font-weight: 600
+		color: $main-text
+		padding-left: 40px
+		background: url(img/phone.svg) no-repeat left top
+		background-size: 28px
+
+	iframe
+		display: block
+		margin: 30px 0
+		@media (max-width: 767px)
+			width: 100%
+
+	.family
+		font-size: 18px
+		font-weight: 400
+		position: relative
+		display: inline-block
+		padding: 0 0 3px 0
+		color: $blue
+
+		&:after
+			content: " "
+			display: block
+			position: absolute
+			bottom: 0px
+			height: 1px
+			left: 0
+			width: 100%
+			background: $blue
+			transition: all 0.25s linear
+
+	.contact-form
+		background: #F7F7F7
+		padding: 90px 50px
+
+		h3
+			font-size: 26px
+			font-weight: 600
+			color: $main-text
+			margin: 0 0 15px 0
+
+		p
+			color: $text
+			font-size: 15px
+			line-height: 28px
+			margin: 0 0 15px 0
+
+		form
+			.row
+				margin-bottom: 0
+
+			input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
+				border-bottom: 1px solid $blue
+			input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea
+				margin-bottom: 0
+				height: 2.3rem
+				border-bottom: 1px solid #BDC3D1
+			input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown
+				border-bottom: 1px solid $green
+			input
+				margin-bottom: 0
+				border-bottom: 1px solid #BDC3D1
+
+			label
+				font-size: 11px
+				font-weight: bold
+				color: $main-text
+				text-transform: uppercase
+
+.page
+	.content-grid
+		margin-top: 50px
+
+	.page-bg
+		text-align: center
+		color: #fff
+
+		h1
+			font-size: 45px
+			font-weight: bold
+			margin: 0 0 18px 0
+
+		p
+			font-size: 18px
+			margin: 0
+		.text
+			padding: 100px 180px
+
+			@media (max-width: 767px)
+				padding: 50px 40px
+
+.sidebar
+	.widget
+		margin-bottom: 40px
+
+	.widgettitle
+		font-size: 18px
+		font-weight: bold
+		color: $main-text
+		margin: 0 0 25px 0
+
+	#sidebar
+		@media (min-width: 768px)
+			padding-left: 45px
+
+
+	#searchform
+		position: relative
+
+	#s,
+	#subscribe-input
+		margin: 0
+		background: #FCFCFC
+		border: 1px solid #919396
+		padding-left: 15px
+		width: 100%
+		box-sizing: border-box
+
+		&::-webkit-input-placeholder
+			font-weight: 300
+			font-style: italic
+			font-size: 13px
+		&::-moz-placeholder
+			font-weight: 300
+			font-style: italic
+			font-size: 13px
+		&:-ms-input-placeholder
+			font-weight: 300
+			font-style: italic
+			font-size: 13px
+		&:-moz-placeholder
+			font-weight: 300
+			font-style: italic
+			font-size: 13px
+
+	#searchsubmit
+		position: absolute
+		width: 50px
+		height: 100%
+		top: 0
+		right: 0
+		background: url(img/search.svg) no-repeat center
+		background-size: 13px
+		box-shadow: none
+		font-size: 0
+		border: none
+
+	#join-btn
+		position: absolute
+		color: #fff
+		height: 100%
+		top: 0
+		right: 0
+		background: $blue
+		background-size: 13px
+		box-shadow: none
+		font-size: 14px
+		font-weight: bold
+		border: none
+		border-radius: 0
+		padding: 0 18px
+
+	.screen-reader-text
+		display: none
+
+	.cat-item,
+	.widget_archive ul li
+		padding-left: 12px
+		padding-top: 15px
+		padding-bottom: 15px
+		border-top: 1px dotted #D4D4D4
+		border-bottom: 1px dotted #D4D4D4
+		background: url(img/list-square.svg) no-repeat left center
+		background-size: 4px
+
+		a
+			color: $main-text
+			font-size: 15px
+
+	.recent-posts-widget-with-thumbnails
+		a
+			font-size: 17px
+			font-weight: bold
+			color: $main-text
+			display: block
+			margin-bottom: 10px
+
+		.rpwwt-post-categories,
+		.rpwwt-post-date
+			font-size: 12px
+			color: $text
+			margin-bottom: 10px
+
+	.recentcomments
+		padding-left: 24px
+		padding-top: 15px
+		padding-bottom: 15px
+		border-top: 1px dotted #D4D4D4
+		border-bottom: 1px dotted #D4D4D4
+		background: url(img/comments.svg) no-repeat left center
+		background-size: 12px
+		color: $main-text
+		font-size: 15px
+
+		a
+			color: $main-text
+			font-size: 15px
+
+		.comment-author-link a
+			color: $main-text
+			font-size: 15px
+			font-weight: bold
+
+
+.posts-grid
+	.item
+		margin-bottom: 20px
+
+		.thumb
+			height: 250px
+			width: 100%
+
+		.text
+			padding: 25px 15px
+			background: #fff
+			box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.25)
+
+
+		.meta
+			margin-top: 25px
+			padding-top: 20px
+			border-top: 1px solid #f7f7f7
+
+			span
+				font-size: 12px
+				font-weight: 300
+				color: $text
+				padding-left: 25px
+
+				&.date
+					padding-left: 25px
+					background: url(img/clock.svg) no-repeat left center
+					float: right
+
+				&.cat
+					background: url(img/news.svg) no-repeat left center
+
+		h3
+			font-size: 18px
+			font-weight: bold
+			margin: 0
+
+			a
+				color: #000
+
+		p
+			font-size: 15px
+			color: $text
+.btn-green
+	padding: 9px 22px
+	color: #fff
+	background: $green
+	font-size: 11px
+	font-weight: bold
+	text-transform: uppercase
+	display: inline-block
+	vertical-align: middle
+	box-shadow: 0px 1px 6px 0px rgba(122, 193, 66, 1)
+
+	&:hover
+		background: #6EAD3B
+
+
+.wpcf7-submit
+	padding: 15px 22px
+	width: 185px
+	color: #fff
+	background: $blue
+	font-size: 14px
+	font-weight: bold
+	text-transform: uppercase
+	display: inline-block
+	vertical-align: middle
+	border: none
+	border-radius: 0
+
+	&:hover
+		background: #1E7AD1
+		box-shadow: 0px 3px 10px 0px rgba(30, 122, 209, 0.2)
+
+.btn-orange
+	padding: 9px 22px
+	color: #fff
+	background: $orange
+	font-size: 11px
+	font-weight: bold
+	text-transform: uppercase
+	display: inline-block
+	vertical-align: middle
+	box-shadow: 0px 1px 6px 0px rgba(219, 64, 31, 1)
+
+	&:hover
+		background: #DB401F
+
+
+.alm-load-more-btn
+	padding: 9px 22px
+	color: #fff
+	background: $orange !important
+	font-size: 11px
+	font-weight: bold
+	text-transform: uppercase
+	display: inline-block
+	vertical-align: middle
+	box-shadow: 0px 1px 6px 0px rgba(219, 64, 31, 1)
+
+	&:hover
+		background: #DB401F
+
+.btn-default
+	padding: 8px 22px
+	color: $blue
+	background: transparent
+	border: 1px solid $blue
+	font-size: 11px
+	font-weight: bold
+	text-transform: uppercase
+	display: inline-block
+	vertical-align: middle
+
+	&:hover
+		background: $blue
+		box-shadow: 0px 1px 6px 0px rgba(34, 140, 239, 1)
+		color: #fff
+
+footer
+	position: fixed
+	bottom: 0
+	left: 0
+	width: 100%
+	padding: 15px 0
+	background: #fff
+	z-index: 999
+	@media (max-width: 1024px)
+		text-align: center
+	@media (max-width: 767px)
+		position: relative
+
+	.row
+		margin-bottom: 0
+
+	.copy
+		font-size: 12px
+		color: $text
+		margin-top: 5px
+		@media (max-width: 767px)
+
+	.cta
+		text-align: center
+		@media (max-width: 1024px)
+			margin: 10px 0
+
+		a
+			margin: 0 5px
+
+			&.btn-default,
+			&.btn-green
+				width: calc(30% - 30px)
+
+			&.btn-orange
+				width: calc(40% - 30px)
+
+			@media (max-width: 767px)
+				width: 100% !important
+				margin: 5px
+
+	.phone
+		text-align: right
+		font-size: 14px
+		font-weight: bold
+		color: $main-text
+		@media (max-width: 767px)
+			text-align: center
+
+		a
+			display: inline-block
+			vertical-align: middle
+			width: 36px
+			height: 36px
+			background: url(img/phone2-default.svg) no-repeat center center
+			margin-right: 5px
+
+			&:hover
+				background: url(img/phone2.svg) no-repeat center center
+

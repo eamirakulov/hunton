@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-18.111 -1157.541 179.563 179.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #313233;
+        font-size: 11px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #228cef;
+      }
+
+      .cls-4 {
+        filter: url(#Path_110);
+      }
+    </style>
+    <filter id="Path_110" x="-18.111" y="-1157.541" width="179.563" height="179.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#0f5699" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_1" data-name="1" transform="translate(-848 -2066)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 848, 2066)">
+      <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(-6.11 -1071.76) rotate(-45)"/>
+    </g>
+    <text id="TESTIMONIALS" class="cls-2" transform="translate(920 1015)"><tspan x="-40.087" y="0">TESTIMONIALS</tspan></text>
+    <path id="Path_126" data-name="Path 126" class="cls-3" d="M32.526,0H3.614A3.625,3.625,0,0,0,0,3.614V23.491A3.625,3.625,0,0,0,3.614,27.1H8.4v6.053a.61.61,0,0,0,.361.542h.181A.69.69,0,0,0,9.4,33.52L15.359,27.1H32.526a3.625,3.625,0,0,0,3.614-3.614V3.614A3.625,3.625,0,0,0,32.526,0ZM7.228,7.86h9.035a.618.618,0,0,1,.632.632c0,.361-.271.542-.632.542H7.228A.618.618,0,0,1,6.6,8.4C6.6,8.041,6.867,7.86,7.228,7.86ZM27.737,18.7H7.228a.632.632,0,0,1,0-1.265H27.737a.618.618,0,0,1,.632.632A.761.761,0,0,1,27.737,18.7Zm0-4.879H7.228a.618.618,0,0,1-.632-.632c0-.361.271-.542.632-.542H27.737a.618.618,0,0,1,.632.632A.6.6,0,0,1,27.737,13.823Z" transform="translate(901.93 956.8)"/>
+  </g>
+</svg>

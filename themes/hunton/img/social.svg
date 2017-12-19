@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="533 -1953 17 153.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #919396;
+        font-size: 12px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #bdc3d1;
+      }
+    </style>
+  </defs>
+  <g id="Social" transform="translate(-542 -4812.516)">
+    <text id="GET_SOCIAL" data-name="GET SOCIAL" class="cls-1" transform="translate(1079 2904.516) rotate(90)"><tspan x="-44.957" y="0">GET SOCIAL</tspan></text>
+    <line id="Line_3" data-name="Line 3" class="cls-2" y2="40" transform="translate(1081.5 2973.016)"/>
+  </g>
+</svg>

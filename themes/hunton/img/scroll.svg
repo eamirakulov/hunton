@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-676 -1713 17 119.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #919396;
+        font-size: 12px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #919396;
+      }
+    </style>
+  </defs>
+  <g id="scroll" transform="translate(-701 -2178)">
+    <text id="SCROLL-2" data-name="SCROLL" class="cls-1" transform="translate(29 494) rotate(90)"><tspan x="-28.644" y="0">SCROLL</tspan></text>
+    <g id="arrow" transform="translate(0 362)">
+      <line id="Line_4" data-name="Line 4" class="cls-2" y2="40" transform="translate(32.5 181.5)"/>
+      <line id="Line_7" data-name="Line 7" class="cls-2" x1="5.887" y1="0.113" transform="translate(32.517 221.316) rotate(-135)"/>
+      <path id="Path_104" data-name="Path 104" class="cls-2" d="M0,0,.122,6.378" transform="translate(32.177 221.669) rotate(-135)"/>
+    </g>
+  </g>
+</svg>

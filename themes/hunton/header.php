@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/slick/slick.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/additional.css">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 	<script src="<?php bloginfo('template_url'); ?>/js/modernizr.js"></script>

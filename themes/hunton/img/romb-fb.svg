@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-719.111 123.459 179.563 179.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #313233;
+        font-size: 11px;
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #228cef;
+      }
+
+      .cls-4 {
+        filter: url(#Path_110);
+      }
+    </style>
+    <filter id="Path_110" x="-719.111" y="123.459" width="179.563" height="179.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#0f5699" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_159" data-name="Group 159" transform="translate(-1270 -446)">
+    <g id="_3" data-name="3" transform="translate(-279 -339)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, 1549, 785)">
+        <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(-707.11 209.24) rotate(-45)"/>
+      </g>
+      <text id="FACEBOOK" class="cls-2" transform="translate(920 1015)"><tspan x="-31.171" y="0">FACEBOOK</tspan></text>
+      <path id="Path_140" data-name="Path 140" class="cls-3" d="M10.7,4h1.8a.472.472,0,0,0,.5-.5V.5a.472.472,0,0,0-.5-.5H9.6C6.6,0,4,2.4,4,5V9H.5a.472.472,0,0,0-.5.5v4a.472.472,0,0,0,.5.5H4v9.5a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5V14h3.3a.51.51,0,0,0,.5-.4l1.1-4c0-.2,0-.3-.1-.4a.52.52,0,0,0-.4-.2H8V5.9C8,5,9.6,4,10.7,4Z" transform="translate(913 964)"/>
+    </g>
+  </g>
+</svg>

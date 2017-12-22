@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-533.111 123.459 179.563 179.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #313233;
+        font-size: 11px;
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #228cef;
+      }
+
+      .cls-4 {
+        filter: url(#Path_110);
+      }
+    </style>
+    <filter id="Path_110" x="-533.111" y="123.459" width="179.563" height="179.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#0f5699" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_158" data-name="Group 158" transform="translate(-1270 -446)">
+    <g id="_3" data-name="3" transform="translate(-93 -339)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, 1363, 785)">
+        <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(-521.11 209.24) rotate(-45)"/>
+      </g>
+      <text id="LINKEDIT" class="cls-2" transform="translate(920 1015)"><tspan x="-25.36" y="0">LINKEDIT</tspan></text>
+      <g id="Group_155" data-name="Group 155" transform="translate(908 961)">
+        <path id="Path_142" data-name="Path 142" class="cls-3" d="M5.5,8H.5a.536.536,0,0,0-.5.5v15a.472.472,0,0,0,.5.5h5a.472.472,0,0,0,.5-.5V8.5A.536.536,0,0,0,5.5,8Z"/>
+        <path id="Path_143" data-name="Path 143" class="cls-3" d="M3.2,0A3.222,3.222,0,0,0,0,3.2,3.244,3.244,0,0,0,3.2,6.5,3.244,3.244,0,0,0,6.4,3.2,3.222,3.222,0,0,0,3.2,0Z"/>
+        <path id="Path_144" data-name="Path 144" class="cls-3" d="M18,7.9A10.516,10.516,0,0,0,13,9V8.5a.536.536,0,0,0-.5-.5h-4a.536.536,0,0,0-.5.5v15a.472.472,0,0,0,.5.5h4a.472.472,0,0,0,.5-.5V15.3a2.422,2.422,0,0,1,2.5-2.2A2.5,2.5,0,0,1,18,15.3v8.2a.472.472,0,0,0,.5.5h5a.472.472,0,0,0,.5-.5V13.9A6.018,6.018,0,0,0,18,7.9Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

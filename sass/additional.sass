@@ -1,0 +1,304 @@
+
+.dev2
+	h2
+		font-size: 42px
+		font-weight: bold
+		color: #313233
+		margin: 0 0 25px 0
+		position: relative
+		&:after
+			content: " "
+			display: block
+			position: relative
+			bottom: -13px
+			height: 1px
+			width: 160px
+			background: #EF4622
+			margin: 0 auto
+	h4
+		font-size: 26px
+		font-weight: 500
+		color: #313233
+		margin-bottom: 20px
+		&.bbf1f4fc
+			border-bottom: 1px solid #f1f4fc
+			padding-bottom: 17px
+	h5
+		font-size: 18px
+		font-weight: bold
+		color: #313233
+		margin: 0 0 20px 0
+	p
+		font-size: 16px
+		line-height: 30px
+
+
+	// - - - - Whats happening page - - - - //	
+	.content-block
+		padding: 64px 0 80px
+		@media (max-width: 767px)
+			padding: 40px 0 60px
+		&.block, .block
+			padding-left: 90px
+			padding-right: 90px
+			@media (max-width: 1024px)
+				padding-left: 60px
+				padding-right: 60px			
+			@media (max-width: 767px)
+				padding-left: 5px
+				padding-right: 5px
+	
+	.slider-linear
+		margin-bottom: 43px
+		padding-left: 90px
+		padding-right: 90px
+		@media (max-width: 1024px)
+			padding-left: 50px
+			padding-right: 50px		
+		@media (max-width: 767px)
+			margin-left: 0px
+			margin-right: 0px
+			padding-left: 28px
+			padding-right: 28px
+			.meta span
+				display: block
+				float: none !important
+				margin-top: 10px
+		&.slider-block-1 .item
+			.thumb
+				height: 235px
+				@media (max-width: 767px)
+					height: 150px
+		&.slider-block-2 .item
+			.meta
+				border: 0px
+				margin-top: 0px
+				padding-top: 15px
+				span
+					display: block
+					float: none
+					margin-top: 10px
+			.thumb
+				height: 110px
+		&.slider-block-3
+			.row
+				margin-left: 0px
+				margin-right: 0px
+				padding: .75rem
+				display: flex
+				@media (max-width: 600px)
+					display: block
+					.s3-thumb
+						height: 120px
+			.col
+				padding: 0px
+				&.text
+					padding: 25px 15px
+			.meta
+				@media (max-width: 767px)
+					display: none	
+				span
+					display: block
+					float: none !important
+					margin-top: 10px
+			
+
+	.after-title
+		font-size: 16px
+		max-width: 780px
+		margin: 0 auto 35px
+	
+	.btn-green.btn-large
+		font-size: 14px
+		text-transform: uppercase
+		line-height: inherit
+		height: auto
+		padding: 15px 50px
+	.bg-gray
+		background: #F7F7F7
+		@media (max-width: 767px)
+			width: 100%
+			padding-left: 5%
+			padding-right: 5%
+			> .row
+				margin: 0px
+		
+	.social-media
+		a
+			display: inline-block
+			width: 180px
+			@media (max-width: 1024px)
+				width: 32%
+	
+
+
+	// - - - - Our Team Page - - - - //
+	
+	.team-list
+		padding: 15px 0 10px
+		.team-item
+			width: 219px
+			display: inline-block
+			padding: 0px 30px
+			vertical-align: top
+			min-height: 235px
+			@media (max-width: 767px)
+				width: 49%
+				padding: 0 10px
+				min-height: 250px
+			img
+				max-width: 125px
+			.team-name
+				font-size: 16px
+				font-weight: bold
+				color: #313233
+				display: block
+			.team-pos
+				font-size: 14px
+				display: block
+	.shadow-block
+		box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.25)
+		padding: 45px 30px 50px
+		max-width: 1000px
+		margin: 20px auto 0
+		@media (max-width: 767px)
+			padding: 25px 20px 30px
+		.btn-green
+			margin-top: 20px
+	.mt0
+		margin-top: 0
+
+
+
+	// - - - - Sliders - - - - //
+	.slick-dots
+		position: absolute
+		bottom: -15px
+		display: block
+		padding: 0
+		margin: 0
+		list-style: none
+		text-align: center
+		left: 0
+		right: 0
+		li
+			position: relative
+			display: inline-block
+			width: 20px
+			height: 20px
+			margin: 0 5px
+			padding: 0
+			cursor: pointer
+			button
+				background: #fff
+				font-size: 0
+				border-radius: 10px
+				width: 10px
+				padding: 0
+				height: 10px
+				border: 1px solid #919396
+				margin-bottom: 20px
+		.slick-active button
+			background: #228CEF
+			border: 1px solid #228CEF
+	
+	.slick-prev, .slick-next
+		font-size: 0
+		line-height: 0
+		position: absolute
+		top: 50%
+		display: block
+		width: 20px
+		height: 20px
+		padding: 0
+		-webkit-transform: translate(0, -50%)
+		-ms-transform: translate(0, -50%)
+		transform: translate(0, -50%)
+		cursor: pointer
+		color: transparent
+		border: none
+		outline: none
+		background: transparent
+		@media (max-width: 767px)
+			//display: none !important
+
+	.slick-prev
+		left: 30px
+		width: 20px
+		height: 30px
+		background: url(img/arrowl.svg) no-repeat center
+		background-size: 13px
+		@media (max-width: 767px)
+			left: 0px
+		
+		&:hover
+			background: url(img/arrowl-hover.svg) no-repeat center
+			background-size: 13px
+			
+	.slick-next
+		right: 30px
+		display: inline-block
+		width: 20px
+		height: 30px
+		background: url(img/arrowr.svg) no-repeat center
+		background-size: 13px
+		@media (max-width: 767px)
+			right: 0px
+
+		&:hover
+			background: url(img/arrowr-hover.svg) no-repeat center
+			background-size: 13px
+		
+
+	// - - - - Accordion - - - - //	
+	.collapsible.accordion
+		border: 0px
+		box-shadow: 0 0 0 0
+		padding: 0 30px
+		background: #fff
+		li
+			border-bottom: 1px solid #c5cad7
+			padding: 10px 0 13px
+			&:last-child
+				border: 0px
+		.collapsible-header
+			border: 0px
+			padding: 1rem 0
+					
+		.collapsible-body
+			border: 0px
+			padding: 1rem 0 0.1rem
+			img
+				max-width: 100px
+				height: auto
+				margin-left: 28px
+				@media (max-width: 1024px)
+					margin-left: 20px	
+				@media (max-width: 767px)
+					margin: 0px
+					max-width: inherit
+					width: 100%
+		.row
+			width: 100%
+			margin: 0
+			.col
+				padding: 0
+		.date
+			font-size: 14px
+			font-weight: bold
+			color: #228CEF
+			padding-left: 28px
+			background: url(img/clock-blue.svg) no-repeat left center
+		.location
+			color: #919396
+			font-size: 16px
+			font-weight: bold
+			margin-bottom: 5px
+		p
+			font-size: 15px
+			line-height: 30px
+		h5
+			margin: 0
+			@media (max-width: 767px)
+				padding-left: 28px
+			

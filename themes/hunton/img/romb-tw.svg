@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-905.111 123.459 179.563 179.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #313233;
+        font-size: 11px;
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #228cef;
+      }
+
+      .cls-4 {
+        filter: url(#Path_110);
+      }
+    </style>
+    <filter id="Path_110" x="-905.111" y="123.459" width="179.563" height="179.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#0f5699" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_157" data-name="Group 157" transform="translate(-1270 -446)">
+    <g id="_3" data-name="3" transform="translate(-465 -339)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, 1735, 785)">
+        <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(-893.11 209.24) rotate(-45)"/>
+      </g>
+      <text id="TWITTER" class="cls-2" transform="translate(920 1015)"><tspan x="-24.438" y="0">TWITTER</tspan></text>
+      <path id="Path_141" data-name="Path 141" class="cls-3" d="M22.9,2.3a.471.471,0,0,0-.6-.1c-.1.1-.4.1-.6.2A4.591,4.591,0,0,0,22.4,1a.365.365,0,0,0-.2-.5.638.638,0,0,0-.6,0,8.057,8.057,0,0,1-2.4.9A5.114,5.114,0,0,0,12.9.9a5.354,5.354,0,0,0-2.2,4.6A11.6,11.6,0,0,1,2.5,1,.764.764,0,0,0,2,.8a.758.758,0,0,0-.4.2,4.643,4.643,0,0,0-.5,3.8A5.076,5.076,0,0,0,2,6.6l-.6-.3a.44.44,0,0,0-.5-.1.55.55,0,0,0-.3.5,4.894,4.894,0,0,0,2.7,4.4c-.2,0-.5-.1-.7-.1a.44.44,0,0,0-.5.1,1.268,1.268,0,0,0-.1.6,5.425,5.425,0,0,0,3.8,3.1A8.645,8.645,0,0,1,.5,15.9c-.2,0-.5.1-.5.3a.365.365,0,0,0,.2.5,14.839,14.839,0,0,0,7.4,1.9h0a12.951,12.951,0,0,0,9.7-4.2,12.046,12.046,0,0,0,3.4-9,9.765,9.765,0,0,0,2.2-2.3A1.069,1.069,0,0,0,22.9,2.3Z" transform="translate(908.039 967.953)"/>
+    </g>
+  </g>
+</svg>

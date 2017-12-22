@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <div class="page container">
+  <div class="page container dev2">
     <div class="page-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat top center; background-size: cover;">
       <div class="text">
         <h1><?php echo the_title(); ?></h1>

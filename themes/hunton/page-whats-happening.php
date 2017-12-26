@@ -11,7 +11,7 @@
 
 	<div class="container">
 		<div class="content-block">
-				<h2 class="center">News</h2>
+				<h2 class="center bottom-line">News</h2>
 				<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 				<div class="slider-linear slider-block-1 posts-grid row">
@@ -55,7 +55,7 @@
 
 	<div class="container bg-gray">
 		<div class="content-block ">
-			<h2 class="center">Blog</h2>
+			<h2 class="center bottom-line">Blog</h2>
 			<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 			<div class="slider-linear slider-block-2 posts-grid row">
@@ -97,7 +97,7 @@
 
 	<div class="container">
 		<div class="content-block">
-				<h2 class="center">Hunton Newsletter</h2>
+				<h2 class="center bottom-line">Hunton Newsletter</h2>
 				<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 				<div class="slider-linear slider-block-3 posts-grid ">
@@ -143,7 +143,7 @@
 
 	<div class="container">
 		<div class="content-block">
-			<h2 class="center">Social Media</h2>
+			<h2 class="center bottom-line">Social Media</h2>
 			<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 			<div class="center social-media">
@@ -162,7 +162,7 @@
 
 	<div class="container bg-gray">
 		<div class="content-block block">
-			<h2 class="center">Calendar</h2>
+			<h2 class="center bottom-line">Calendar</h2>
 			<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 			<ul class="collapsible posts-grid accordion" data-collapsible="accordion">

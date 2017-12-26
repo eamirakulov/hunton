@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="487.526 942 722 377">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0.15;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        fill: #228cef;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <g id="card" transform="translate(209 409)">
+    <rect id="Rectangle_64" data-name="Rectangle 64" class="cls-1" width="722" height="333.698" transform="translate(278.526 558.731)"/>
+    <rect id="Rectangle_65" data-name="Rectangle 65" class="cls-2" width="722" height="8.161" transform="translate(278.526 550.57)"/>
+    <rect id="Rectangle_62" data-name="Rectangle 62" class="cls-3" width="682" height="350.43" transform="translate(298.791 550.57)"/>
+    <rect id="Rectangle_63" data-name="Rectangle 63" class="cls-4" width="682" height="8.57" transform="translate(298.791 542)"/>
+    <rect id="Rectangle_58" data-name="Rectangle 58" class="cls-5" width="641.647" height="368" transform="translate(319.176 542)"/>
+    <rect id="Rectangle_59" data-name="Rectangle 59" class="cls-6" width="641.647" height="9" transform="translate(319.176 533)"/>
+  </g>
+</svg>

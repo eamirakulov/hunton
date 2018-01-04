@@ -377,8 +377,6 @@
           nextArrow: $('.arrow-right'),
           prevArrow: $('.arrow-left')
         });
-
-        $(".button-collapse").sideNav();
 	    });
 
 

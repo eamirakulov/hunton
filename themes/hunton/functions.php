@@ -1,9 +1,86 @@
 <?php
 
+function custom_comments($comment, $args, $depth) {
+   $GLOBALS['comment'] = $comment; ?>
+   <li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
+     <div class="row" id="comment-<?php comment_ID(); ?>">
+     	<div class="ava col s2">
+    		<?php echo get_avatar($comment,$size='80'); ?>
+     	</div>
+
+     	<div class="col s10">
+			<div class="author"><?php printf(__('%s'), get_comment_author_link()); ?></div>
+			<div class="comment-meta commentmetadata">
+				<div class="date"><?php printf(__('%1$s'), get_comment_date(), '') ?></div>
+         		<div class="reply"><?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))); ?></div>
+      			<div class="text"><?php comment_text() ?></div>
+			</div>
+     	</div>
+     </div>
+    </li>
+<?php }
+
+function wpb_move_comment_field_to_bottom( $fields ) {
+	$comment_field = $fields['comment'];
+	unset( $fields['comment'] );
+	$fields['comment'] = $comment_field;
+	return $fields;
+}
+ 
+add_filter( 'comment_form_fields', 'wpb_move_comment_field_to_bottom' );
+function crunchify_disable_comment_url($fields) { 
+    unset($fields['url']);
+    return $fields;
+}
+add_filter('comment_form_default_fields','crunchify_disable_comment_url');
+
+function my_update_comment_fields( $fields ) {
+
+	$commenter = wp_get_current_commenter();
+	$req       = get_option( 'require_name_email' );
+	$label     = $req ? '*' : ' ' . __( '(optional)', 'text-domain' );
+	$aria_req  = $req ? "aria-required='true'" : '';
+
+	$fields['author'] =
+		'<div class="row"><div class="comment-form-author input-field col s5">
+			<input id="author" name="author" type="text" id="name" value="' . esc_attr( $commenter['comment_author'] ) .
+		'" size="30" ' . $aria_req . ' /><label for="name">FIRST & LAST NAME</label>
+		</div>';
+
+	$fields['email'] =
+		'<div class="comment-form-email input-field col s5">
+			<input id="email" name="email" type="email" value="' . esc_attr( $commenter['comment_author_email'] ) .
+		'" size="30" ' . $aria_req . ' /><label for="email">E-MAIL</label>
+		</div></div>';
+
+	unset($fields['url']);
+
+	return $fields;
+}
+add_filter( 'comment_form_default_fields', 'my_update_comment_fields' );
+
+function my_update_comment_field( $comment_field ) {
+
+  $comment_field =
+    '<div class="row"><div class="comment-form-comment input-field col s10">
+        <textarea required class="materialize-textarea" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea><label for="comment">ENQUIRY MESSAGE</label>
+    </div></div>';
+
+  return $comment_field;
+}
+add_filter( 'comment_form_field_comment', 'my_update_comment_field' );
+
+function wpse71451_enqueue_comment_reply() {
+    if ( get_option( 'thread_comments' ) ) { 
+        wp_enqueue_script( 'comment-reply' ); 
+    }
+}
+// Hook into comment_form_before
+add_action( 'comment_form_before', 'wpse71451_enqueue_comment_reply' );
+
 /**
  * Returns page/post slug
  */
-
 function the_slug()
 {
 	global $post;

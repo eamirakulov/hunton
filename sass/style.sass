@@ -918,17 +918,18 @@ section.content-section
 			font-weight: bold
 
 .post
-	.date
-		font-size: 12px
-		font-weight: 300
-		color: $text
-		padding-left: 75px
-		background: url(img/clock.svg) no-repeat 55px 3px
-		background-size: 12px
-		float: right
-		border-bottom: 1px solid $orange
-		padding-bottom: 10px
-		margin-bottom: 20px
+	article
+		.date
+			font-size: 12px
+			font-weight: 300
+			color: $text
+			padding-left: 75px
+			background: url(img/clock.svg) no-repeat 55px 3px
+			background-size: 12px
+			float: right
+			border-bottom: 1px solid $orange
+			padding-bottom: 10px
+			margin-bottom: 20px
 
 	.entry_title
 		clear: both
@@ -949,6 +950,134 @@ section.content-section
 			font-weight: 600
 			color: $main-text
 			margin: 25px 0
+
+	.bottom-meta
+		.left-align
+			.a2a_s__default
+				border-radius: 0 !important
+
+			a,
+			div
+				margin-right: 10px
+				display: inline-block
+				vertical-align: middle
+
+		.tag-item
+			display: inline-block
+			vertical-align: middle
+			color: $main-text
+			font-size: 13px
+			background: rgba(145, 147, 150, 0.2)
+			padding: 9px 22px
+
+	.related-posts
+		h3
+			color: #000
+			font-size: 18px
+			font-weight: bold
+			margin: 40px 0
+
+	.comments
+		padding: 0
+		margin: 0
+		list-style: none
+
+		.comment-respond
+			background: #F7F7F7
+			padding: 40px 30px
+
+			input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
+				border-bottom: 1px solid $blue
+			input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea
+				margin-bottom: 0
+				height: 2.3rem
+				border-bottom: 1px solid #BDC3D1
+			input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown
+				border-bottom: 1px solid $green
+			input
+				margin-bottom: 0
+				border-bottom: 1px solid #BDC3D1
+
+			label
+				font-size: 11px
+				font-weight: bold
+				color: $main-text
+				text-transform: uppercase
+
+			textarea
+				border: none
+				resize: none
+				height: 40px !important
+
+			#submit
+				padding: 15px 22px
+				width: 185px
+				color: #fff
+				background: $blue
+				font-size: 14px
+				font-weight: bold
+				text-transform: uppercase
+				display: inline-block
+				vertical-align: middle
+				border: none
+				border-radius: 0
+
+				&:hover
+					background: #1E7AD1
+					box-shadow: 0px 3px 10px 0px rgba(30, 122, 209, 0.2)
+
+		.comm-number
+			font-size: 18px
+			font-weight: bold
+			color: $main-text
+			margin: 0 0 10px 0
+
+		#reply-title
+			font-size: 18px
+			font-weight: bold
+			color: $main-text
+			margin: 0 0 25px 0
+
+		ul
+			border-top: 1px solid #F7F7F7
+			padding-top: 30px
+
+		.ava
+			img
+				display: block
+				border-radius: 80px
+
+				@media (max-width: 1024px)
+					width: 100%
+					height: auto
+
+		.author
+			font-size: 15px
+			font-weight: bold
+			color: $main-text
+			margin-bottom: 10px
+
+		.date
+			font-size: 12px
+			color: $text
+			font-weight: 300
+			display: inline-block
+
+		.reply
+			display: inline-block
+			vertical-align: middle
+			font-weight: 600
+			color: $blue
+			text-transform: uppercase
+			margin-left: 25px
+
+		.text
+			font-size: 15px
+			color: $main-text
+
+		ul.children
+			padding-left: 100px
+
 
 .posts-grid
 	.item

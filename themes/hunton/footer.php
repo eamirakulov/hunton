@@ -14,6 +14,11 @@
 				</div>
 			</div>
 		</footer>
+		<script type="text/javascript">
+			$(function() {
+		        $(".button-collapse").sideNav();
+			});
+		</script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 		<?php wp_footer(); ?>
 	</body>

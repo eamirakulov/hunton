@@ -1,3 +1,9 @@
+$main-text: #313233
+$text: #919396
+$orange: #EF4622
+$green: #7AC142
+$blue: #228CEF
+
 #preloadedImages
 	background-image: url(img/why-2-bg.png)
 	background-image: url(img/why-testimonials-bg.jpg)
@@ -27,7 +33,9 @@
 				margin: 0 auto
 			&:before
 				display: none
-			
+	h3
+		font-size: 32px
+		font-weight: bold
 	h4
 		font-size: 26px
 		font-weight: 500
@@ -147,7 +155,6 @@
 
 
 	// - - - - Our Team Page - - - - //
-	
 	.team-list
 		padding: 15px 0 10px
 		.team-item
@@ -170,6 +177,7 @@
 			.team-pos
 				font-size: 14px
 				display: block
+
 	.shadow-block
 		box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.25)
 		padding: 45px 30px 50px
@@ -194,7 +202,7 @@
 	h2.our-history
 		margin-top: 100px
 		.num
-			top: -50px
+			top: -65px
 			img
 				width: 120px
 				
@@ -289,24 +297,6 @@
 				width: 100%
 		.col
 			height: 100%
-		.green-block
-			background: #00B592
-			padding-bottom: 35px
-			h4, a
-				color: #FFF
-		.gray-block
-			background: #F7F7F7
-			padding-bottom: 35px
-			h4, a
-				color: #313233
-			.learn:after
-				background: #313233
-
-		.gray-block2
-			background: #58647c
-			padding-bottom: 35px
-			h4, a
-				color: #fff
 		h4
 			font-size: 22px
 			font-weight: bold
@@ -337,6 +327,26 @@
 				&:after
 					width: 50%
 					left: 50%
+	
+	.green-block
+		background: #00B592
+		padding-bottom: 35px
+		h4, a
+			color: #FFF
+	.gray-block
+		background: #F7F7F7
+		padding-bottom: 35px
+		h4, a
+			color: #313233
+		.learn:after
+			background: #313233
+
+	.gray-block2
+		background: #58647c
+		padding-bottom: 35px
+		h4, a
+			color: #fff
+
 	#case_studies
 		.item
 			transition: all 0.2s linear
@@ -477,6 +487,17 @@
 	.pb0
 		padding-bottom: 0 !important
 
+	.pt0
+		padding-top: 0 !important
+		
+	.p0
+		padding: 0
+		
+	.p30
+		padding: 30px
+		@media (max-width: 767px)
+			padding: 20px
+
 
 
 	// - - - - Our Team Page - - - - //
@@ -484,7 +505,7 @@
 		p
 			margin-bottom: 30px
 	.mt50
-		margin-top: 50px
+		margin-top: 50px !important
 
 
 
@@ -559,6 +580,186 @@
 			font-size: 30px
 			line-height: 45px
 			
+
+
+	// - - - - Products Page - - - - //
+	.main-slider .item
+		min-height: auto
+		&:before
+			display: none
+		.play-btn .rotate
+			top: -75px
+			left: 0px
+		h3
+			margin: 15px 0 30px
+			
+	#video-gallery
+		.m6
+			width: 49%
+			margin: 0 0.5%
+			padding: 50px 0 95px 
+			h1
+				font-size: 26px 
+		.m12
+			width: 99%
+			margin: 0 0.5% 1%
+			padding: 65px 0 110px 
+			h1
+				font-size: 32px 
+
+
+
+	// - - - - Safety Page - - - - //
+	#advert
+		.green-2-block
+			padding: 30px 30px 10px
+			@media (max-width: 767px)
+				padding: 5px 20px 10px 
+		
+		.gray-block
+			padding: 30px 30px 10px
+			color: #313233 
+			@media (max-width: 767px)
+				padding: 5px 20px 10px 
+	.green-2-block
+		background: #00B492
+		color: #FFF
+		
+	h2.mask
+		@media (max-width: 767px)
+			margin-top: 100px
+		.num
+			top: -70px
+			img
+				width: 140px
+				
+	h2.hat
+		margin-top: 50px
+		@media (max-width: 767px)
+			margin-top: 100px	
+		.num
+			top: -70px
+			img
+				width: 140px
+
+	h2.question
+		margin-top: 50px
+		@media (max-width: 767px)
+			margin-top: 70px
+		.num
+			top: -85px
+			img
+				width: 140px	
+
+	h2.phone
+		@media (max-width: 767px)
+			margin-top: 100px
+		.num
+			top: -105px
+			img
+				width: 140px
+				
+	#services .main-slider 
+		.item
+			min-height: auto
+			&:before
+				display: none
+			.play-btn
+				position: absolute
+				top: calc(50% - 40px)
+				left: 0
+				right: 0
+
+		.slick-dots
+			top: auto
+			bottom: -35px
+			
+	#articles
+		h5
+			font-size: 22px
+			margin: 23px 0 0px
+		.green-2-block
+			h5, a
+				color: #FFF 
+		
+	.m0
+		margin: 0
+		
+	.flex
+		display: flex
+		@media (max-width: 767px)
+			display: block
+
+
+	// - - - - Products pages - - - - //
+	.green-li
+		li
+			padding-left: 25px
+			background: url(img/check.svg) no-repeat left
+			background-size: 15px
+			font-size: 14px
+			font-weight: bold
+			color: #313233
+			line-height: 28px
+
+	.relative
+		position: relative
+			
+	.vertical-slider
+		position: relative
+		padding: 0 0 52px
+		img
+			width: 100%
+
+		.scroll-nav
+			background: #fff
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			padding-left: 1px
+
+			a,
+			span
+				vertical-align: middle
+				margin-right: -1px
+
+			.count
+				font-size: 12px
+				font-weight: 500
+				padding: 15px 0
+				text-align: center
+				width: 50px
+				height: 50px
+				display: inline-block
+				background: rgba(189, 195, 209, 0.2)
+
+
+				.current
+					color: $blue
+
+			.arrow-left
+				display: inline-block
+				width: 50px
+				height: 50px
+				background: rgba(189, 195, 209, 0.2) url(img/arrowl.svg) no-repeat center
+				background-size: 9.5px
+
+				&:hover
+					background: rgba(189, 195, 209, 0.2) url(img/arrowl-hover.svg) no-repeat center
+					background-size: 9.5px
+
+			.arrow-right
+				display: inline-block
+				width: 50px
+				height: 50px
+				background: rgba(189, 195, 209, 0.2) url(img/arrowr.svg) no-repeat center
+				background-size: 9.5px
+
+				&:hover
+					background: rgba(189, 195, 209, 0.2) url(img/arrowr-hover.svg) no-repeat center
+					background-size: 9.5px
+
 
 
 

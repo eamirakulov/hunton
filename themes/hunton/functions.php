@@ -150,6 +150,7 @@ function create_posttype() {
 			'supports' => array('title','editor','thumbnail')
 		)
 	);
+
 	register_post_type( 'faq',
 		array(
 			'labels' => array(
@@ -159,12 +160,16 @@ function create_posttype() {
 			'public' => true,
 			'has_archive' => true,
 			'rewrite' => array('slug' => 'faq'),
-			'supports' => array('title','editor')
+			'supports' => array('title', 'editor')
 		)
 	);
+
 }
 add_action( 'init', 'create_posttype' );
 
+/**
+ * Category for Case Studies
+ */
 register_taxonomy( 'case_categories', array('case_study'), array(
 	'hierarchical' => true, 
 	'label' => 'Categories', 
@@ -173,13 +178,49 @@ register_taxonomy( 'case_categories', array('case_study'), array(
 );
 register_taxonomy_for_object_type( 'case_categories', 'case_study' );
 
+/**
+ * Category for FAQ
+ */
 register_taxonomy( 'faq_categories', array('faq'), array(
 	'hierarchical' => true, 
 	'label' => 'Categories', 
 	'singular_label' => 'Category', 
 	'rewrite' => array( 'slug' => 'faq_categories', 'with_front'=> false ))
 );
-register_taxonomy_for_object_type( 'faq_categories', 'case_study' );
+register_taxonomy_for_object_type( 'faq_categories', 'faq' );
+
+
+add_image_size( '550x550', 550, 550, array( 'center', 'center' ));
+add_post_type_support( 'page', 'excerpt' );
+
+/**
+ * Set template for Engineered & Fabricated Products child pages
+ */
+add_filter(
+    'page_template',
+    function ($template) {
+        global $post;
+
+        if ($post->post_parent && $post->post_parent == 121) {
+
+            $parent = get_post(
+               reset(array_reverse(get_post_ancestors($post->ID)))
+            );
+
+           	$parent = get_post($post->post_parent);
+
+            $child_template = locate_template(
+                [
+                    'page-ef-products-child.php',
+                    'page.php',
+                ]
+            );
+
+            if ($child_template) return $child_template;
+        }
+        return $template;
+    }
+);
 
 
 /**

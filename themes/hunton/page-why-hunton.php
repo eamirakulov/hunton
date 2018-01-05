@@ -208,7 +208,7 @@
 		<section id="services" class="content-section pb0">
 			<div class="row valign-wrapper mb0">
 				<div class="col s12 xl6 pr100">
-					<h2 class="our-history">Safety<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/why-safety-icon.svg"></div></h2>
+					<h2 class="hat">Safety<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/why-safety-icon.svg"></div></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>

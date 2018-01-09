@@ -28,6 +28,9 @@
 	<!-- Compiled and minified JavaScript -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<script type="text/javascript">
+		$(function() {
+			$('select').material_select();
+		});
 		var scroll = new SmoothScroll('a.smooth');
 
 		window.onhashchange = function() {

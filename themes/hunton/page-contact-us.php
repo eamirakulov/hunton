@@ -12,12 +12,22 @@
 			<h2 class="page-title"><?php echo the_title(); ?></h2>
 			<p class="subheading"><?php echo get_field('subheading'); ?></p>
 
-			<?php echo do_shortcode('[contact-form-7 id="95" title="Contact page form"]'); ?>
+			<?php echo do_shortcode('[contact-form-7 id="94" title="Contact us page form"]'); ?>
 		</div>
 	</div>
 </div>
 
 <script type="text/javascript">
+	function uniqId() {
+	  return Math.round(new Date().getTime() + (Math.random() * 100));
+	}
+	$(function() {
+		$('input[type=radio]').each(function () {
+			var id = uniqId();
+			$(this).attr('id', id);
+			$(this.nextSibling).wrap('<label for="' + id + '"></label>');
+		});
+	});
 	$('.responsive').slick({
 		dots: true,
 		infinite: false,

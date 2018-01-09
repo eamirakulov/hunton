@@ -307,3 +307,8 @@ function add_query_vars_filter( $vars ){
 }
 add_filter( 'query_vars', 'add_query_vars_filter' );
 
+add_filter('wpcf7_form_elements', function($content) {
+    $content = preg_replace('/<span[^>]+\>/i', '\2', $content);
+
+    return $content;
+});

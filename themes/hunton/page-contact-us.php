@@ -8,7 +8,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col l6 s12">
+		<div class="col l6 s12 form-col">
 			<h2 class="page-title"><?php echo the_title(); ?></h2>
 			<p class="subheading"><?php echo get_field('subheading'); ?></p>
 

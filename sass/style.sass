@@ -1290,44 +1290,67 @@ section.content-section
 					width: 103px
 
 		.building
-			background: url(img/building.jpg) no-repeat center
-			background-size: cover
-			background-origin: padding-box
+			position: relative
+			padding-left: 0
+
+			> div
+				width: 100%
+				height: 100%
+				background: url(img/building.jpg) no-repeat center
+				background-size: cover
 
 			@media (max-width: 1024px)
 				display: none
 
 	.items
+		&.row
+			.col:first-child
+				padding-right: 0
+			.col:last-child
+				padding-left: 0
+
 		.col
+			position: relative
+
+		.inner
 			padding: 100px 30px 40px 30px
+			width: 100%
+			height: 100%
 
 		.comm
-			background: url(img/commercial.jpg) no-repeat center
-			background-size: cover
+			.inner
+				background: url(img/commercial.jpg) no-repeat center
+				background-size: cover
 
 		.edu
-			background: url(img/educational.jpg) no-repeat center
-			background-size: cover
+			.inner
+				background: url(img/educational.jpg) no-repeat center
+				background-size: cover
 
 		.ind
-			background: url(img/industrial.jpg) no-repeat center
-			background-size: cover
+			.inner
+				background: url(img/industrial.jpg) no-repeat center
+				background-size: cover
 
 		.retail
-			background: url(img/retail.jpg) no-repeat center
-			background-size: cover
+			.inner
+				background: url(img/retail.jpg) no-repeat center
+				background-size: cover
 
 		.gov
-			background: url(img/governmental.jpg) no-repeat center
-			background-size: cover
+			.inner
+				background: url(img/governmental.jpg) no-repeat center
+				background-size: cover
 
 		.health
-			background: url(img/healthcare.jpg) no-repeat center
-			background-size: cover
+			.inner
+				background: url(img/healthcare.jpg) no-repeat center
+				background-size: cover
 
 		.hosp
-			background: url(img/hospitality.jpg) no-repeat center
-			background-size: cover
+			.inner
+				background: url(img/hospitality.jpg) no-repeat center
+				background-size: cover
 
 		h3
 			font-size: 42px
@@ -1517,9 +1540,14 @@ section.content-section
 						border: 1px solid #228CEF
 
 	.building
-		background: url(img/efficient.png) no-repeat center
-		background-size: cover
-		background-origin: padding-box
+		position: relative
+		padding-left: 0
+
+		> div
+			width: 100%
+			height: 100%
+			background: url(img/efficient.png) no-repeat center
+			background-size: cover
 
 		@media (max-width: 1024px)
 			display: none
@@ -1528,9 +1556,14 @@ section.content-section
 		margin-bottom: 0
 
 	.woman
-		background: url(img/woman.png) no-repeat center
-		background-size: cover
-		background-origin: padding-box
+		position: relative
+		padding-right: 0
+
+		> div
+			width: 100%
+			height: 100%
+			background: url(img/woman.png) no-repeat center
+			background-size: cover
 
 		@media (max-width: 1024px)
 			display: none
@@ -1577,15 +1610,17 @@ section.content-section
 		.row
 			margin-bottom: 130px
 
-	.metal-construction,
-		background-size: cover !important
-		background-origin: content-box !important
+	.metal-construction
+		position: relative
+
+		> div
+			width: 100%
+			height: 100%
+			background-size: cover !important
+			background: url(img/metal-construction.jpg) no-repeat center
 
 		@media (max-width: 1024px)
 			display: none
-
-	.metal-construction
-		background: url(img/metal-construction.jpg) no-repeat center
 
 	.content-section
 		h2

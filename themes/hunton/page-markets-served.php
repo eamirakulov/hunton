@@ -15,46 +15,60 @@
 
 				<p>Whichever market, we're committed to building value for you. Please click below to learn more... </p>
 			</div>
-			<div class="col s12 xl6 building"></div>
+			<div class="col s12 xl6 building"><div></div></div>
 		</div>
 
 		<div class="row flex items">
 			<div class="col s12 m6 comm">
-				<h3>Commercial</h3>
-				<p><a href="#">Read more</a></p>
+				<div class="inner">
+					<h3>Commercial</h3>
+					<p><a href="#">Read more</a></p>
+				</div>
 			</div>
 			<div class="col s12 m6 edu">
-				<h3>Educational</h3>
-				<p><a href="#">Read more</a></p>
+				<div class="inner">
+					<h3>Educational</h3>
+					<p><a href="#">Read more</a></p>
+				</div>
 			</div>
 		</div>
 
 		<div class="row flex items">
 			<div class="col s12 m6 ind">
-				<h3>Industrial</h3>
-				<p><a href="#">Read more</a></p>
+				<div class="inner">
+					<h3>Industrial</h3>
+					<p><a href="#">Read more</a></p>
+				</div>
 			</div>
 			<div class="col s12 m6 retail">
-				<h3>Retail</h3>
-				<p><a href="#">Read more</a></p>
+				<div class="inner">
+					<h3>Retail</h3>
+					<p><a href="#">Read more</a></p>
+				</div>
 			</div>
 		</div>
 
 		<div class="row flex items">
 			<div class="col s12 m6 gov">
-				<h3>Governmental</h3>
-				<p><a href="#">Read more</a></p>
+				<div class="inner">
+					<h3>Governmental</h3>
+					<p><a href="#">Read more</a></p>
+				</div>
 			</div>
 			<div class="col s12 m6 health">
-				<h3>Health Care</h3>
-				<p><a href="#">Read more</a></p>
+				<div class="inner">
+					<h3>Health Care</h3>
+					<p><a href="#">Read more</a></p>
+				</div>
 			</div>
 		</div>
 
-		<div class="row flex items">
-			<div class="col s12 hosp">
-				<h3>Hospitality</h3>
-				<p><a href="#">Read more</a></p>
+		<div class="items">
+			<div class="hosp">
+				<div class="inner">
+					<h3>Hospitality</h3>
+					<p><a href="#">Read more</a></p>
+				</div>
 			</div>
 		</div>
 	</section>

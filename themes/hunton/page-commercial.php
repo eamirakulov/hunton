@@ -26,11 +26,11 @@
 				<h2>Making Buildings Efficient<div class="num">01</h2>
 				<p>Hunton Services understands economic factors typically drive mechanical and electrical solution decisions. Every Commercial building we service requires a customized solution, which effectively balances functional and financial needs. In doing so, we ensure a comfortable and pleasant environment for tenants and their employees while providing cost effective solutions for the building management company.</p>
 			</div>
-			<div class="col s12 xl6 building"></div>
+			<div class="col s12 xl6 building"><div></div></div>
 		</div>
 
 		<div class="row flex">
-			<div class="col s12 xl6 woman"></div>
+			<div class="col s12 xl6 woman"><div></div></div>
 			<div class="col s12 xl6 more-padding services">
 				<h2 class="smaller">Hunton Services offers commercial facilities services, including:<div class="num">02</h2>
 				<p>

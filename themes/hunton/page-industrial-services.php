@@ -13,7 +13,7 @@
 				<h2>Our Industrial Services<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/cogwheel.svg"></h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
-			<div class="col s12 xl6 metal-construction"></div>
+			<div class="col s12 xl6 metal-construction"><div></div></div>
 		</div>
 
 		<div class="row flex">

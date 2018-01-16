@@ -1365,6 +1365,9 @@ section.content-section
 			font-weight: bold
 			color: rgb(49, 50, 51)
 			margin: 3px 0px 4px 15px
+			@media (max-width: 767px)
+				margin-left: 0
+				margin-bottom: 20px
 
 		a
 			font-size: 15px
@@ -1374,6 +1377,10 @@ section.content-section
 			padding: 0px 4px 5px 5px
 			margin: 0px 4px
 			color: $main-text
+
+			@media (max-width: 767px)
+				width: 100%
+				display: block
 
 			&:after
 				content: " "

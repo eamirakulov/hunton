@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 <div class="page container">
-	<div class="page-bg" style="background: url(<?php echo get_the_post_thumbnail_url(95); ?>) no-repeat top center; background-size: cover;">
+	<div class="page-bg" style="background: url(<?php echo get_the_post_thumbnail_url(177); ?>) no-repeat top center; background-size: cover;">
 		<div class="text">
-			<h1><?php echo get_the_title(95); ?></h1>
-			<p><?php echo get_field('subheading', 95); ?></p>
+			<h1><?php echo get_the_title(177); ?></h1>
+			<p><?php echo get_field('subheading', 177); ?></p>
 		</div>
 	</div>
 

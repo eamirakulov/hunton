@@ -78,17 +78,17 @@
 				<div class="col s12 xl6">
 					<h2>Why Hunton?<div class="num">01</div></h2>
 					<p>It is our mission to customize a solution that delivers the lowest total life-cycle cost of ownership for the operation, ownership, and maintenance of your mechanical systems. We are a proud member of the Hunton Group family of companies, and as Houston’s Trane OEM since 1981, we are ready to assist you with any phase of your energy project in any market- from engineering and design, to maintenance and continual commissioning. We speak the language of buildings, and we understand that every building has a purpose.</p>
-					<p><a href="#" class="learn">Learn more</a></p>
+					<p><a href="<?php bloginfo('url'); ?>/why-hunton" class="learn">Learn more</a></p>
 				</div>
 				<div class="col s12 xl6">
 					<div class="r-grid">
-						<a href="#" class="team"></a>
+						<a href="<?php bloginfo('url'); ?>/our-team" class="team"></a>
 						<a href="#" class="partners"></a>
 						<a href="#" class="test"></a>
 						<img class="rombus" src="<?php bloginfo('template_url'); ?>/img/grennrombus.svg">
 						<a href="#" class="training"></a>
 						<a href="#" class="case"></a>
-						<a href="#" class="safety"></a>
+						<a href="<?php bloginfo('url'); ?>/safety" class="safety"></a>
 					</div>
 				</div>
 			</div>
@@ -101,7 +101,7 @@
 				<div class="col s12 xl6">
 					<h2>Our Services<div class="num">02</div></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					<p><a href="#" class="btn-green">CONTACT US TODAY!</a></p>
+					<p><a href="<?php bloginfo('url'); ?>/markets-served" class="btn-green">CONTACT US TODAY!</a></p>
 				</div>
         <div class="col s12 xl6 right-align">
 					<img src="<?php bloginfo('template_url'); ?>/img/services.jpg">
@@ -129,7 +129,7 @@
 						<li>Basic Plus for All Employees</li>
 					</ul>
 
-					<p><a href="#" class="learn">Learn more</a></p>
+					<p><a href="<?php bloginfo('url'); ?>/safety" class="learn">Learn more</a></p>
 				</div>
         <div class="col s12 xl6 right-align">
 					<img src="<?php bloginfo('template_url'); ?>/img/safety.jpg">
@@ -144,7 +144,7 @@
 				<div class="col s12 xl6">
 					<h2>What’s Happening?<div class="num">04</div></h2>
 					<p>Want to keep up with all of the latest Hunton Happenings? Be sure to follow us on social media and sign up for our informative quarterly newsletter. Engage with us, and discover HVAC tips and tools, new equipment offerings, and industry news.</p>
-					<p><a href="#" class="learn">Learn more</a></p>
+					<p><a href="<?php bloginfo('url'); ?>/whats-happening" class="learn">Learn more</a></p>
 				</div>
 				<div class="col s12 xl6">
 					<div class="row">
@@ -232,7 +232,7 @@
             <li class="tab"><a href="#f5">5.  What is the latest version/replacement of summit?</a></li>
           </ul>
 
-					<p><a href="#" class="learn">Learn more</a></p>
+					<p><a href="<?php bloginfo('url'); ?>/faqs" class="learn">Learn more</a></p>
 				</div>
 				<div class="col s12 xl6">
 					<div class="faq-box" id="f1">
@@ -308,7 +308,7 @@
         <div class="col s12 xl6">
           <h2>Careers<div class="num">06</div></h2>
           <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><a href="#" class="btn-green">JOB OPENINGS</a></p>
+          <p><a href="<?php bloginfo('url'); ?>/careers" class="btn-green">JOB OPENINGS</a></p>
         </div>
         <div class="col s12 xl6 right-align">
           <img src="<?php bloginfo('template_url'); ?>/img/careers.jpg">

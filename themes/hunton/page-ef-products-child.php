@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="page container dev2">
-	<div class="page-bg" style="background: url(http://localhost/hunton/wp-content/uploads/2017/12/products.png) no-repeat top center; background-size: cover;">
+	<div class="page-bg" style="background: url(<?php echo get_site_url(); ?>/wp-content/uploads/2017/12/products.png) no-repeat top center; background-size: cover;">
 		<div class="text">
 			<h1>Engineered &amp; Fabricated Products</h1>
 			<p></p><p>Hunton comes with a blogging platform, packed with versatile and amazing blog layouts</p>

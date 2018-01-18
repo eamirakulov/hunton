@@ -12,7 +12,13 @@ $blue: #228CEF
 	background-image: url(img/lup.svg)
 	background-image: url(img/arrow-doen-blue.svg)
 	background-image: url(img/arrow-up-white.svg)
-	background-image: url()
+	background-image: url(img/programmer-1.svg)
+	background-image: url(img/office-1.svg)
+	background-image: url(img/gears-1.svg)
+	background-image: url(img/gears-2.svg)
+	background-image: url(img/solutions-img.jpg)
+	background-image: url(img/product-literature.svg)
+	background-image: url(img/emergency-services-1.svg)
 
 .dev2
 	h2
@@ -21,6 +27,7 @@ $blue: #228CEF
 		color: #313233
 		margin: 0 0 25px 0
 		position: relative
+		line-height: 52px
 		&.bottom-line
 			&:after
 				content: " "
@@ -50,6 +57,9 @@ $blue: #228CEF
 		font-weight: bold
 		color: #313233
 		margin: 0 0 20px 0
+		a
+			color: #313233
+			font-size: 17px
 	p
 		font-size: 16px
 		line-height: 30px
@@ -305,28 +315,28 @@ $blue: #228CEF
 			min-height: 90px
 			@media (max-width: 767px)
 				min-height: 0px	
-		.learn
-			font-size: 10px
-			font-weight: 700
-			text-transform: uppercase
-			letter-spacing: 5px
-			position: relative
-			padding-bottom: 9px
-			margin-left: 10px
+	.learn
+		font-size: 10px
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 5px
+		position: relative
+		padding-bottom: 9px
+		margin-left: 10px
+		&:after
+			content: " "
+			display: block
+			position: absolute
+			bottom: 0px
+			height: 2px
+			left: 0
+			width: 100%
+			background: #FFF
+			transition: all 0.25s linear
+		&:hover
 			&:after
-				content: " "
-				display: block
-				position: absolute
-				bottom: 0px
-				height: 2px
-				left: 0
-				width: 100%
-				background: #FFF
-				transition: all 0.25s linear
-			&:hover
-				&:after
-					width: 50%
-					left: 50%
+				width: 50%
+				left: 50%
 	
 	.green-block
 		background: #00B592
@@ -490,6 +500,9 @@ $blue: #228CEF
 	.pt0
 		padding-top: 0 !important
 		
+	.pt80
+		padding-top: 80px !important
+
 	.p0
 		padding: 0
 		
@@ -497,6 +510,21 @@ $blue: #228CEF
 		padding: 30px
 		@media (max-width: 767px)
 			padding: 20px
+	.p80
+		padding-top: 80px
+		padding-bottom: 80px
+		@media (max-width: 767px)
+			padding-top: 30px
+			padding-bottom: 30px
+	.mt35
+		margin-top: 35px
+		
+	.p130x40
+		padding-top: 130px
+		padding-bottom: 40px
+		@media (max-width: 767px)
+			padding-top: 70px
+			padding-bottom: 0px
 
 
 
@@ -763,6 +791,274 @@ $blue: #228CEF
 
 
 
+	// - - - - Mechanical Services page - - - - //
+	h2.user
+		.num
+			top: -95px
+			img
+				width: 120px
+		@media (max-width: 767px)
+			margin-top: 50px
+			
+	h2.hands
+		.num
+			top: -70px
+			img
+				width: 120px
+		@media (max-width: 767px)
+			margin-top: 50px
+			
+	h2.gear-1
+		.num
+			top: -95px
+			img
+				width: 120px
+		@media (max-width: 767px)
+			margin-top: 50px
+
+			
+	.programmer-1
+		background: url(img/programmer-1.svg) no-repeat center
+	.office-1
+		background: url(img/office-1.svg) no-repeat center
+	.gears-1
+		background: url(img/gears-1.svg) no-repeat center
+	.gears-2
+		background: url(img/gears-2.svg) no-repeat center
+		
+	.card
+		box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.1)
+		border: 0px
+		.card-head
+			text-align: center
+			box-shadow: 0px 5px 15px 0px rgba(34, 140, 239, 0.1)
+			padding-bottom: 20px 
+			h5
+				margin: 0
+				padding: 35px 0 10px
+		.card-content
+			h2
+				position: relative
+				margin-bottom: 0
+				.dollar
+					font-size: 24px
+					position: relative
+					left: -14px
+					top: -12px
+			.tiny
+				color: #313233
+				margin: -5px 0 20px
+			p
+				font-size: 14px
+				line-height: 24px 
+			ul
+				border-top: 1px solid #f2f2f2
+				margin: 25px 0 30px 
+				li
+					color: #228CEF
+					font-size: 15px
+					font-weight: bold
+					border-bottom: 1px solid #f2f2f2 
+					list-style-type: square
+					line-height: 30px
+					list-style-position: inside
+					padding: 10px 0
+					span
+						color: #313233
+			.btn-default
+				font-size: 14px
+				padding: 13px 55px
+		.tiny
+			font-size: 12px
+			color: #919396
+
+	.solutions-list
+		.col
+			.item
+				min-height: 300px
+				background: url(img/solutions-img.jpg) no-repeat center
+				background-size: cover
+				text-align: center
+				padding: 120px 0
+				margin-bottom: 15px
+				@media (max-width: 480px)
+					padding: 70px 0 30px
+				h2
+					color: #FFF
+					
+	ul.green-circle
+		list-style: none
+		margin: 0
+		padding: 0
+		li
+			padding: 12px 0 12px 25px
+			background: url(img/check.svg) no-repeat left top 18px
+			background-size: 15px
+			font-size: 14px
+			color: $main-text
+			line-height: 28px
+			
+	.blue-text
+		color: #228CEF 
+
+
+	
+	// - - - - literature products page - - - - //
+	&.literature_page
+		.left-col
+			padding-top: 50px
+			h2
+				margin-bottom: 20px
+
+		.right-col
+
+		form
+			width: 60%
+			margin-top: 50px
+			@media (max-width: 480px)
+				width: 100%
+		input[type=text]
+			border-bottom: 1px solid #c5cad7 !important
+			box-shadow: 0 0 0 0 !important
+			margin: 0 0 25px 0
+			font-size: 12px
+			font-weight: 700
+			letter-spacing: 1px
+			color: #313233
+			line-height: 30px
+			height: 30px
+
+	
+	.semibold
+		font-weight: 600 !important
+		
+	.select-wrapper input.select-dropdown
+		font-size: 12px
+		font-weight: 700
+		letter-spacing: 1px
+		color: #313233
+		line-height: 30px
+		height: 30px
+		
+	.btn-default
+		&.blue
+			font-size: 14px
+			color: #fff
+			padding: 17px 70px
+			height: auto
+			line-height: initial
+			background: #228CEF
+			letter-spacing: 1px
+			border: 0px
+			margin-top: 30px
+
+	.breadcrumbs
+		background: #fcfcfc
+		margin-bottom: 50px  
+
+
+
+	// - - - - literature products page - - - - //
+	.emergency-services-1
+		background: url(img/emergency-services-1.svg) no-repeat center
+		
+
+	// - - - - energy services page - - - - //
+	h2.lightning
+		.num
+			top: -80px
+			left: 10px
+			img
+				width: 71px
+		@media (max-width: 767px)
+			margin-top: 50px
+
+	.energy-services-1
+		padding-left: 0
+		> div
+			background: url(img/energy-services-1.png) no-repeat center
+			background-size: cover
+			width: 100%
+			height: 100%
+			
+	.energy-services-2
+		padding-right: 0
+		> div
+			background: url(img/energy-services-2.png) no-repeat center
+			background-size: cover
+			width: 100%
+			height: 100%
+			
+	.energy-services-3
+		padding-left: 0
+		> div
+			background: url(img/energy-services-3.png) no-repeat center
+			background-size: cover
+			width: 100%
+			height: 100%
+			
+	.energy-services-4
+		padding-right: 0
+		> div
+			background: url(img/energy-services-4.png) no-repeat center
+			background-size: cover
+			width: 100%
+			height: 100%
+			
+	.energy-services-5
+		padding-left: 0
+		> div
+			background: url(img/energy-services-5.png) no-repeat center
+			background-size: cover
+			width: 100%
+			height: 100%
+			
+	.energy-services-6
+		padding-right: 0
+		> div
+			background: url(img/energy-services-6.png) no-repeat center
+			background-size: cover
+			width: 100%
+			height: 100%
+			
+	.energy-services-7
+		padding-left: 0
+		> div
+			background: url(img/energy-services-7.png) no-repeat center
+			background-size: cover
+			width: 100%
+			height: 100%
+			
+	.energy-services-logos
+		padding: 30px 30px 20px
+
+		@media (max-width: 480px)
+			padding: 30px 30px 10px
+			.s12
+				padding-bottom: 20px
+
+
+
+	// - - - - Indoor enviromental solutions page - - - - //
+	#ies-bg
+		background: url(img/indoor-environmental-solutions-1.png) no-repeat top center
+		background-size: cover
+		
+	.ies-list
+		.col
+			padding: 200px 30px 50px
+			background-size: cover !important
+			h2
+				margin-bottom: 15px
+			a
+				color: #313233
+				font-size: 14px
+				&:after
+					background: #313233 
+
+
+
+
 	// - - - - Sliders - - - - //
 	.slick-dots
 		position: absolute
@@ -905,5 +1201,66 @@ $blue: #228CEF
 			padding: 65px 0 65px
 			@media (max-width: 767px)
 				padding: 40px 0 40px
+				
+.engineered-fabricated-products_page
+	#articles
+		.row:nth-child(even)
+			.gray-block
+				background: #00B492
+				color: #FFF
+				h5, a
+					color: #FFF
+				a:after
+					background: #FFF
+
+.rnewal-services_page
+	.main-slider
+		margin: 45px 0 65px
+	.page .page-bg .text
+		padding: 110px 0 130px
+		@media (max-width: 767px)
+			padding: 50px 0 75px
+			
+.intellipak-refresh-program_page
+	.page
+		color: #313233
+		p
+			margin-bottom: 40px
+			
+		.bbf1f4fc
+			margin-top: 60px
+	.item-list
+		@media (max-width: 480px)
+			margin-top: 50px
+			
+.emergency-services_page
+	.pt80 h2
+		&:before
+			left: 240px !important
+			@media (max-width: 767px)
+				left: 100px !important
+
+	.contact-us_page h2
+		.num
+			top: -65px !important
+			img
+				width: 150px !important
+
+	.nearby-box
+		.row
+			margin: 0px 
+			
+	.form-col
+		padding-top: 70px
+		margin-top: -70px
+		h4
+			font-weight: 600
+			margin-bottom: 10px
+		.tiny
+			line-height: 24px
+			
+.row .col
+	min-height: 0px 
+
 
 			

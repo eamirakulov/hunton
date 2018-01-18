@@ -197,29 +197,48 @@ add_post_type_support( 'page', 'excerpt' );
  * Set template for Engineered & Fabricated Products child pages
  */
 add_filter(
-    'page_template',
-    function ($template) {
-        global $post;
+	'page_template',
+	function ($template) {
+		global $post;
 
-        if ($post->post_parent && $post->post_parent == 121) {
+		if ($post->post_parent && $post->post_parent == 121) {
 
-            $parent = get_post(
-               reset(array_reverse(get_post_ancestors($post->ID)))
-            );
+			$parent = get_post(
+				reset(array_reverse(get_post_ancestors($post->ID)))
+			);
 
-           	$parent = get_post($post->post_parent);
+			$parent = get_post($post->post_parent);
+			$child_template = locate_template(
+				[
+					'page-ef-products-child.php',
+					'page.php',
+				]
+			);
 
-            $child_template = locate_template(
-                [
-                    'page-ef-products-child.php',
-                    'page.php',
-                ]
-            );
+			if ($child_template) return $child_template;
+		}
 
-            if ($child_template) return $child_template;
-        }
-        return $template;
-    }
+		if ($post->post_parent && $post->post_parent == 189) {
+
+			$parent = get_post(
+				reset(array_reverse(get_post_ancestors($post->ID)))
+			);
+
+			$parent = get_post($post->post_parent);
+			$child_template = locate_template(
+				[
+					'page-ies-child.php',
+					'page.php',
+				]
+			);
+
+			if ($child_template) return $child_template;
+		}
+
+
+
+		return $template;
+	}
 );
 
 

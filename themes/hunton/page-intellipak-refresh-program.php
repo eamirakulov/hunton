@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="page container dev2">
-	<div class="page-bg" style="background: url(http://design-austin.com/hunton/wp-content/uploads/2017/12/whats_header.jpg) no-repeat top center; background-size: cover;">
+	<div class="page-bg" style="background: url(<?php wp_upload_dir(); ?>/2017/12/whats_header.jpg) no-repeat top center; background-size: cover;">
 		<div class="text">
 			<h1>What’s Happening</h1>
 			<p></p><p>Hunton comes with a blogging platform, packed with versatile and amazing blog layouts</p>
@@ -34,7 +34,7 @@
 
 			<div class="row">
 				<div class="col m4">
-					<img src="http://design-austin.com/hunton/wp-content/uploads/2017/12/products-3.png" alt="">
+					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
 				</div>
 				<div class="col m8">
 					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
@@ -43,7 +43,7 @@
 
 			<div class="row">
 				<div class="col m4">
-					<img src="http://design-austin.com/hunton/wp-content/uploads/2017/12/products-3.png" alt="">
+					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
 				</div>
 				<div class="col m8">
 					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
@@ -52,7 +52,7 @@
 
 			<div class="row">
 				<div class="col m4">
-					<img src="http://design-austin.com/hunton/wp-content/uploads/2017/12/products-3.png" alt="">
+					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
 				</div>
 				<div class="col m8">
 					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
@@ -61,7 +61,7 @@
 
 			<div class="row">
 				<div class="col m4">
-					<img src="http://design-austin.com/hunton/wp-content/uploads/2017/12/products-3.png" alt="">
+					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
 				</div>
 				<div class="col m8">
 					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
@@ -70,7 +70,7 @@
 
 			<div class="row">
 				<div class="col m4">
-					<img src="http://design-austin.com/hunton/wp-content/uploads/2017/12/products-3.png" alt="">
+					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
 				</div>
 				<div class="col m8">
 					<h5><a href="">Trane Series R R'newal Service Program</a></h5>

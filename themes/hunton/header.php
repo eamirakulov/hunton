@@ -60,7 +60,7 @@
 			<li><a class="smooth" href="#services">our services</a></li>
 			<li><a class="smooth" href="#safety">safety</a></li>
 			<li><a class="smooth" href="#whats">WHAT'S HAPPENING</a></li>
-			<li><a href="#">RENTALS</a></li>
+			<li><a href="<?php bloginfo('url'); ?>/rentals">RENTALS</a></li>
 			<li><a class="smooth" href="#faq">FAQ</a></li>
 			<li><a class="smooth" href="#careers">CAREERS</a></li>
 		</ul>

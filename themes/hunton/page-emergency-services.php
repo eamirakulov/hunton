@@ -27,8 +27,8 @@
 		<div class="row contact-us_page">
 			<div class="col l6 s12 ">
 				<h2>
-					Contacts Us
-					<div class="num"><img src="http://design-austin.com/hunton/wp-content/themes/hunton/img/message-icon.svg"></div>
+					Contact Us
+					<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/message-icon.svg"></div>
 				</h2>
 				<div class="nearby-box">
 					<div class="row">

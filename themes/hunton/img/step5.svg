@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="261.889 1005.459 179.563 179.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #228cef;
+      }
+
+      .cls-3 {
+        filter: url(#Path_110);
+      }
+    </style>
+    <filter id="Path_110" x="261.889" y="1005.459" width="179.563" height="179.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#0f5699" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_2" data-name="2" transform="translate(-568 97)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 568, -97)">
+      <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(273.89 1091.24) rotate(-45)"/>
+    </g>
+    <g id="satellite" transform="translate(863.351 967)">
+      <g id="Group_1930" data-name="Group 1930" transform="translate(38.649 31.735)">
+        <g id="Group_1929" data-name="Group 1929" transform="translate(0)">
+          <path id="Path_4999" data-name="Path 4999" class="cls-2" d="M73.652,341.114l-2.111-4.254a4.383,4.383,0,0,0-3.947-2.419H64.781l-1.644-9.476a8.687,8.687,0,0,1-13.818,0l-1.643,9.476H44.861a4.385,4.385,0,0,0-3.95,2.425L38.8,341.114a1.464,1.464,0,0,0,1.312,2.116H72.341a1.464,1.464,0,0,0,1.312-2.116Z" transform="translate(-38.649 -324.964)"/>
+        </g>
+      </g>
+      <g id="Group_1932" data-name="Group 1932" transform="translate(50.368 20.508)">
+        <g id="Group_1931" data-name="Group 1931" transform="translate(0)">
+          <path id="Path_5000" data-name="Path 5000" class="cls-2" d="M170.285,214.836a5.868,5.868,0,0,0-11.566.076,7.566,7.566,0,0,0-.07.948,5.859,5.859,0,0,0,11.719,0A7.521,7.521,0,0,0,170.285,214.836Z" transform="translate(-158.649 -210.001)"/>
+        </g>
+      </g>
+      <g id="Group_1934" data-name="Group 1934" transform="translate(39.317)">
+        <g id="Group_1933" data-name="Group 1933" transform="translate(0)">
+          <path id="Path_5001" data-name="Path 5001" class="cls-2" d="M87.269,27.5a1.466,1.466,0,0,0-.6-1.062l-11.843-8.6,1.52-9.127A4.387,4.387,0,1,0,71.278,5.27l-7.53,4.518L51.1.6a1.463,1.463,0,0,0-2.159.509l-.758,1.455a23.513,23.513,0,0,0,4.557,27.891l1.071-6.044.051-.106a8.789,8.789,0,0,1,17.195.511l2.077,11.724a23.524,23.524,0,0,0,12.547-6.689l1.173-1.2A1.464,1.464,0,0,0,87.269,27.5ZM72.18,15.914l-5.856-4.254,6.482-3.889a4.372,4.372,0,0,0,.656.448Z" transform="translate(-45.491)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="262 501.459 179.563 179.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #228cef;
+      }
+
+      .cls-3 {
+        filter: url(#Path_110);
+      }
+    </style>
+    <filter id="Path_110" x="262" y="501.459" width="179.563" height="179.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#0f5699" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="strategical-planning" transform="translate(323.337 563.552)">
+    <g id="Group_1928" data-name="Group 1928" transform="translate(1.911)">
+      <g class="cls-3" transform="matrix(1, 0, 0, 1, -325.25, -563.55)">
+        <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(274 587.24) rotate(-45)"/>
+      </g>
+      <path id="Path_4988" data-name="Path 4988" class="cls-2" d="M4.91,34H15.129L12.922,46.841a2.7,2.7,0,0,0,2.2,3.119,2.614,2.614,0,0,0,.46.04,2.7,2.7,0,0,0,2.658-2.242L20.608,34H32.456l2.366,13.758A2.7,2.7,0,0,0,37.48,50a2.628,2.628,0,0,0,.461-.04,2.7,2.7,0,0,0,2.2-3.119L37.936,34H48.255a3,3,0,0,0,3-3V3a3,3,0,0,0-3-3H4.91a3,3,0,0,0-3,3V31A3,3,0,0,0,4.91,34ZM7.183,5.6h38.4V27.8H7.183Z" transform="translate(-0.159)"/>
+      <path id="Path_4989" data-name="Path 4989" class="cls-2" d="M90.231,60.343a2.6,2.6,0,0,0-2.6,2.6,2.56,2.56,0,0,0,.179.928L83.1,66.156l-7.987-1.421a3.121,3.121,0,0,0,.567-1.8A3.15,3.15,0,1,0,71.1,65.732L69.11,68.792l-.029,0a1.7,1.7,0,1,0,1.7,1.7,1.668,1.668,0,0,0-.161-.71l2.343-3.6L80.937,67.6a2.555,2.555,0,0,0-.3,1.191,2.6,2.6,0,1,0,5.193,0,2.57,2.57,0,0,0-.616-1.657l3.866-1.877a2.562,2.562,0,0,0,1.152.282,2.6,2.6,0,0,0,0-5.195Zm-17.7,3.946a1.35,1.35,0,1,1,1.35-1.35A1.352,1.352,0,0,1,72.531,64.29Zm10.7,5.3a.8.8,0,1,1,.8-.8A.8.8,0,0,1,83.23,69.586Zm7-5.849a.8.8,0,1,1,.8-.8A.8.8,0,0,1,90.231,63.736Z" transform="translate(-53.632 -49.539)"/>
+    </g>
+  </g>
+</svg>

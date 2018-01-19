@@ -1629,6 +1629,275 @@ section.content-section
 
 				img
 					width: 120px
+
+.rentals_page
+	.content-section
+		h2
+			.num
+				top: -70px
+
+				img
+					width: 120px
+
+	.rental-capabilities-block
+		.video
+			background: url(img/rcapbg.png) no-repeat center center
+			background-size: cover
+			margin-top: 30px
+			max-width: 880px
+			margin: 30px auto 0 auto
+
+			h3
+				color: #fff
+				margin-bottom: 50px
+
+			.text
+				padding: 100px 0
+				text-align: center
+
+			.play-btn
+				margin: 0 auto
+				width: 80px
+				height: 80px
+				display: block
+
+				img
+					width: 60px
+
+				.rotate
+					position: relative
+					top: -75px
+					left: 0px
+					width: 80px
+					-webkit-animation: rotation 5s infinite linear
+
+					@-webkit-keyframes rotation
+						from
+							-webkit-transform: rotate(0deg)
+						to
+							-webkit-transform: rotate(359deg)
+
+	.rental-capabilities-block2
+		.flex
+			flex-wrap: initial
+
+			@media (max-width: 1024px)
+				display: block
+
+		.coolers
+			margin-top: 30px
+
+			.item
+				text-align: center
+
+				@media (max-width: 1024px)
+					float: none
+					margin: 0 auto
+
+				.inner
+					background: #fff
+					padding: 20px 0
+					box-shadow: 0px 3px 15px 0px rgba(30, 122, 209, 0.2)
+				h4
+					font-size: 18px
+					font-weight: bold
+					margin: 20px 0 0 0
+
+				p
+					margin: 0
+					font-size: 12px
+					color: #313233
+					line-height: 20px
+
+		.applications
+			padding: 0 70px
+			margin-top: 30px
+
+			.item
+				@media (max-width: 1024px)
+					margin-bottom: 15px
+
+			.inner
+				background: #fff
+				height: 100%
+				box-shadow: 0px 3px 15px 0px rgba(30, 122, 209, 0.2)
+
+			.text
+				padding: 10px 15px 20px 15px
+
+			h4
+				font-size: 18px
+				margin: 0
+				font-weight: bold
+
+			p
+				margin: 0
+				font-size: 12px
+				color: #313233
+				line-height: 20px
+
+	.more-margin
+		margin-top: 130px
+
+	.contingency
+		.steps
+			margin-top: 50px
+			h4
+				font-size: 18px
+				font-weight: bold
+				margin: 0 0 13px 0
+
+				span
+					color: $blue
+
+			p
+				margin: 0
+				color: $text
+				line-height: 30px
+
+	.emergency
+		padding-bottom: 0
+
+		img
+			display: block
+
+		.row
+			margin-bottom: 0
+
+	.page-bg 
+		h3
+			font-weight: 600
+
+	.bottom-box
+		margin-bottom: 0
+
+		h4
+			font-size: 36px
+			font-weight: bold
+			margin: 30px 0 15px 0
+
+		h5
+			margin: 0 0 10px 0
+			color: $main-text
+			font-size: 18px
+			font-weight: 600
+
+		p
+			color: $text
+			font-size: 12px
+			line-height: 22px
+
+		.ips
+			padding-left: 0
+			.inner
+				background: url(img/ips.png) no-repeat center
+				background-size: cover
+				padding: 100px 30px 40px 30px
+				width: 100%
+				height: 100%
+
+			h3
+				font-size: 36px
+				font-weight: 600
+				color: #fff
+				margin: 0 0 20px 0
+
+			a
+				font-weight: 600
+				font-size: 14px
+				text-transform: uppercase
+				text-decoration: underline
+				color: #fff
+				letter-spacing: 2px
+
+	.form-box
+		.calc
+			background: #F7F7F7
+			padding: 30px
+
+		.btn-green,
+		.btn-or-default
+			width: 100%
+			padding: 17px 23px
+			text-align: center
+
+			@media (max-width: 767px)
+				margin-bottom: 10px
+
+		.input-field
+			margin-top: 0
+
+		#office-find
+			border: 1px solid #919396
+			padding-left: 20px
+			box-sizing: border-box
+
+			&::-webkit-input-placeholder
+				font-weight: 300
+				font-style: italic
+				font-size: 13px
+			&::-moz-placeholder
+				font-weight: 300
+				font-style: italic
+				font-size: 13px
+			&:-ms-input-placeholder
+				font-weight: 300
+				font-style: italic
+				font-size: 13px
+			&:-moz-placeholder
+				font-weight: 300
+				font-style: italic
+				font-size: 13px
+
+		.girlmac
+			padding-left: 0
+			.inner
+				height: 100%
+				background: url(img/girlmac.jpg) no-repeat center
+				background-size: cover
+
+		.cats
+			padding: 25px 0
+			background: rgba(247, 247, 247, 0.25)
+
+			h6
+				font-size: 18px
+				font-weight: bold
+				color: rgb(49, 50, 51)
+				margin: 3px 0px 4px 0
+
+			a
+				font-size: 15px
+				font-weight: 500
+				cursor: pointer
+				position: relative
+				padding: 0px 4px 5px 5px
+				margin: 0px 4px
+				color: $main-text
+
+				@media (max-width: 767px)
+					width: 100%
+					display: block
+
+				&:after
+					content: " "
+					display: block
+					position: absolute
+					bottom: 0px
+					height: 2px
+					right: 0px
+					width: 0%
+					background: transparent
+
+				&.active,
+				&:hover
+					color: $blue
+					&:after
+						width: 100%
+						background: $blue
+
+
+
 .custom-ul
 	list-style: none
 	margin: 0
@@ -1648,8 +1917,10 @@ section.content-section
 	display: flex
 	flex-wrap: wrap
 
+
 .btn-green
 	padding: 9px 22px
+	border-radius: 0
 	color: #fff
 	background: $green
 	font-size: 11px
@@ -1708,6 +1979,22 @@ section.content-section
 
 	&:hover
 		background: #DB401F
+
+.btn-or-default
+	padding: 8px 22px
+	color: $orange
+	background: transparent
+	border: 1px solid $orange
+	font-size: 11px
+	font-weight: bold
+	text-transform: uppercase
+	display: inline-block
+	vertical-align: middle
+
+	&:hover
+		background: $orange
+		box-shadow: 0px 1px 6px 0px #db401f
+		color: #fff
 
 .btn-default
 	padding: 8px 22px

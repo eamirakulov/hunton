@@ -13,13 +13,17 @@
 		<section class="content-section">
 			<div class="row valign-wrapper">
 				<div class="col s12 xl6 pr100">
-					<h2 class="our-team">Our Team<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/our-team-icon.svg"></div></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<p><a href="#" class="btn-green">READ MORE</a></p>
+					<h2 class="our-team">Hunton Group<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/our-team-icon.svg"></div></h2>
+					<p>
+					Hunton group is known for outstanding customer service, expertise and professionalism. We strive to provide solutions and excel in all what we do. We value training here at Hunton and offer the opportunity to attend factory training and in-house training programs. </p>
+
+<p>As a leader in industrial, light commercial and building automation, we offer competitive pay and seek to hire for longevity. Please see the below links for specific job descriptions and requirements and explore the many opportunities here at Hunton Group.</p>
+
+<p>Come find out why Hunton has been voted by our employees for Top Places to work for the fifth time and this year earning the top 5th spot for Houston in mis-size companies.</p>
+					<!--p><a href="#" class="btn-green">READ MORE</a></p-->
 				</div>
 				<div class="col s12 xl6 right-align">
-					<img src="<?php bloginfo('template_url'); ?>/img/careers-img-1.svg">
+					<img src="<?php bloginfo('template_url'); ?>/img/careers.png">
 				</div>
 			</div>
 		</section>

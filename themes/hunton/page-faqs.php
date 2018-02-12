@@ -39,11 +39,13 @@
 				$args = array( 'post_type' => 'faq', 's' => $q);
 			}
 			else{
-				$args = array( 'post_type' => 'faq',
+				$args = array( 
+					'post_type' => 'faq',
+					'order' => 'ASC',
 					'tax_query' => array(array(
-						'taxonomy' => 'faq_categories',
-						'field' => 'slug',
-						'terms' => array('frequent')))
+					'taxonomy' => 'faq_categories',
+					'field' => 'slug',
+					'terms' => array('frequent')))
 				);
 			}
 			$myposts = get_posts( $args );
@@ -62,7 +64,7 @@
 
 	<div class="page-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat top center; background-size: cover;">
 		<div class="text">
-			<h3>If you do not find the answer to your question, then contact us. <br> We will help you.</h3>
+			<h3>If you do not find the answer you are looking for, please reach out, and we will direct you to the appropriate resource.</h3>
 			<a href="" class="btn-green btn-large">CONTACT US TODAY!</a>
 		</div>
 	</div>

@@ -8,32 +8,54 @@
 	</div>
 	
 	<div class="content-block block big-spacing">
-		<h4 class="bbf1f4fc mt0">Company background and history.</h4>
-		<p>In 1981, R.O. Hunton moved to Houston and established Houston Trane, the forerunner of The Hunton Group. In 1990, he acquired the distribution division that added Trane Residential and light commercial products to the company. He then immediately built what is now the Hunton Group’s headquarters building in Houston’s Westchase district to house the companies. For the next 12 years, Hunton Distribution witnessed steady growth driven by customer service, superior products and well thought-out business objectives.
-		</p>
-		<p>In 2003, the company expanded with the acquisition of the Oklahoma City and West Texas territories for Residential and Light Commercial equipment and parts. This includes warehouse facilities in Oklahoma City; Lubbock, Texas; Amarillo, Texas and El Paso, Texas.</p>
+		<h4 class="bbf1f4fc mt0">A History of High Performance Buildings and Business</h4>
+		<p>Since 1981 when RO Hunton first founded Houston Trane as a subsidiary of The Trane Company,
+large and small customers have relied on Hunton to deliver innovative systems, professional OEM
+service, comprehensive solutions, and Trane&#39;s high-quality products - all from one source for your
+convenience - and from a company you can trust.</p>
+<p>Hunton Services was created in 1998 to form a full-service, turnkey solutions provider to meet the
+specific needs of our commercial, institutional, industrial, and process application customers. Our
+varied services include: (make these linkable to other pages) Energy, Building Automation, Mechanical,
+Indoor Environmental Solutions, Industrial, Rental, Engineered and Fabricated Products, and
+Emergency Services.</p>
+<p>In addition to world-class systems and innovative solutions, The Hunton Group is known for its expert
+and reliable people - the team that delivers energy efficient HVAC systems, top-notch facility service
+and parts support, sophisticated open control systems, and financial solutions.</p>
+<p>&quot;Our ultimate goal throughout the family of Hunton Group companies is seamless service and 100%
+customer satisfaction,&quot; says R.O. Hunton, President and CEO. &quot;We have structured our organization to
+better coordinate our considerable knowledge and resources to help make our customers&#39; jobs easier
+and to bring real added value to the table.&quot;</p>
 
 		<img src="<?php bloginfo('template_url'); ?>/img/our-history-1.svg" alt="">
 
-		<h4 class="bbf1f4fc mt50">Named 6 times as Trane’s #1 Independent<br> Wholesale Distributor in the U.S. </h4>
-		<p>Hunton Distribution’s growth strategy was successful, and the company was recognized as Trane’s #1 Independent Wholesale Distributor in the U.S. for 2005, 2006, 2007, 2009, 2012 and 2016.</p>
-		<p>Still planning for growth and to better serve our customer, Hunton Distribution opened its new headquarters building in north Houston in December 2008. The 117,000 square-foot facility contains office space, a Parts Center, state-of-the-art training facility and over 100,000 square feet of warehouse space. The building was awarded the LEED Silver certification by meeting stringent LEED credit qualifications in the categories of Sustainable Sites, Water Efficiency, Energy and Atmosphere, Materials and Resources, Indoor Environmental Quality and Innovation and Design.</p>
+		<h4 class="bbf1f4fc mt50">Hunton Ranked Top 10 Midsize Companies</h4>
+		p>Hunton Group placed 5th in midsize companies in the Houston area based on the surveys of our
+employees. This is our 5 th year to be voted a top place to work: <a href="http://www.chron.com/business/article/Family-helps-make-a-comfortable-climate-at-The-12303216.php">Read more here...</a></p>
 
 		<div class="row">
 			<div class="col m6 s12"><img src="<?php bloginfo('template_url'); ?>/img/our-history-2.svg" alt=""></div>
 			<div class="col m6 s12"><img src="<?php bloginfo('template_url'); ?>/img/our-history-3.svg" alt=""></div>
 		</div>
 
-		<h4 class="bbf1f4fc mt50">We believe that when our partners succeed, we succeed.</h4>
-		<p>In 2017, Hunton Distribution consolidated locations in response to changes in the market. We closed our offices in El  Paso, Lubbock and Amarillo so that we could more fully serve the Houston and Oklahoma service hubs. We also look forward to opening a third branch office in the greater Houston metroplex.</p>
-		<p>Hunton Distribution employs over 100 people in all our locations, and each person is focused on customer satisfaction and providing an environment that makes us easy to do business with.</p>
-		<p>For the past 25 years, it has been our privilege to serve the dealer/contractor community with quality products, first class service and industry expertise. At Hunton Distribution, we look forward to sharing this partnership with you long term.</p>
+		<h4 class="bbf1f4fc mt50">Hunton Group is the Largest Trane Franchise Office in North America</h4>
+		<p>By partnering with the most recognized and trusted brand in the industry, Hunton Services offers our customers
+cutting edge technologies and factory solutions. As Houston’s Trane OEM, we go beyond the building – to the
+people who are working, learning, healing, storing, and innovating.</p>
+<p>The Trane brand is defined by four pillars: Performance, Innovation, Commitment and Knowledge.
+Performance - Customers experience efficiency, effectiveness, and reliability 24/7</p>
+
+<p>Innovation -Trane brings new ideas, problem solving and an inquisitive look and guidance to impact
+energy
+efficiency and sustainability</p>
+<p>Commitment - Customers can trust Trane to deliver loyalty, passion and dedication to their mission
+Knowledge - Trane’s legacy of excellence delivers knowledge and the true expertise that customers trust
+We are proud to be Houston’s only Trane OEM.</p>
 	</div>
 
 	<div class="page-bg" style="background: url(<?php bloginfo('template_url'); ?>/img/our-history-4.svg) no-repeat top center; background-size: cover;">
 		<div class="text">
 			<h1>For the history of Trane</h1>
-			<a href="" class="btn-green btn-large">Click Here</a>
+			<a target="_blank" href="http://www.trane.com/commercial/north-america/us/en/about-us/our-history.html" class="btn-green btn-large">Click Here</a>
 		</div>
 	</div>
 

@@ -7,6 +7,18 @@
 		</div>
 	</div>
 
+	<div>
+		<p>Hunton Trane Services’ <a href="<?php bloginfo('url'); ?>/industrial-services/">Industrial group</a> specializes in
+petrochemical applications of HVAC and process cooling equipment. Our modification
+applications and engineering experience includes over twenty years of chemical, process,
+instrumentation, and mechanical engineering, as well as major industrial design.</p>
+<p>With a fully-equipped fabrication and modification operation, we design, build, and install custom
+heating, ventilation, air conditioning, filtration, and pressurization equipment to meet the special
+needs and stringent requirements of the industrial marketplace. With the expertise of our in-
+house <a href="<?php bloginfo('url'); ?>/industrial-services/">industrial plant</a> services team that works hand-in- hand with our <a href="<?php bloginfo('url'); ?>/rentals">Trane rental</a>
+division, installations are turnkey and seamless, minimizing downtime
+and mitigating risk.</p>
+	</div>
 	<section id="articles" class="after-safety p0">
 		
 		<?php

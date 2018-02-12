@@ -2,8 +2,8 @@
 <div class="page container dev2 ">
 	<div class="page-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat top center; background-size: cover;">
 		<div class="text">
-			<h1>What’s Happening</h1>
-			<p></p><p>Hunton comes with a blogging platform, packed with versatile and amazing blog layouts</p>
+			<h1><?php echo the_title(); ?></h1>
+			<p><?php echo get_field('subheading'); ?></p>
 		</div>
 	</div>
 
@@ -12,11 +12,33 @@
 			<div class="row flex">
 				<div class="col s12 xl6 pt80">
 					<h2>Emergency Services<div class="num">911</div></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>	
+					<p>Flooding, record-high heat waves, hurricanes, ice storms – Houston, TX is a
+climate where the weather is unpredictable which can interrupt business and your
+facility’s productivity.</p>
+<p>At Hunton Services, our technicians and extensive network of rental depots enable us to
+quickly provide generators and HVAC equipment on site to help you recover as soon as
+possible. During Hurricane Harvey, our technicians drove through flood waters to help our
+customers. Mother Nature may bring it, but Hunton can handle it.</p>
+
+<p>Talk to your sales representative today about our <a href="<?php bloginfo('url'); ?>/rentals#contingency">contingency planning</a> services
+available.</p>		
 				</div>
 				<div class="col s12 xl6 emergency-services-1">
 					
+				</div>
+			</div>
+		</div>
+		<div class="">
+			<div class="row flex">
+				<div class="col s12 xl6 emergency-services-2">
+					<a href="<?php bloginfo('url'); ?>/rentals">&nbsp;</a>
+				</div>
+				<div class="col s12 xl6 pt80">
+					<h2>Temporary Emergency Rental Equipment – Cooling, Heating, Dehumidification, Power &amp; More<div class="num">911</div></h2>
+					<p>Hunton Services mechanical facilities emergency services provide many benefits, including:</p>
+					<p>-24/7 Emergency Service<br>
+					-<a href="<?php bloginfo(url); ?>/rentals">Emergency Equipment Rental</a><br>
+					-<a href="<?php bloginfo(url); ?>/rentals#contingency">Disaster Planning</a></p>
 				</div>
 			</div>
 		</div>

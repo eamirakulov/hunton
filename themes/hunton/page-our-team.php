@@ -13,8 +13,12 @@
 	<div class="container">
 		<div class="content-block block">
 			<h4 class="bbf1f4fc mt0">Hunton Services Senior Management:</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>At Hunton Services, we
+develop customer relationships by listening carefully to our customers in order to determine job
+performance, quality, and cost needs. By utilizing a staff of qualified managers, engineers, and
+skilled technicians, we are able to develop sound and cost-effective solutions that result in real
+value. By providing tangible value, our customers trust us and routinely reward us with their next
+project.</p>
 
 			<div class="team-list">
 				<div class="team-item center">
@@ -41,6 +45,16 @@
 					<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen2.svg" alt="">
 					<span class="team-name">RANDY WALLEN</span>
 					<span class="team-pos">Senior Vice President & General Manager</span>
+				</div>
+				<div class="team-item center">
+					<img src="<?php bloginfo('template_url'); ?>/img/team/mike.png" alt="">
+					<span class="team-name">Mike Pagan</span>
+					<span class="team-pos">Operations Manager</span>
+				</div>
+				<div class="team-item center">
+					<img src="<?php bloginfo('template_url'); ?>/img/team/steph.png" alt="">
+					<span class="team-name">Steph Mixon</span>
+					<span class="team-pos">Financial Manager</span>
 				</div>
 
 

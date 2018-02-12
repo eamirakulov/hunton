@@ -260,8 +260,7 @@ function f711_get_post_content_callback() {
     $posts = get_posts( $args );
     $output = '';
 	foreach ( $posts as $post ):
-
-    $output .= '<div class="item col">
+    $output .= '<a class="see" target="_blank" href=' . get_field('document', $post->ID) . '><div class="item col">
 	    <div class="image">
 		    <div class="overlay">
 		    	'.get_the_post_thumbnail($post->ID, 'medium').'
@@ -274,7 +273,7 @@ function f711_get_post_content_callback() {
     	<div class="text center">
     		<h5>'.get_the_title($post->ID).'</h5>
     	</div>
-    </div>';
+    </div></a>';
 
 	endforeach; 
 	wp_reset_postdata();

@@ -10,11 +10,25 @@
 
 	<section class="content-block" id="ies-bg">
 		<div class="block-840">
-			<h2 class="bottom-line center">Hunton Services, the IES Expert for Hot and Humid Climates</h2>
-			<p>Indoor Air Quality (IAQ) problems often result in occupant illness and have legal and financial implications for building owners and managers.</p>
-			<p>Common defects related to HVAC design in hot and humid climates include inadequate dehumidification caused by over sized sensible capacity and reduced airflow, inadequate exhausts for internal sources of moisture and insufficient ventilated air to maintain positive building air pressure.</p>
-			<p>Hunton Services is Houston’s IAQ expert. We offer solutions for mechanical air systems, which incorporate uniquely engineered products developed specifically for the remediation of commercial, healthcare, education and industrial mechanical air delivery systems.</p>
-			<p>We specialize in hot and humid climates and have the specific local knowledge required to investigate, assess and correct IAQ problems such as mold, bacteria, chemicals, allergens and asbestos that lead to building related disease or sick building syndrome. We address the IAQ problems at a systems level, and can integrate client, occupant and operational needs into a holistic solution for a specific building.</p>
+			<h2 class="bottom-line center">Breathe Easier with Hunton Services – The IES Experts for Hot &amp; Humid Climates</h2>
+			<p>At Hunton Services, we help clients breathe easier knowing that the air quality in their facilities is clean
+			and free of contaminants. As Houston’s Indoor Environmental Solutions expert, we offer solutions for
+			mechanical air systems that incorporate uniquely engineered products developed specifically for the
+			remediation of <a href="<?php bloginfo('url'); ?>/commercial">commercial</a>, <a href="<?php bloginfo('url'); ?>/healthcare">healthcare</a>, <a href="<?php bloginfo('url'); ?>/educational">education</a> and <a href="<?php bloginfo('url'); ?>/industrial-services">industrial</a> mechanical air delivery systems.</p>
+			<p>True to our Texas roots, we specialize in hot and humid climates and have the specific local knowledge
+			required to investigate, assess, and correct IAQ problems such as mold, bacteria, chemicals, allergens
+			and asbestos that lead to building-related disease or sick building syndrome. We address the IAQ
+			problems at a systems level, and can integrate client, occupant, and operational needs into a holistic
+			solution for a specific building.</p>
+			<p>Acceptable indoor air quality (IAQ) is typically not achieved by addressing any one specific building
+			product, system, or procedure. Rather, it is the result of careful attention to each of the following
+			Fundamental Elements of Indoor Air Quality: (These can be the titles for four images that link to next
+			pages:</p>
+			<p>
+			• Source/Containment Control: Planned VS. Unplanned Airflows<br>
+			• Ventilation Control: CO2 VS. VOC’s<br>
+			• Humidity Management: Temperature VS. Humidity<br>
+			• Adequate Filtration: Air Cleaning</p>
 		</div>
 	</section>
 

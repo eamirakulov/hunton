@@ -56,13 +56,13 @@
 		<!--[if lt IE 8]><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p><![endif]-->
 
 		<ul id="slide-out" class="side-nav">
-			<li><a class="smooth" href="#why">our story</a></li>
-			<li><a class="smooth" href="#services">our services</a></li>
-			<li><a class="smooth" href="#safety">safety</a></li>
-			<li><a class="smooth" href="#whats">WHAT'S HAPPENING</a></li>
+			<li><a class="smooth" href="<?php bloginfo('url'); ?>#why">our story</a></li>
+			<li><a class="smooth" href="<?php bloginfo('url'); ?>#services">our services</a></li>
+			<li><a class="smooth" href="<?php bloginfo('url'); ?>#safety">safety</a></li>
+			<li><a class="smooth" href="<?php bloginfo('url'); ?>#whats">WHAT'S HAPPENING</a></li>
 			<li><a href="<?php bloginfo('url'); ?>/rentals">RENTALS</a></li>
-			<li><a class="smooth" href="#faq">FAQ</a></li>
-			<li><a class="smooth" href="#careers">CAREERS</a></li>
+			<li><a class="smooth" href="<?php bloginfo('url'); ?>#faq">FAQ</a></li>
+			<li><a class="smooth" href="<?php bloginfo('url'); ?>#careers">CAREERS</a></li>
 		</ul>
 		<header>
 			<div class="container">
@@ -73,25 +73,25 @@
 					<div class="col s6 m12 l8">
 						<div class="main-menu">
 							<ul>
-								<li><a class="smooth" href="#why">our story</a>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>#why">our story</a>
 									<ul>
 										<li><a href="#">Menu 1 Submenu item 1</a></li>
 										<li><a href="#">Menu 1 Submenu item 2</a></li>
 										<li><a href="#">Menu 1 Submenu item 3</a></li>
 									</ul>
 								</li>
-								<li><a class="smooth" href="#services">our services</a></li>
-								<li><a class="smooth" href="#safety">safety</a></li>
-								<li><a class="smooth" href="#whats">WHAT'S HAPPENING</a></li>
-								<li><a href="#">RENTALS</a></li>
-								<li><a class="smooth" href="#faq">FAQ</a></li>
-								<li><a class="smooth" href="#careers">CAREERS</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>#services">our services</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>#safety">safety</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>#whats">WHAT'S HAPPENING</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/rentals">RENTALS</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>#faq">FAQ</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>#careers">CAREERS</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col s12 m12 l2 contact">
 						<a href="#"><img src="<?php bloginfo('template_url'); ?>/img/phone.svg"></a>
-						<a href="#contact" class="btn-green">contact us</a>
+						<a href="<?php bloginfo('url'); ?>#contact" class="btn-green">contact us</a>
 					</div>
 					<div class="toggle-mobile">
   						<a href="#" data-activates="slide-out" class="button-collapse"><span></span><span></span><span></span></a>

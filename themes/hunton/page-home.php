@@ -83,11 +83,11 @@
 				<div class="col s12 xl6">
 					<div class="r-grid">
 						<a href="<?php bloginfo('url'); ?>/our-team" class="team"></a>
-						<a href="#" class="partners"></a>
-						<a href="#" class="test"></a>
+						<a href="<?php bloginfo('url'); ?>/why-hunton#partners" class="partners"></a>
+						<a href="<?php bloginfo('url'); ?>/why-hunton#testimonials" class="test"></a>
 						<img class="rombus" src="<?php bloginfo('template_url'); ?>/img/grennrombus.svg">
-						<a href="#" class="training"></a>
-						<a href="#" class="case"></a>
+						<a href="<?php bloginfo('url'); ?>/why-hunton#training" class="training"></a>
+						<a href="<?php bloginfo('url'); ?>/why-hunton#case_studies" class="case"></a>
 						<a href="<?php bloginfo('url'); ?>/safety" class="safety"></a>
 					</div>
 				</div>
@@ -153,7 +153,7 @@
 								<ul class="tabs">
 									<li class="tab col s3"><a class="active" href="#news">news</a></li>
 									<li class="tab col s3"><a href="#archive">archive</a></li>
-									<li class="tab col s3 disabled"><a href="#blog">blog</a></li>
+									<li class="tab col s3"><a href="#blog">blog</a></li>
 									<li class="tab col s3"><a href="#smedia">SOCIAL  MEDIA</a></li>
 									<li class="tab col s3"><a href="#ec">EVENT CALENDAR</a></li>
 								</ul>
@@ -167,7 +167,8 @@
                       <?php 
                       $args = array(
                         'post_type' => 'post',
-                        'posts_per_page' => -1
+                        'posts_per_page' => -1,
+                        'cat' => 19
                       );
                       $the_query = new WP_Query( $args ); ?>
                       <?php if ( $the_query->have_posts() ) : ?>

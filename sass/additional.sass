@@ -179,9 +179,11 @@ $blue: #228CEF
 				min-height: 250px
 			img
 				max-width: 125px
+				border-radius: 125px
 			.team-name
 				font-size: 16px
 				font-weight: bold
+				text-transform: uppercase
 				color: #313233
 				display: block
 			.team-pos
@@ -305,8 +307,7 @@ $blue: #228CEF
 		.row
 			img
 				width: 100%
-		.col
-			height: 100%
+
 		h4
 			font-size: 22px
 			font-weight: bold
@@ -698,9 +699,18 @@ $blue: #228CEF
 				left: 0
 				right: 0
 
+				.rotate
+					top: -71px
+					left: -10px
+
 		.slick-dots
 			top: auto
 			bottom: -35px
+
+	#services
+		.custom-ul
+			li
+				background-position: left 5px
 			
 	#articles
 		h5
@@ -818,13 +828,23 @@ $blue: #228CEF
 
 			
 	.programmer-1
-		background: url(img/programmer-1.svg) no-repeat center
+		background: url(img/servagreements.png) no-repeat center
 	.office-1
-		background: url(img/office-1.svg) no-repeat center
+		background: url(img/servicesvan.png) no-repeat center
 	.gears-1
-		background: url(img/gears-1.svg) no-repeat center
+		background: url(img/rnewal.png) no-repeat center
+		position: relative
+
+		a
+			display: block
+			width: 100%
+			height: 100%
+			position: absolute
+			left: 0
+			top: 0
+
 	.gears-2
-		background: url(img/gears-2.svg) no-repeat center
+		background: url(img/waterchiller.png) no-repeat center
 		
 	.card
 		box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.1)
@@ -833,6 +853,7 @@ $blue: #228CEF
 			text-align: center
 			box-shadow: 0px 5px 15px 0px rgba(34, 140, 239, 0.1)
 			padding-bottom: 20px 
+			text-transform: uppercase
 			h5
 				margin: 0
 				padding: 35px 0 10px
@@ -960,7 +981,19 @@ $blue: #228CEF
 
 	// - - - - literature products page - - - - //
 	.emergency-services-1
-		background: url(img/emergency-services-1.svg) no-repeat center
+		background: url(img/emergencyplanning.png) no-repeat center
+
+	.emergency-services-2
+		background: url(img/emergency2.jpg) no-repeat center
+		position: relative
+
+		a
+			display: block
+			width: 100%
+			height: 100%
+			position: absolute
+			left: 0
+			top: 0
 		
 
 	// - - - - energy services page - - - - //
@@ -1263,4 +1296,13 @@ $blue: #228CEF
 	min-height: 0px 
 
 
+.safety_page
+	.after-safety
+		padding: 0 1em
+		.row
+			img
+				max-width: 100%
+				display: block
+				margin: 0 auto
+				width: auto
 			

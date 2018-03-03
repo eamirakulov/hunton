@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="871.889 1507.459 179.564 179.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #228cef;
+      }
+
+      .cls-3 {
+        filter: url(#Path_110);
+      }
+    </style>
+    <filter id="Path_110" x="871.889" y="1507.459" width="179.564" height="179.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#0f5699" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1945" data-name="Group 1945" transform="translate(38 601)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -38, -601)">
+      <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(883.89 1593.24) rotate(-45)"/>
+    </g>
+    <path id="Path_5020" data-name="Path 5020" class="cls-2" d="M36.1,12.4,22.9,1.6A7.62,7.62,0,0,0,18.5,0H3.4A3.351,3.351,0,0,0,0,3.3V47.2A2.734,2.734,0,0,0,2.8,50h32A3.244,3.244,0,0,0,38,46.7v-30A5.414,5.414,0,0,0,36.1,12.4ZM30.7,25.9,18.4,39.7a1.612,1.612,0,0,1-1.3.6,2.45,2.45,0,0,1-1.2-.4L6.4,31.5a1.563,1.563,0,0,1-.6-1.2A2.01,2.01,0,0,1,6.2,29l2.6-2.9a1.612,1.612,0,0,1,1.3-.6,2.45,2.45,0,0,1,1.2.4l5.3,4.7L25.1,21a1.612,1.612,0,0,1,1.3-.6,2.45,2.45,0,0,1,1.2.4l2.9,2.6a1.563,1.563,0,0,1,.6,1.2A2.01,2.01,0,0,1,30.7,25.9ZM22.9,15.8a2.151,2.151,0,0,1-2.3-2.3V4.3L35.1,15.8Z" transform="translate(905 967)"/>
+  </g>
+</svg>

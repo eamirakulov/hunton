@@ -238,7 +238,7 @@ to keep additional costs to a minimum. </p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step5.svg"></div>
+						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step6.svg"></div>
 						<div class="col s8">
 							<h4>Step 6- <span>Power availability</span></h4>
 							<p>The need to document the available
@@ -253,7 +253,7 @@ more power than your existing units. </p>
 				<div class="clearfix"></div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step5.svg"></div>
+						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step7.svg"></div>
 						<div class="col s8">
 							<h4>Step 7- <span> Electrical connection</span></h4>
 							<p>Whether existing electrical service
@@ -266,7 +266,7 @@ connection(s) and how they will be made.</p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step5.svg"></div>
+						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step8.svg"></div>
 						<div class="col s8">
 							<h4>Step 8- <span>Temporary
 equipment location</span></h4>
@@ -287,7 +287,7 @@ the impact on normal operations.</p>
 				<div class="clearfix"></div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step5.svg"></div>
+						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step9.svg"></div>
 						<div class="col s8">
 							<h4>Step 8- <span>Plan creation</span></h4>
 							<p>Your Trane account manager
@@ -305,7 +305,7 @@ for internal and external resources.</p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step5.svg"></div>
+						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step10.svg"></div>
 						<div class="col s8">
 							<h4>Step 10- <span> Implement
 and review</span></h4>

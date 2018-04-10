@@ -12,81 +12,60 @@
 
 	<div class="container">
 		<div class="content-block block">
-			<h4 class="bbf1f4fc mt0">Hunton Services Senior Management:</h4>
+			<h4 class="bbf1f4fc mt0">Hunton Services Leadership Team:</h4>
 			<p>At Hunton Services, we
-develop customer relationships by listening carefully to our customers in order to determine job
-performance, quality, and cost needs. By utilizing a staff of qualified managers, engineers, and
-skilled technicians, we are able to develop sound and cost-effective solutions that result in real
-value. By providing tangible value, our customers trust us and routinely reward us with their next
-project.</p>
+				develop customer relationships by listening carefully to our customers in order to determine job
+				performance, quality, and cost needs. By utilizing a staff of qualified managers, engineers, and
+				skilled technicians, we are able to develop sound and cost-effective solutions that result in real
+				value. By providing tangible value, our customers trust us and routinely reward us with their next
+			project.</p>
 
 			<div class="team-list">
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen.svg" alt="">
-					<span class="team-name">RANDY WALLEN</span>
-					<span class="team-pos">Senior Vice President & General Manager</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Hardin_Kris_web1.svg" alt="">
-					<span class="team-name">KRIS HARDIN</span>
-					<span class="team-pos">Vice President of Sales</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Bill_Ballard.svg" alt="">
-					<span class="team-name">BILL BALLARD</span>
-					<span class="team-pos">Manager of Special Projects & Construction</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen.svg" alt="">
-					<span class="team-name">RANDY WALLEN</span>
-					<span class="team-pos">Senior Vice President & General Manager</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen2.svg" alt="">
-					<span class="team-name">RANDY WALLEN</span>
-					<span class="team-pos">Senior Vice President & General Manager</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/mike.png" alt="">
-					<span class="team-name">Mike Pagan</span>
-					<span class="team-pos">Operations Manager</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/steph.png" alt="">
-					<span class="team-name">Steph Mixon</span>
-					<span class="team-pos">Financial Manager</span>
-				</div>
-
-
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/lenny.svg" alt="">
-					<span class="team-name">LEANNE STIERS</span>
-					<span class="team-pos">Senior Vice President & General Manager</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen.svg" alt="">
-					<span class="team-name">RICK MORENO</span>
-					<span class="team-pos">Vice President of Sales</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Hardin_Kris_web1.svg" alt="">
-					<span class="team-name">GARY CAMPBELL</span>
-					<span class="team-pos">Manager of Special Projects & Construction</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Bill_Ballard.svg" alt="">
-					<span class="team-name">RANDY WALLEN</span>
-					<span class="team-pos">Senior Vice President & General Manager</span>
-				</div>
-				<div class="team-item center">
-					<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen.svg" alt="">
-					<span class="team-name">RANDY WALLEN</span>
-					<span class="team-pos">Senior Vice President & General Manager</span>
+				<div class="team-list">
+					<div class="team-item center">
+						<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen.svg" alt="">
+						<span class="team-name">RANDY WALLEN</span>
+						<span class="team-pos">Senior Vice President & General Manager</span>
+					</div>
+					<div class="team-item center">
+						<img src="<?php bloginfo('template_url'); ?>/img/team/Hardin_Kris_web1.svg" alt="">
+						<span class="team-name">KRIS HARDIN</span>
+						<span class="team-pos">Vice President of Sales</span>
+					</div>
+					<div class="team-item center">
+						<img src="<?php bloginfo('template_url'); ?>/img/team/Bill_Ballard.svg" alt="">
+						<span class="team-name">BILL BALLARD</span>
+						<span class="team-pos">Manager of Special Projects & Construction</span>
+					</div>
+					<div class="team-item center">
+						<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen2.svg" alt="">
+						<span class="team-name">LEANNE STIERS</span>
+						<span class="team-pos">BAS Service Manager, CEM</span>
+					</div>
+					<div class="team-item center">
+						<img style="border-radius: 50%" src="<?php bloginfo('template_url'); ?>/img/team/RickMoreno2016-fv.jpg" alt="">
+						<span class="team-name">RICK MORENO</span>
+						<span class="team-pos">Vice President of Sales</span>
+					</div>
+					<div class="team-item center">
+						<img src="<?php bloginfo('template_url'); ?>/img/team/lenny.svg" alt="">
+						<span class="team-name">GARY CAMPBELL</span>
+						<span class="team-pos">Manager of Special </span>
+					</div>
+					<div class="team-item center">
+						<img src="<?php bloginfo('template_url'); ?>/img/team/mike.png" alt="">
+						<span class="team-name">Mike Pagan</span>
+						<span class="team-pos">Operations Manager</span>
+					</div>
+					<div class="team-item center">
+						<img src="<?php bloginfo('template_url'); ?>/img/team/steph.png" alt="">
+						<span class="team-name">Steph Mixon</span>
+						<span class="team-pos">Financial Manager</span>
+					</div>
 				</div>
 			</div>
 
-			<h4 class="bbf1f4fc">Hunton Services Management:</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<!-- 			<h4 class="bbf1f4fc">Hunton Services Management:</h4>
 
 			<div class="team-list">
 				<div class="team-item center">
@@ -117,7 +96,6 @@ project.</p>
 			</div>
 
 			<h4 class="bbf1f4fc">Hunton Business Team:</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 			<div class="team-list">
 				<div class="team-item center">
@@ -145,13 +123,11 @@ project.</p>
 					<span class="team-name">RANDY WALLEN</span>
 					<span class="team-pos">Senior Vice President & General Manager</span>
 				</div>
-			</div>
-
+			</div> -->
+			<p>&nbsp;</p>
 			<div class="shadow-block center">
-				<h2 class="bottom-line">Sample Text</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				<a href="" class="btn-green btn-large">Job openings</a>
+				<h2 class="bottom-line">Job Openings</h2>
+				<a href="" class="btn-green btn-large">Learn More</a>
 			</div>
 		</div>
 	</div>

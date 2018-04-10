@@ -21,9 +21,9 @@
 			</div>
 		</div>
 
-		<div class="row flex">
-			<div class="col s12 xl6 more-padding">
-				<h2>Helping Students Excel<div class="num">01</h2>
+		<div class="row flex m0">
+			<div class="col s12 xl6 p130x40 pr100">
+				<h2>Helping Students Excel</h2>
 					<p>There’s no smarter, more far-reaching investment than one made for our children. The ability to manage
 				temperature, humidity, air quality and sound levels pays off for schools and their communities today and well
 				into the future. Developing young minds deserve the best possible learning environment. Students perform
@@ -47,23 +47,38 @@
 		</div>
 
 		<div class="row flex">
-			<div class="col s12 xl6 school2"><div></div></div>
-			<div class="col s12 xl6 more-padding services">
-				<h2 class="smaller">Featured Education Facility Service Offerings:<div class="num">02</h2>
+			<div class="col s12 xl8 offset-xl2 center-align pt80 pl75">
+				<h2 class="smaller no-before">Featured Education Facility Service Offerings:</h2>
 				<p>
 					<ul class="custom-ul">
-						<li><a href="<?php bloginfo('url'); ?>/mechanical-services">Mechanical Services</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/industrial-services">Building Automation Services</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/indoor-environmental-solutions">Indoor Environmental Solutions</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/rentals">Rental Services</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/mechanical-services/rnewal-services/">Trane Factory OEM Solutions</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/energy-services">Energy Services</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/mechanical-services">Mechanical Services</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/industrial-services">Building Automation Services</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/indoor-environmental-solutions">Indoor Environmental Solutions</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/rentals">Rental Services</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/mechanical-services/rnewal-services/">Trane Factory OEM Solutions</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/energy-services">Energy Services</a></li><br>
 					</ul>
 				</p>
 			</div>
 		</div>
 
-		<p class="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/WL4SP6t-9WE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+		<section class="content-block block main-slider">
+			<div class="page-bg item" style="background: url(<?php bloginfo('template_url'); ?>/img/energy-services-8.png) no-repeat top center; background-size: cover;">
+				<div class="text ">
+					<h3>High Performance Buildings for Life</h3>
+					<a href="#video-1" class="modal-trigger play-btn">
+						<img src="<?php bloginfo('template_url'); ?>/img/play.svg">
+						<img class="rotate" src="<?php bloginfo('template_url'); ?>/img/dottedcircle.svg">
+					</a>
+				</div>
+
+				<div id="video-1" class="modal">
+					<div class="modal-content">
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/WL4SP6t-9WE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen frameborder="0"></iframe>                  
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<div class="row building-carousel">
 			<div id="schools-slider">
@@ -179,6 +194,20 @@
 </div>
 
 <script type="text/javascript">
+	$(document).ready(function(){
+		$('.modal').modal({
+			ready: function(modal, trigger) {
+				var videoSrc = modal.find('iframe').attr("src");
+				modal.find('iframe').attr("src", videoSrc+"&amp;autoplay=1");
+			},
+			complete: function() {
+				$('iframe').attr('src', $('iframe').attr('src').replace("&amp;autoplay=1", ""));
+			}
+		});
+	});
+</script>
+
+<script type="text/javascript">
 	$('.slider-block-2').slick({
 		dots: true,
 		infinite: false,
@@ -215,16 +244,23 @@
 		dots: true,
 		infinite: false,
 		speed: 300,
-		slidesToShow: 6,
+		slidesToShow: 4,
 		slidesToScroll: 2,
 		responsive: [
 		{
 			breakpoint: 1024,
 			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
+				slidesToShow: 2,
+				slidesToScroll: 2,
 				infinite: true,
 				dots: true
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
 			}
 		}
 		]

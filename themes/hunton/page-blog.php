@@ -10,7 +10,7 @@
     <div class="row content-grid">
       <div class="col s12 m8 l8">
         <div class="row posts-grid">
-          <?php echo do_shortcode('[ajax_load_more id="7401827893" container_type="div" post_type="post" posts_per_page="6" transition="fade"]'); ?>
+          <?php echo do_shortcode('[ajax_load_more id="7401827893" container_type="div" post_type="post" posts_per_page="6" transition="fade" category="blog"]'); ?>
         </div>
       </div>
 

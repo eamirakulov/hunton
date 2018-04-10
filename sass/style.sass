@@ -29,7 +29,8 @@ body
 	margin: 0
 	font-family: 'Open Sans', sans-serif
 	color: #939598
-	font-size: 12px
+	font-size: 16px
+	line-height: 30px
 
 .container
 	margin: 0 auto
@@ -39,6 +40,9 @@ body
 .content
 	padding-top: 42px
 	padding-bottom: 66px
+	@media (max-width: 480px)
+		padding-top: 20px
+		padding-bottom: 30px
 
 img
 	max-width: 100%
@@ -72,7 +76,7 @@ img
 		width: 100%
 		margin: 4px 0
 
-	@media (max-width: 767px)
+	@media (max-width: 768px)
 		display: block
 
 header
@@ -87,7 +91,7 @@ header
 	@media (max-width: 1024px)
 		text-align: center
 
-	@media (max-width: 767px)
+	@media (max-width: 768px)
 		text-align: left
 		position: relative
 
@@ -102,7 +106,7 @@ header
 			width: 140px
 
 	.main-menu
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			display: none
 		ul
 			margin: 0
@@ -110,6 +114,9 @@ header
 			list-style: none
 			display: flex
 			justify-content: space-between
+			columns: 2
+			-webkit-columns: 2
+			-moz-columns: 2
 
 			li
 				display: inline-block
@@ -164,7 +171,7 @@ header
 
 	.contact
 		text-align: right
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			display: none
 
 		@media (max-width: 1024px)
@@ -187,7 +194,7 @@ header
 	right: 20px
 	top: 30%
 	z-index: 999
-	@media (max-width: 767px)
+	@media (max-width: 768px)
 		display: none
 
 	a
@@ -260,7 +267,7 @@ header
 			top: 240px
 			max-width: 840px
 			margin: 0 auto
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				top: 70px
 
 
@@ -268,7 +275,7 @@ header
 			font-size: 45px
 			font-weight: bold
 			color: #fff
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				font-size: 35px
 				padding: 0 20px
 
@@ -277,7 +284,7 @@ header
 			font-size: 18px
 			margin-top: 17px
 			color: #fff
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				font-size: 16px
 				padding: 0 20px
 
@@ -324,7 +331,7 @@ section.content-section
 	@media (max-width: 1024px)
 		min-height: auto
 		padding: 60px 0
-	@media (max-width: 767px)
+	@media (max-width: 768px)
 		padding: 30px 0
 
 	h2
@@ -334,6 +341,13 @@ section.content-section
 		margin: 0 0 25px 0
 		position: relative
 
+		@media (max-width: 768px)
+			font-size: 38px
+
+		@media (max-width: 480px)
+			font-size: 28px
+			line-height: 40px
+
 		.num
 			position: absolute
 			top: -45px
@@ -341,8 +355,11 @@ section.content-section
 			z-index: -1
 			font-size: 130px
 			font-weight: bold
-			color: #F7F7F7
+			color: #f2f2f2
 			margin: 0
+			@media (max-width: 480px)
+				font-size: 100px
+				top: -30px
 
 		&:before
 			content: " "
@@ -354,13 +371,17 @@ section.content-section
 			width: 160px
 			background: $orange
 
-			@media (max-width: 767px)
-				left: 100px
+			@media (max-width: 768px)
+				left: 130px
+				width: 130px
 
 	p
 		color: $text
 		font-size: 16px
 		line-height: 30px
+		@media (max-width: 480px)
+			font-size: 14px
+			line-height: 26px
 
 	.learn
 		font-size: 14px
@@ -414,25 +435,26 @@ section.content-section
 			line-height: 28px
 
 .valign-wrapper
-	@media (max-width: 767px)
+	@media (max-width: 768px)
 		display: block
 
 .r-grid
 	position: relative
+	top: -30px
 
-	@media (max-width: 767px)
+	@media (max-width: 768px)
 		display: none
 
 	a
 		display: block
-		width: 155px
-		height: 155px
+		width: 190px
+		height: 190px
 		position: absolute
 
 		&.team
 			background: url(img/ourteam.svg) no-repeat center
 			top: 0
-			right: 77.5px
+			right: 95px
 
 			&:hover
 				background: url(img/ourteam-hover.svg) no-repeat center
@@ -440,44 +462,44 @@ section.content-section
 		&.partners
 			background: url(img/partners.svg) no-repeat center
 			top: 0
-			right: 232.5px
+			right: 285px
 
 			&:hover
 				background: url(img/partners-hover.svg) no-repeat center
 
 		&.test
 			background: url(img/testimonials.svg) no-repeat center
-			top: 77.5px
+			top: 95px
 			right: 0
 			&:hover
 				background: url(img/testimonials-hover.svg) no-repeat center
 
 		&.training
 			background: url(img/training.svg) no-repeat center
-			top: 77.5px
-			right: 310px
+			top: 95px
+			right: 380px
 			&:hover
 				background: url(img/training-hover.svg) no-repeat center
 
 		&.case
 			background: url(img/casestudies.svg) no-repeat center
-			top: 155px
-			right: 77.5px
+			top: 190px
+			right: 95px
 			&:hover
 				background: url(img/casestudies-hover.svg) no-repeat center
 
 		&.safety
 			background: url(img/safety.svg) no-repeat center
-			top: 155px
-			right: 232.5px
+			top: 190px
+			right: 285px
 			&:hover
 				background: url(img/safety-hover.svg) no-repeat center
 
 	.rombus
-		width: 95px
+		width: 115px
 		position: absolute
-		right: 183.5px
-		top: 105px
+		right: 228.5px
+		top: 128px
 
 
 ::-webkit-scrollbar
@@ -713,7 +735,7 @@ section.content-section
 	iframe
 		display: block
 		margin: 30px 0
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			width: 100%
 
 	.family
@@ -779,11 +801,14 @@ section.content-section
 
 	img
 		max-width: 100%
+		height: auto
 
 	.page-bg
 		text-align: center
 		color: #fff
 		position: relative
+		@media (max-width: 768px)
+			background-position: center !important
 
 		&:before
 			content: " "
@@ -801,17 +826,22 @@ section.content-section
 			font-size: 45px
 			font-weight: bold
 			margin: 0 0 18px 0
+			@media (max-width: 768px)
+				font-size: 32px
 
 		p
 			font-size: 18px
 			margin: 0
+			@media (max-width: 768px)
+				font-size: 16px
+				line-height: 26px 
 
 		.text
 			padding: 100px 180px
 			position: relative
 			z-index: 9
 
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding: 50px 40px
 
 .sidebar
@@ -827,6 +857,10 @@ section.content-section
 	#sidebar
 		@media (min-width: 768px)
 			padding-left: 45px
+			
+.single-post
+	#sidebar
+		padding: 0
 
 
 	#searchform
@@ -943,7 +977,7 @@ section.content-section
 			font-weight: 300
 			color: $text
 			padding-left: 75px
-			background: url(img/clock.svg) no-repeat 55px 3px
+			background: url(img/clock.svg) no-repeat 55px 9px
 			background-size: 12px
 			float: right
 			border-bottom: 1px solid $orange
@@ -956,6 +990,12 @@ section.content-section
 		font-weight: bold
 		margin: 0 0 25px 0
 		color: $main-text
+		@media (max-width: 768px)
+			font-size: 38px
+
+		@media (max-width: 480px)
+			font-size: 28px
+			line-height: 40px
 
 	.entry_content
 		font-size: 16px
@@ -978,6 +1018,7 @@ section.content-section
 			a,
 			div
 				margin-right: 10px
+				margin-bottom: 10px
 				display: inline-block
 				vertical-align: middle
 
@@ -1110,7 +1151,9 @@ section.content-section
 			padding: 25px 15px
 			background: #fff
 			box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.25)
-
+			
+		.no-shadow
+			box-shadow: 0 0 0 0	
 
 		.meta
 			margin-top: 25px
@@ -1130,6 +1173,7 @@ section.content-section
 
 				&.cat
 					background: url(img/news.svg) no-repeat left center
+					background-size: 13px 
 
 		h3
 			font-size: 18px
@@ -1150,6 +1194,12 @@ section.content-section
 		color: $main-text
 		margin: 40px 0 25px 0
 		position: relative
+		@media (max-width: 768px)
+			font-size: 38px
+
+		@media (max-width: 480px)
+			font-size: 28px
+			line-height: 40px
 
 	.subheading
 		font-size: 12px
@@ -1160,10 +1210,15 @@ section.content-section
 		padding-left: 50px
 		padding-right: 50px
 		padding-bottom: 50px
+		@media (max-width:480px)
+			padding-left: 20px
+			padding-right: 20px
 
 	.right
 		.inner
 			margin-left: -10px
+			@media (max-width:480px)
+				margin: 0
 
 		iframe
 			width: 100%
@@ -1172,6 +1227,8 @@ section.content-section
 		.addr-box
 			background: #00B492
 			padding: 40px 50px
+			@media (max-width:480px)
+				padding: 30px 30px 20px 
 
 			h3
 				font-size: 26px
@@ -1221,7 +1278,6 @@ section.content-section
 
 		section
 			padding: 30px 0
-			border-bottom: 1px solid $blue
 
 			&.last
 				border: none
@@ -1289,6 +1345,82 @@ section.content-section
 				background: #1E7AD1
 				box-shadow: 0px 3px 10px 0px rgba(30, 122, 209, 0.2)
 
+.energy-services_page
+	form
+		h3
+			font-size: 18px
+			font-weight: 600
+			color: $blue
+			margin: 0 0 30px 0
+
+		section
+			padding: 30px 0
+
+			&.last
+				border: none
+
+		p.radio-label
+			font-size: 10px
+			font-weight: bold
+			color: $main-text
+
+		input[type="radio"] + label
+			margin-right: 30px
+			padding-left: 25px
+			font-size: 12px
+			font-weight: normal
+			text-transform: capitalize
+
+		input[type="radio"]:checked+label:after, input[type="radio"].with-gap:checked+label:after,
+			background-color: $main-text
+
+		input[type="radio"]:checked+label:after, input[type="radio"].with-gap:checked+label:before, input[type="radio"].with-gap:checked+label:after
+			border: 2px solid $main-text
+
+		.dropdown-content li>a, .dropdown-content li>span
+			color: $blue
+			font-size: 12px
+
+		input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
+			border-bottom: 1px solid $blue
+		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea
+			margin-bottom: 0
+			height: 2.3rem
+			border-bottom: 1px solid #BDC3D1
+		input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown
+			border-bottom: 1px solid $green
+		input
+			margin-bottom: 0
+			border-bottom: 1px solid #BDC3D1
+
+		label,
+		input.select-dropdown
+			font-size: 11px
+			font-weight: bold
+			color: $main-text
+			text-transform: uppercase
+
+		textarea
+			border: none
+			resize: none
+			height: 40px !important
+
+		#submit
+			padding: 15px 22px
+			width: 185px
+			color: #fff
+			background: $blue
+			font-size: 14px
+			font-weight: bold
+			text-transform: uppercase
+			display: inline-block
+			vertical-align: middle
+			border: none
+			border-radius: 0
+
+			&:hover
+				background: #1E7AD1
+				box-shadow: 0px 3px 10px 0px rgba(30, 122, 209, 0.2)
 .markets-served_page
 	.content-section
 		padding-top: 125px
@@ -1298,6 +1430,8 @@ section.content-section
 
 		h2
 			line-height: 54px
+			@media (max-width: 480px)
+				line-height: 36px
 
 			.num
 				top: -70px
@@ -1322,8 +1456,12 @@ section.content-section
 		&.row
 			.col:first-child
 				padding-right: 0
+				@media (max-width: 480px)
+					padding: 0 .75rem
 			.col:last-child
 				padding-left: 0
+				@media (max-width: 480px)
+					padding: 0 .75rem
 
 		.col
 			position: relative
@@ -1332,6 +1470,8 @@ section.content-section
 			padding: 100px 30px 40px 30px
 			width: 100%
 			height: 100%
+			@media (max-width: 768px)
+				padding: 70px 30px 40px 30px
 
 			h3,p
 				position: relative
@@ -1463,6 +1603,8 @@ section.content-section
 			font-weight: bold
 			color: #fff
 			margin: 0 0 20px 0
+			@media (max-width: 768px)
+				font-size: 34px
 
 		p
 			margin: 0
@@ -1485,8 +1627,13 @@ section.content-section
 
 			.col
 				padding: 0
+				@media (max-width: 480px)
+						padding: 0 0.75rem !important
+	
 				&:first-child
 					padding-left: 12px
+
+						 
 				&:last-child
 					padding-right: 12px
 
@@ -1497,6 +1644,8 @@ section.content-section
 			padding: 100px 30px 40px 30px
 			width: 100%
 			height: 100%
+			@media (max-width: 768px)
+				padding: 60px 30px 40px 30px
 
 			h3,p
 				position: relative
@@ -1507,6 +1656,8 @@ section.content-section
 			font-weight: bold
 			color: #fff
 			margin: 0 0 10px 0
+			@media (max-width: 768px)
+				font-size: 22px
 
 		p
 			margin: 0
@@ -1709,6 +1860,9 @@ section.content-section
 
 	.smaller
 		font-size: 36px
+		@media (max-width: 480px)
+			font-size: 28px
+			line-height: 36px
 
 	.cats
 		padding: 25px 0
@@ -1719,7 +1873,7 @@ section.content-section
 			font-weight: bold
 			color: rgb(49, 50, 51)
 			margin: 3px 0px 4px 15px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				margin-left: 0
 				margin-bottom: 20px
 
@@ -1732,9 +1886,9 @@ section.content-section
 			margin: 0px 4px
 			color: $main-text
 
-			@media (max-width: 767px)
-				width: 100%
-				display: block
+			// @media (max-width: 768px)
+			// 	width: 100%
+			// 	display: block
 
 			&:after
 				content: " "
@@ -1844,7 +1998,7 @@ section.content-section
 					opacity: 1
 
 	.building-carousel
-		padding: 50px 0
+		padding: 50px 0 50px
 		background: #F7F7F7
 
 		#building-slider,
@@ -1853,6 +2007,10 @@ section.content-section
 			margin-bottom: 43px
 			padding-left: 90px
 			padding-right: 90px
+			
+			@media (max-width: 480px)
+				padding-left: 50px
+				padding-right: 50px
 
 			.item
 				margin-bottom: 20px
@@ -1912,7 +2070,7 @@ section.content-section
 
 		.slick-dots
 			position: absolute
-			bottom: -15px
+			bottom: -30px
 			display: block
 			padding: 0
 			margin: 0
@@ -1981,41 +2139,33 @@ section.content-section
 	.industrial1,
 	.industrial2
 		position: relative
-		padding-left: 0
-
-		> div
-			width: 100%
-			height: 100%
-			background-size: cover
 
 		@media (max-width: 1024px)
 			display: none
 
 	.industrial1
-		> div
-			background: url(img/industrial1.jpg) no-repeat center
+		background: url(img/industrial1.jpg) no-repeat center
+		background-size: cover
+
 	.industrial2
-		> div
-			background: url(img/industrial2.jpg) no-repeat center
+		background: url(img/industrial2.jpg) no-repeat center
+		background-size: cover
+
 	.health1,
 	.health2
 		position: relative
-		padding-left: 0
-
-		> div
-			width: 100%
-			height: 100%
-			background-size: cover
 
 		@media (max-width: 1024px)
 			display: none
 
 	.health1
-		> div
-			background: url(img/health1.jpg) no-repeat center
+		background: url(img/health1.jpg) no-repeat center
+		background-size: cover
+		
 	.health2
-		> div
-			background: url(img/health2.jpg) no-repeat center
+		background: url(img/health2.jpg) no-repeat center
+		background-size: cover
+		
 	.gov1,
 	.gov2
 		position: relative
@@ -2051,9 +2201,11 @@ section.content-section
 	.hos1
 		> div
 			background: url(img/hos1.jpg) no-repeat center
+			background-size: cover
 	.hos2
 		> div
 			background: url(img/hos2.jpg) no-repeat center
+			background-size: cover
 
 	.row
 		margin-bottom: 0
@@ -2076,14 +2228,29 @@ section.content-section
 
 .industrial-services_page
 	.bottom-cta
-		background: url(img/whats_header.jpg) no-repeat center
+		background: url(img/rsbip.jpg) no-repeat center
 		background-size: cover
+		position: relative
+
+		&:before
+			content: " "
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			background: rgba(0, 0, 0, 0.65)
+			opacity: 1
+			background-size: 100% 100%
+			z-index: 8
 
 		.text
 			padding: 70px 100px
 			text-align: center
+			position: relative
+			z-index: 10
 
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding: 40px 20px
 
 			h3
@@ -2093,40 +2260,48 @@ section.content-section
 				color: #fff
 				margin: 0
 
-				@media (max-width: 767px)
-					font-size: 26px
+				@media (max-width: 768px)
+					font-size: 20px
+					line-height: 34px
 
 			.btn-green
 				width: 215px
 				text-align: center
 				margin-top: 20px
-				letter-spa
 
 	.content-section
-		padding-top: 125px
 
 		.btn-green
 			width: 215px
 			text-align: center
 			margin-top: 20px
 
-		.row
-			margin-bottom: 130px
-
 	.metal-construction
-		position: relative
+		background: url(img/metal-construction.jpg) no-repeat center
+		background-size: cover
 
-		> div
-			width: 100%
-			height: 100%
-			background-size: cover !important
-			background: url(img/metal-construction.jpg) no-repeat center
+		@media (max-width: 1024px)
+			display: none
+
+	.process-refrigeration
+		background: url(img/process-refrigeration.jpg) no-repeat center
+		background-size: cover
+
+		@media (max-width: 1024px)
+			display: none
+
+	.comfort-cooling
+		background: url(img/comfort-cooling.jpg) no-repeat center
+		background-size: cover
 
 		@media (max-width: 1024px)
 			display: none
 
 	.content-section
 		h2
+			@media (max-width: 768px)
+				margin-top: 50px
+				
 			.num
 				top: -70px
 
@@ -2138,9 +2313,13 @@ section.content-section
 		h2
 			.num
 				top: -70px
+				@media (max-width: 480px)
+					top: -60px
 
 				img
 					width: 120px
+					@media (max-width: 480px)
+						width: 100px
 
 	.rental-capabilities-block
 		.video
@@ -2157,6 +2336,8 @@ section.content-section
 			.text
 				padding: 100px 0
 				text-align: center
+				@media (max-width: 768px)
+					padding: 60px 0
 
 			.play-btn
 				margin: 0 auto
@@ -2169,7 +2350,7 @@ section.content-section
 
 				.rotate
 					position: relative
-					top: -75px
+					top: -79px
 					left: 0px
 					width: 80px
 					-webkit-animation: rotation 5s infinite linear
@@ -2195,7 +2376,7 @@ section.content-section
 
 				@media (max-width: 1024px)
 					float: none
-					margin: 0 auto
+					margin: 0 auto 20px
 
 				.inner
 					background: #fff
@@ -2215,6 +2396,8 @@ section.content-section
 		.applications
 			padding: 0 70px
 			margin-top: 30px
+			@media (max-width: 480px)
+				padding: 0 20px
 
 			.item
 				@media (max-width: 1024px)
@@ -2229,7 +2412,7 @@ section.content-section
 				padding: 10px 15px 20px 15px
 
 			h4
-				font-size: 18px
+				font-size: 16px
 				margin: 0
 				font-weight: bold
 
@@ -2324,7 +2507,7 @@ section.content-section
 			padding: 17px 23px
 			text-align: center
 
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				margin-bottom: 10px
 
 		.input-field
@@ -2378,7 +2561,7 @@ section.content-section
 				margin: 0px 4px
 				color: $main-text
 
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					width: 100%
 					display: block
 
@@ -2399,7 +2582,21 @@ section.content-section
 						width: 100%
 						background: $blue
 
+	.contingency2
+		> div
+			position: relative
+			height: 100%
+			width: 100%
+			background: url(img/contingency2.jpg) no-repeat center
+			background-size: cover
 
+	.emergencyplanning
+		> div
+			position: relative
+			height: 100%
+			width: 100%
+			background: url(img/emergencyplanning.png) no-repeat center
+			background-size: cover
 
 .custom-ul
 	list-style: none
@@ -2530,7 +2727,7 @@ footer
 	z-index: 999
 	@media (max-width: 1024px)
 		text-align: center
-	@media (max-width: 767px)
+	@media (max-width: 768px)
 		position: relative
 
 	.row
@@ -2540,7 +2737,7 @@ footer
 		font-size: 12px
 		color: $text
 		margin-top: 5px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 
 	.cta
 		text-align: center
@@ -2557,7 +2754,7 @@ footer
 			&.btn-orange
 				width: calc(40% - 30px)
 
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				width: 100% !important
 				margin: 5px
 
@@ -2566,7 +2763,7 @@ footer
 		font-size: 14px
 		font-weight: bold
 		color: $main-text
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			text-align: center
 
 		a
@@ -2580,3 +2777,5 @@ footer
 			&:hover
 				background: url(img/phone2.svg) no-repeat center center
 
+.cat-item-23
+	display: none

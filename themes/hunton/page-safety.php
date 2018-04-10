@@ -7,7 +7,7 @@
 		</div>
 	</div>
 
-	<section id="services" class="content-section p0">
+	<section id="services" class="content-section ">
 		<div class="row valign-wrapper mb0">
 			<div class="col s12 xl6 pr100">
 				<h2 class="hat">Our HSE Program - The Core of Our Safety Culture<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/why-safety-icon.svg"></div></h2>
@@ -30,30 +30,24 @@
 				</ul>
 				<p><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2018/02/HSE-Policy-2016.pdf" class="learn">Learn more</a></p>
 			</div>
-			<div class="col s12 xl6 right-align">
+			<div class="col s12 xl6 right-align hide-on-med-and-down">
 				<img class="right" src="<?php bloginfo('template_url'); ?>/img/safetytop.png">
 			</div>
 		</div>
 	</section>
 
 	<section id="advert">
-		<div class="row m0 flex">
-			<div class="col m6 s12 green-2-block">
-				<div class="row">
-					<div class="col m12 s12 center">
-						<img style="max-width: 250px" src="<?php bloginfo('template_url'); ?>/img/hasc.png" alt="">
-					</div>
-					<div class="col m12 s12">
-						<p>We are a proud and valued member of the Houston Area Safety Council.</p>
-					</div>
-				</div>
+		<div class="row m0 flex-tab">
+			<div class="col m6 s12 green-2-block center-align pt80">
+				<img style="max-width: 250px" src="<?php bloginfo('template_url'); ?>/img/hasc.png" alt="">
+				<p>We are a proud and valued member of the Houston Area Safety Council.</p>
 			</div>
 			<div class="col m6 s12 gray-block">
 				<div class="row">
-					<div class="col m8 s12">
+					<div class="col l8 m12 s12">
 						<p>Hunton Services Awarded El Dorado Nitrogen’s Principal Supplier Partnership Award</p>
 					</div>
-					<div class="col m4 s12 center">
+					<div class="col l4 m12 s12 center">
 						<p><img style="max-width: 185px" src="<?php bloginfo('template_url'); ?>/img/award.jpg" alt=""></p>
 					</div>
 					<p><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2018/02/El-Dorado-Nitrogen-L.P.-Press-Release-1.pdf" class="learn">Learn more</a></p>
@@ -64,7 +58,7 @@
 
 	<section id="services" class="content-section pb0">
 		<div class="row valign-wrapper mb0">
-			<div class="col s12 xl6 center hide-on-small-only">
+			<div class="col s12 xl6 center hide-on-med-and-down">
 				<img style="max-width: 470px" src="<?php bloginfo('template_url'); ?>/img/safety-img-3.svg">
 			</div>
 			<div class="col s12 xl6 pl75 ">
@@ -75,23 +69,13 @@ healthy work environment for all employees, visitors, subcontractors and any oth
 its activities.</p>
 					<p><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2018/02/Presidents-Safety.pdf" class="learn">Learn more</a></p>
 			</div>
-			<div class="col s12 xl6 center hide-on-med-and-up">
-				<img style="max-width: 470px" src="<?php bloginfo('template_url'); ?>/img/safety-img-3.svg">
-			</div>
 		</div>
 	</section>
 
-	<section class="three-img content-block hide-on-small-only">
-		<div class="row m0">
-			<div class="col m12">
-				<img src="<?php bloginfo('template_url'); ?>/img/threebox.png">
-			</div>
-		</div>
-	</section>
 
-	<section id="services" class="content-section pt0">
+	<section id="services" class="content-section">
 		<div class="row valign-wrapper mb0">
-			<div id="safety" class="col s12 xl6 pr100">
+			<div id="safety" class="col s12 ">
 				<h2 class="question">Living Safety Every Day<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/question-icon.svg"></div></h2>
 				<p>Safety is the essence of our culture. We work very hard to provide our people with a safe working
 				environment and to train them on safe work habits. Here are a few ways we ensure we live safety
@@ -117,24 +101,6 @@ its activities.</p>
 				principles and practices into a particular task or job operation. In a JSA, each basic step of
 				the job is to identify potential hazards and to recommend the safest way to do the job.</p>
 			</div>
-			<div class="col s12 xl6 center">
-				<div class="slider-block-1 main-slider ">
-					<div class="center item">
-						<img style="max-width: 646px" src="<?php bloginfo('template_url'); ?>/img/safety-img-7.svg" alt="">
-						<a href="#video-1" class="modal-trigger play-btn">
-							<img src="<?php bloginfo('template_url'); ?>/img/play.svg">
-							<img class="rotate" src="<?php bloginfo('template_url'); ?>/img/dottedcircle.svg">
-						</a>
-					</div>
-					<div class="center item">
-						<img style="max-width: 646px" src="<?php bloginfo('template_url'); ?>/img/safety-img-7.svg" alt="">
-						<a href="#video-1" class="modal-trigger play-btn">
-							<img src="<?php bloginfo('template_url'); ?>/img/play.svg">
-							<img class="rotate" src="<?php bloginfo('template_url'); ?>/img/dottedcircle.svg">
-						</a>
-					</div>
-				</div>
-			</div>
 		</div>
 		<div id="video-1" class="modal">
 			<div class="modal-content">
@@ -143,9 +109,9 @@ its activities.</p>
 		</div>
 	</section>
 
-	<section id="services" class="content-section content-block">
+	<section id="services" class="content-section content-block mobile-pt0 mobile-pb0">
 		<div class="row valign-wrapper mb0">
-			<div class="col s12 xl6 center hide-on-small-only">
+			<div class="col s12 xl6 center hide-on-med-and-down">
 				<img style="max-width: 470px" src="<?php bloginfo('template_url'); ?>/img/tt.jpg">
 			</div>
 			<div class="col s12 xl6 pl75 ">
@@ -156,15 +122,13 @@ employees to stay on top of their skills, improve their knowledge of safety, and
 well done. Additionally, all field supervisors complete OSHA 10 certification and Supervisor Level LPS
 training. In the past few years alone, Hunton Group has invested over $200,000 in technician training.</p>
 			</div>
-			<div class="col s12 xl6 center hide-on-med-and-up">
-				<img style="max-width: 470px" src="<?php bloginfo('template_url'); ?>/img/tt.jpg">
-			</div>
+
 		</div>
 	</section>
 
 	<section id="articles" class="after-safety">
 		<div class="row flex">
-			<div class="col m6 s12 green-2-block p30">
+			<div class="col l6 m12 s12 green-2-block p30">
 				<img src="<?php bloginfo('template_url'); ?>/img/boots.png">
 				<h5>Foot Protection</h5>
 				<p>Hunton employees exposed to hazards requiring foot protection are required to wear protective solid
@@ -174,7 +138,7 @@ National Standards Institute (ANSI) or (ASTM) International standards for person
 protect against all known hazards.</p>
 				<a class="learn" href="<?php bloginfo('url'); ?>/wp-content/uploads/2018/02/foot-protection-PPE.pdf">READ MORE</a>
 			</div>
-			<div class="col m6 s12 gray-block p30">
+			<div class="col l6 m12 s12  gray-block p30">
 				<img src="<?php bloginfo('template_url'); ?>/img/driving.png">
 				<h5>Distracted Driving</h5>
 				<p><b>Effective 9/1/2017 Texas has a statewide ban on texting/emailing and driving.</b><br>

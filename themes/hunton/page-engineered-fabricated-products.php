@@ -22,11 +22,11 @@ and mitigating risk.</p>
 	<section id="articles" class="after-safety p0">
 		
 		<?php
-		$mypages = get_pages( array( 'child_of' => $post->ID ) );
+		$mypages = get_pages( array( 'child_of' => $post->ID, 'sort_column' => 'menu_order' ) );
 		$i = 0;
 
 		foreach( $mypages as $page ) {
-			if($i == 0) echo '<div class="row flex m0">'; ?>
+			if($i == 0) echo '<div class="row flex-tab m0">'; ?>
 
 			<div class="col m6 s12 gray-block p30 ">
 				<?php echo get_the_post_thumbnail($page->ID, 'full'); ?>

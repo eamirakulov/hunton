@@ -14,7 +14,9 @@
 				<p>Hunton Services Builds value</p>
 			</div>
 			<div class="block-840">
-				<p>Our turnkey installation team is ready to assist you 24/7, and regardless of market or application, we can
+				<p>Trane provides scalable cooling, heating, power and compressed air based on your need and required application—indoor or outdoor, short- or long-term, large project or small. 
+Our experienced team of Account Managers, Engineers, Service Technicians, and Logistics Professionals can rapidly transform the equipment you need into a smoothly functioning system that will exceed your expectations. See our line of products and descriptions below:  
+					Our turnkey installation team is ready to assist you 24/7, and regardless of market or application, we can
 					serve as your reliable rental partner. Let Trane help you plan ahead for your next shutdown or
 					turnaround. Unlike other HVAC rental companies, we can handle all of your needs under one umbrella-
 					we can fabricate, install, rent, service, and use a turnkey approach to ensure that your equipment up
@@ -46,42 +48,33 @@
 		<div class="rental-capabilities-block2 content-block">
 			<div class="center">
 				<h2 class="bottom-line">Rental Capabilities</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Trane provides scalable cooling, heating, power and compressed air based on your need and required application—indoor or outdoor, short- or long-term, large project or small.<br>
+
+Our experienced team of Account Managers, Engineers, Service Technicians, and Logistics Professionals can rapidly transform the equipment you need into a smoothly functioning system that will exceed your expectations. See our line of products and descriptions below:  </p>
 			</div>
 			<div class="coolers row flex">
 				<div class="item col l3">
 					<div class="inner">
 						<img src="<?php bloginfo('template_url'); ?>/img/cooler.png">
-						<h4>Power</h4>
-						<p>Diesel and Natural Gas Generator Rentals</p>
+						<h4>Cooling</h4>
 					</div>
 				</div>
 				<div class="item col l3">
 					<div class="inner">
 						<img src="<?php bloginfo('template_url'); ?>/img/cooler.png">
-						<h4>Cooling</h4>
-						<p>Diesel and Natural Gas Generator Rentals</p>
+						<h4>Power & More</h4>
 					</div>
 				</div>
 				<div class="item col l3">
 					<div class="inner">
 						<img src="<?php bloginfo('template_url'); ?>/img/cooler.png">
 						<h4>Heating</h4>
-						<p>Diesel and Natural Gas Generator Rentals</p>
 					</div>
 				</div>
 				<div class="item col l3">
 					<div class="inner">
 						<img src="<?php bloginfo('template_url'); ?>/img/cooler.png">
 						<h4>Dehumidification</h4>
-						<p>Diesel and Natural Gas Generator Rentals</p>
-					</div>
-				</div>
-				<div class="item col l3">
-					<div class="inner">
-						<img src="<?php bloginfo('template_url'); ?>/img/cooler.png">
-						<h4>Oil-Free Air</h4>
-						<p>Diesel and Natural Gas Generator Rentals</p>
 					</div>
 				</div>
 			</div>
@@ -92,43 +85,39 @@
 		<div class="rental-capabilities-block2 content-block">
 			<div class="center">
 				<h2 class="bottom-line">Rental Applications</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Need extra cooling needed during extreme weather conditions or a short-term replacement following an emergency?<br>  With a trusted brand and a trusted team, we have you covered. See samples of our unique rental applications below:</p>
 			</div>
 			<div class="applications">
 				<div class="row flex">
-					<div class="item col m6 l3">
+					<div class="item col s12 m6 l3">
 						<div class="inner">
-							<img src="<?php bloginfo('template_url'); ?>/img/ap-construction.png">
+							<img src="<?php bloginfo('template_url'); ?>/img/ra-commercial.jpg">
 							<div class="text">
-								<h4>Construction</h4>
-								<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam et suscipit laboriosam...</p>
+								<h4>Commercial</h4>
 							</div>
 						</div>
 					</div>
-					<div class="item col m6 l3">
+					<div class="item col s12 m6 l3">
 						<div class="inner">
-							<img src="<?php bloginfo('template_url'); ?>/img/ap-contracting.png">
+							<img src="<?php bloginfo('template_url'); ?>/img/ra-manufacturing.jpg">
 							<div class="text">
-								<h4>Contracting</h4>
-								<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam et suscipit laboriosam...</p>
+								<h4>Manufacturing</h4>
 							</div>
 						</div>
 					</div>
-					<div class="item col m6 l3">
+					<div class="item col s12 m6 l3">
 						<div class="inner">
-							<img src="<?php bloginfo('template_url'); ?>/img/ap-facilities.png">
+							<img src="<?php bloginfo('template_url'); ?>/img/ra-govern.jpg">
 							<div class="text">
-								<h4>Facilities managment</h4>
-								<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam et suscipit laboriosam...</p>
+								<h4>Governmental</h4>
 							</div>
 						</div>
 					</div>
-					<div class="item col m6 l3">
+					<div class="item col s12 m6 l3">
 						<div class="inner">
-							<img src="<?php bloginfo('template_url'); ?>/img/ap-food.png">
+							<img src="<?php bloginfo('template_url'); ?>/img/ra-industrial.jpg">
 							<div class="text">
-								<h4>Food and beverage</h4>
-								<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam et suscipit laboriosam...</p>
+								<h4>Industrial/Manufacturing</h4>
 							</div>
 						</div>
 					</div>
@@ -140,8 +129,8 @@
 	<div class="container">
 		<section class="contingency content-section" id="contingency">
 			<div class="row flex">
-				<div class="col s12 xl6 center-align"><img src="<?php echo bloginfo('template_url'); ?>/img/contingency2.jpg"></div>
-				<div class="col s12 xl6 more-margin">
+				<div class="col s12 xl6 contingency2"><div></div></div>
+				<div class="col s12 xl6 p130x40 pl75">
 					<h2>Contingency Planning<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/stat.svg"></h2>
 					<p><b>One Call + Plan = Minimum Interruption</b></p>
 					<p>The value of utilizing Trane Rental Services is that you only make one call. If an unplanned outage or a
@@ -161,8 +150,8 @@
 			<div class="row steps">
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step1.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step1.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 1- <span>Financial Risk Analysis</span></h4>
 							<p>The contingency process begins with
 a review of the different functional
@@ -178,8 +167,8 @@ the areas that need to be considered. </p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step2.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step2.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 2- <span>Risk Assessment </span></h4>
 							<p>We will identify the potential causes
 for an interruption and rank them
@@ -191,8 +180,8 @@ of occurrence and system downtime. </p>
 				<div class="clearfix"></div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step3.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step3.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 3- <span>Equipment Identification </span></h4>
 							<p>Your Trane account manager will
 work with you to document all
@@ -205,8 +194,8 @@ addressed prior to implementation of the plan.</p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step4.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step4.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 4- <span>Prioritization </span></h4>
 							<p>We will evaluate your most critical
 facility loads and process needs for
@@ -224,8 +213,8 @@ areas and completely shut down others. </p>
 				<div class="clearfix"></div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step5.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step5.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 5- <span>System Connection  </span></h4>
 							<p>How and where connections are
 made helps reduce time and money.
@@ -238,8 +227,8 @@ to keep additional costs to a minimum. </p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step6.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step6.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 6- <span>Power availability</span></h4>
 							<p>The need to document the available
 voltage(s) and amperage is vital
@@ -253,8 +242,8 @@ more power than your existing units. </p>
 				<div class="clearfix"></div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step7.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step7.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 7- <span> Electrical connection</span></h4>
 							<p>Whether existing electrical service
 is adequate or new electrical service
@@ -266,8 +255,8 @@ connection(s) and how they will be made.</p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step8.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step8.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 8- <span>Temporary
 equipment location</span></h4>
 							<p>Equipment location is important for
@@ -287,9 +276,9 @@ the impact on normal operations.</p>
 				<div class="clearfix"></div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step9.svg"></div>
-						<div class="col s8">
-							<h4>Step 8- <span>Plan creation</span></h4>
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step9.svg"></div>
+						<div class="col s12 m8">
+							<h4>Step 9- <span>Plan creation</span></h4>
 							<p>Your Trane account manager
 will provide your organization
 with a plan proposal. Included in
@@ -305,8 +294,8 @@ for internal and external resources.</p>
 				</div>
 				<div class="col m6 s12">
 					<div class="row">
-						<div class="col s4"><img src="<?php echo bloginfo('template_url'); ?>/img/step10.svg"></div>
-						<div class="col s8">
+						<div class="col offset-s3 s5 m4"><img src="<?php echo bloginfo('template_url'); ?>/img/step10.svg"></div>
+						<div class="col s12 m8">
 							<h4>Step 10- <span> Implement
 and review</span></h4>
 							<p>To help expedite the ordering
@@ -324,25 +313,25 @@ when any facility changes are made. </p>
 			</div>
 		</section>
 
-		<section class="emergency content-section">
-			<div class="row flex">
-				<div class="col s12 xl6 more-margin">
+		<section class="emergency content-section pt0 ">
+			<div class="row flex ">
+				<div class="col s12 xl6 p130x40 pr100">
 					<h2>Emergency Planning<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/stat.svg"></h2>
-					<p>When the unexpected happens, our extensive network of rental depots and service
-centers enable us to quickly provide generators and HVAC equipment on site to help you
-recover as soon as possible. Take advantageof the <a href="<?php bloginfo('url'); ?>/rentals/#contingency">contingency planning</a> services at your
-local office to be ready for anything.</p>
+						<p>When the unexpected happens, our extensive network of rental depots and service
+							centers enable us to quickly provide generators and HVAC equipment on site to help you
+							recover as soon as possible. Take advantageof the <a href="<?php bloginfo('url'); ?>/rentals/#contingency">contingency planning</a> services at your
+						local office to be ready for anything.</p>
 				</div>
-				<div class="col s12 xl6 center-align"><img src="<?php echo bloginfo('template_url'); ?>/img/emergencyplanning.png"></div>
+				<div class="col s12 xl6 center-align emergencyplanning"><div></div></div>
 			</div>
-			<div class="page-bg" style="background: url(<?php echo bloginfo('template_url'); ?>/img/cta.jpg) no-repeat top center; background-size: cover;">
+			<div class="page-bg mt50" style="background: url(<?php echo bloginfo('template_url'); ?>/img/rental-contact-us-banner.png) no-repeat top center; background-size: cover;">
 				<div class="text">
-					<h3>If you do not find the answer to your question, then contact us. <br> We will help you.</h3>
-					<a href="" class="btn-green btn-large">CONTACT US TODAY!</a>
+					<h3>To request a quote or ask a question regarding your upcoming rental needs, please contact us today.<br> We are here to help.</h3>
+					<a href="<?php bloginfo('url'); ?>/contact-us" class="btn-green btn-large">CONTACT US TODAY!</a>
 				</div>
 			</div>
 		</section>
-		<div class="row flex bottom-box">
+<!-- 		<div class="row flex bottom-box">
 			<div class="col s12 m6 gov">
 				<h4>Kilowatts to amps <br>calculator</h4>
 				<h5>Kilowatts (kW) to amps (A) calculator.</h5>
@@ -354,8 +343,8 @@ local office to be ready for anything.</p>
 					<p><a href="#">Read more</a></p>
 				</div>
 			</div>
-		</div>
-		<div class="row flex form-box">
+		</div> -->
+<!-- 		<div class="row flex form-box">
 			<div class="col s12 m6 calc">
 				<div class="row cats">
 					<div class="col m3 s12"><h6>Categories:</h6></div>
@@ -410,7 +399,7 @@ local office to be ready for anything.</p>
 			<div class="col s12 m6 girlmac">
 				<div class="inner"></div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 <script type="text/javascript">

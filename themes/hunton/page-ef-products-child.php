@@ -7,10 +7,10 @@
 		</div>
 	</div>
 
-	<section id="why" class="content-section scrollify">
+	<section id="why" class="content-section scrollify p40">
 		<div class="">
 			<div class="row">
-				<div class="col s12 xl6">
+				<div class="col s12 xl6 p80 pr100">
 					<h2><?php the_title(); ?><div class="num">01</div></h2>
 					
 					<?php if(have_posts()): the_post(); ?>
@@ -28,7 +28,7 @@
 					<div class="item-slider">
 						<?php 
 						foreach ($sliders as $key => $value) { 
-							$img = wp_get_attachment_image_src($value, '550x550');
+							$img = wp_get_attachment_image_src($value, '800x600');
 						?>
 							<div class="item">
 								<?php echo "<img src=".$img[0].">"; ?>
@@ -86,7 +86,11 @@
 	</section>
 
 </div>
-
+<style>
+	.slick-vertical .slick-slide{
+		border: 0px
+	}
+</style>
 <script type="text/javascript">
 	$(document).ready(function(){
 
@@ -100,6 +104,7 @@
 
 		$slickElement.slick({
 			arrows: true,
+			adaptiveHeight: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			vertical: true,
@@ -107,7 +112,17 @@
 			nextArrow: $('.arrow-right'),
 			prevArrow: $('.arrow-left')
 		});
-
+		// var maxHeight = -1;
+		// $('.slick-slide').each(function() {
+		//   if ($(this).height() > maxHeight) {
+		//     maxHeight = $(this).height();
+		//   }
+		// });
+		// $('.slick-slide').each(function() {
+		//   if ($(this).height() < maxHeight) {
+		//     $(this).css('margin', Math.ceil((maxHeight-$(this).height())/2) + 'px 0');
+		//   }
+		// });
 		$('.modal').modal({
 			ready: function(modal, trigger) {
 				var videoSrc = modal.find('iframe').attr("src");

@@ -56,7 +56,7 @@
 	<div class="container bg-gray">
 		<div class="content-block ">
 			<h2 class="center bottom-line">Blog</h2>
-			<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="center after-title"></p>
 
 			<div class="slider-linear slider-block-2 posts-grid row">
 				<?php
@@ -102,7 +102,7 @@
 
 				<div class="slider-linear slider-block-3 posts-grid">
 					<?php
-					$args = array( 'posts_per_page' => 8, 'category' => 21);
+					$args = array( 'posts_per_page' => 8, 'category' => 21, 'order'  => 'ASC');
 					$myposts = get_posts( $args );
 					foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 
@@ -136,26 +136,32 @@
 					wp_reset_postdata();?>
 				</div>
 				<div class="center">
-					<a href="" class="btn-green btn-large">see all news</a>
+					<!--a href="" class="btn-green btn-large">see all news</a-->
 				</div>
 		</div>
 	</div>
 
 	<div class="container">
-		<div class="content-block">
-			<h2 class="center bottom-line">Get Social with Hunton Services</h2>
-			<p class="center after-title">At Hunton Services, we embrace new technology and feel that social media allows us to enhance external communication efforts and join in on the HVAC conversation happening in our community as well as nationally and globally. Tweet, Like, and Follow us today!</p>
+		<div class="content-block p0">
+			<div class="row">
+				<div class="col s12 xl6 pr100">
+					<h2 class="center bottom-line">Get Social with Hunton Services</h2>
+					<p class="center after-title">At Hunton Services, we embrace new technology and feel that social media allows us to enhance external communication efforts and join in on the HVAC conversation happening in our community as well as nationally and globally. Tweet, Like, and Follow us today!</p>
+				</div>
 
-			<div class="center social-media">
-				<a class="" target="_blank" href="https://twitter.com/HuntonServices">
-					<img src="<?php bloginfo('template_url'); ?>/img/romb-tw.svg" alt="">
-				</a>
-				<a class="" target="_blank" href="https://www.facebook.com/huntonservices/">
-					<img src="<?php bloginfo('template_url'); ?>/img/romb-fb.svg" alt="">
-				</a>
-				<a class="" target="_blank" href="https://www.linkedin.com/company/hunton-services/">
-					<img src="<?php bloginfo('template_url'); ?>/img/romb-in.svg" alt="">
-				</a>
+				<div class="col s12 xl6 p40 mobile-pt0">
+					<div class="center social-media">
+						<a class="" target="_blank" href="https://twitter.com/HuntonServices">
+							<img src="<?php bloginfo('template_url'); ?>/img/romb-tw.svg" alt="">
+						</a>
+						<a class="" target="_blank" href="https://www.facebook.com/huntonservices/">
+							<img src="<?php bloginfo('template_url'); ?>/img/romb-fb.svg" alt="">
+						</a>
+						<a class="" target="_blank" href="https://www.linkedin.com/company/hunton-services/">
+							<img src="<?php bloginfo('template_url'); ?>/img/romb-in.svg" alt="">
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -167,7 +173,7 @@
 
 			<ul class="collapsible posts-grid accordion" data-collapsible="accordion">
 				<?php
-				$args = array( 'posts_per_page' => 8, 'category' => 22);
+				$args = array( 'posts_per_page' => 8, 'category' => 22, 'order'  => 'ASC');
 				$myposts = get_posts( $args );
 				foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 

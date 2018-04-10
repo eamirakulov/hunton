@@ -9,7 +9,7 @@
 		</div>
 
 	    <div class="row content-grid">
-	      <div class="col s12 m8 l8">
+	      <div class="col s12 m12 l8">
 			<?php if(have_posts()): the_post(); ?>
 				<article class="page">
 					<div class="date"><?php echo get_the_date(); ?></div>
@@ -128,7 +128,7 @@
 			</div>
 	      </div>
 
-	      <div class="col s12 m4 l4 sidebar">
+	      <div class="col s12 m12 l4 sidebar single-post">
 	        <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 	          <ul id="sidebar">
 	            <?php dynamic_sidebar( 'sidebar-1' ); ?>

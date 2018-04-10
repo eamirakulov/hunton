@@ -10,19 +10,18 @@
 	</div>
 
 	<div class="container">
-		<section class="content-section">
+		<section class="content-section mobile-pt50">
 			<div class="row valign-wrapper">
 				<div class="col s12 xl6 pr100">
 					<h2 class="our-team">Hunton Group<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/our-team-icon.svg"></div></h2>
 					<p>
 					Hunton group is known for outstanding customer service, expertise and professionalism. We strive to provide solutions and excel in all what we do. We value training here at Hunton and offer the opportunity to attend factory training and in-house training programs. </p>
 
-<p>As a leader in industrial, light commercial and building automation, we offer competitive pay and seek to hire for longevity. Please see the below links for specific job descriptions and requirements and explore the many opportunities here at Hunton Group.</p>
+					<p>As a leader in industrial, light commercial and building automation, we offer competitive pay and seek to hire for longevity. Please see the below links for specific job descriptions and requirements and explore the many opportunities here at Hunton Group.</p>
 
-<p>Come find out why Hunton has been voted by our employees for Top Places to work for the fifth time and this year earning the top 5th spot for Houston in mis-size companies.</p>
-					<!--p><a href="#" class="btn-green">READ MORE</a></p-->
+					<p>Come find out why Hunton has been voted by our employees for Top Places to work for the fifth time and this year earning the top 5th spot for Houston in mid-size companies.</p>
 				</div>
-				<div class="col s12 xl6 right-align">
+				<div class="col s12 xl6 right-align hide-on-med-and-down">
 					<img src="<?php bloginfo('template_url'); ?>/img/careers.png">
 				</div>
 			</div>

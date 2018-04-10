@@ -2,7 +2,7 @@
                 <div class="thumb" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat top center; background-size: cover;"></div>
                 <div class="text">
                   <h3><a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                  <p><?php echo the_excerpt(); ?></p>
+                  <div class="p-excerpt"><?php echo the_excerpt(); ?></div>
 
                   <div class="meta">
                     <span class="cat">

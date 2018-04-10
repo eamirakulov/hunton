@@ -7,7 +7,7 @@
 		</div>
 	</div>
 
-	<div class="why-about-block content-block">
+	<div class="why-about-block content-block ">
 		<div class="center">
 			<h2 class="bottom-line">Reap the Benefits of a Proactive<br> Maintenance Strategy</h2>
 			<p>Hunton Services Builds Value</p>
@@ -31,9 +31,9 @@ to find our which <a href="<?php bloginfo('url'); ?>/mechanical-services#agreeme
 		</div>
 	</div>
 
-	<section class="content-section">
-		<div class="row flex">
-			<div class="col s12 xl6 p80 pr100">
+	<section class="content-section pb0 mobile-pt50">
+		<div class="row flex m0">
+			<div class="col s12 xl6 p80 pr100 tiny-text">
 				<h2 class="user">Scope of Services<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/user.svg"></div></h2>
 				<p>
 					<h4>Complete Energy Optimization</h4>
@@ -103,7 +103,7 @@ to find our which <a href="<?php bloginfo('url'); ?>/mechanical-services#agreeme
 			<div class="col s12 xl6 programmer-1">
 				<!-- <img src="<?php echo bloginfo('template_url'); ?>/img/programmer-1.svg"> -->
 			</div>
-			<div class="col s12 xl6 p80	pl75">
+			<div class="col s12 xl6 p130x40	pl75">
 				<h2 class="hands">Service Agreements<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/hands-icon.svg"></div></h2>
 				<p>A Hunton Services, multiple maintenance agreement offerings help ensure that the plan
 you choose will meet the inherent demands of your mission-critical and risk
@@ -124,9 +124,9 @@ Services today.</p>
 		</div>
 	</section>
 
-	<section class="content-section p80">
+	<section class="content-section big-text-block p130x40">
 		<div class="row flex">
-			<div class="col s12 xl6 p80	pr100">
+			<div class="col s12 xl12 ">
 				<h2 class="gear-1">Upgrades and Retrofitting<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/gears-1-icon.svg"></div></h2>
 				<p>Houston’s existing building market consists of many buildings which fail to meet best
 practice environmental and economical standards. This situation is a challenge for both
@@ -136,19 +136,78 @@ growing market.</p>
 existing buildings. Alongside enhanced long-term building sustainability, we use our
 local knowledge to assess and benchmark current systems and significantly improve
 your building&#39;s efficiency.</p>
+<div class="parbase richtextandimage richtext section">
+<div>
+ <p>HVAC chiller upgrades keep your Trane chiller system running at
+  maximum efficiency, minimize service calls, eliminate surprises, and
+  controls your total cost of operation. Trane HVAC chiller upgrades
+  help make your existing chiller better. Trane can replace worn parts,
+  adapt chillers to changing operating conditions, or enhance the
+  reliability of the chiller by installing the latest and most reliable
+  products offered.</p>
+ <p>
+  <a href="/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/adaptive-frequency-drive-upgrades.html">Adaptive
+    Frequency™ Drive Upgrades</a><br> Adaptive frequency drive (AFD)
+  improves CenTraVac chiller performance by providing safe, efficient
+  inlet guide vane and compressor motor speed control combinations. This
+  HVAC upgrade ensures the most efficient part load operation possible.
+  Also know as Variable Frequency Drives (VFD) or Variable Speed Drives (VSD).</p>
+ <p>
+  <a href="/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/rebuilt-ctv-motor-upgrades-and-replacements.html">Rebuilt
+    CTV Motor Upgrades and Replacements</a><br> Replace or Rebuild
+  your Trane CenTraVac<sup>®</sup> Chillers Motor using OEM rebuilt HVAC
+  motors from our industry leading remanufacturing facility in
+  Charlotte, NC. Using remanufactured motors is more environmentally
+  responsible than purchasing new. Multiple options allow you to reduce
+  downtime while upgrading your motor to current OEM standards.</p>
+ <p>
+  <a href="/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/earthwise_-refrigerant-purge-upgrades.html">EarthWise™
+    Refrigerant Purge Upgrades</a><br> One of the other HVAC upgrades
+  Trane offers is the EarthWise Purge, which is designed to remove air
+  and moisture from low-pressure chillers while minimizing refrigerant
+  emissions. The patented Earthwise Purge is the most environmentally
+  responsible, lowest maintenance purge available today.</p>
+ <p>
+  <a href="/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/ctv-chiller-starter-replacements-and-upgrades.html">CTV
+    Chiller Starter Replacements and Upgrades</a><br> Replacement and
+  Upgrade CTV chiller Motor Starters designed and tested to integrate
+  with Trane Chiller System controls are available for voltages from 200
+  to 13,800 Volt. Across the line, Wye Delta (Star Delta),
+  AutoTransformer, Primary Reactor, and Solid State Starter types are
+  all available. These starters are integrated into the HVAC chiller
+  controls for optimum performance.</p>
+ <p>
+  <a href="/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/tracer-adaptiview-control-upgrades-for-ctv-chillers.html">Tracer
+    AdaptiView</a><a href="/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/adaptive-frequency-drive-upgrades.html">™</a>
+  Control Upgrades for CTV Chillers<br> Upgrade your Trane CTV Chiller
+  Unit controls to Tracer AdaptiView™, the latest in HVAC chiller
+  control technology. The Tracer AdaptiView Controller optimizes chiller
+  performance by allowing the chiller to adapt to rapidly changing load
+  conditions. This user interface features multiple BAS interfaces, a
+  color touch screen display, and modular sensor technology.</p>
+ <p>
+  <a href="/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/engineered-conversion-refrigerant-upgrades-for-centravac--chille.html">Engineered
+    Conversion Refrigerant Upgrades for CenTraVac<sup>®</sup>
+  Chillers</a><br> Trane’s Engineered Conversion service is another of
+  the HVAC upgrades Trane offers chiller customers. This HCFC
+  Refrigerant conversion enables Trane to re-engineer your chiller to
+  optimize it for your specific operating conditions while changing to
+  more cost effective, environmentally responsible refrigerant such as
+  R-123 and R-134a.</p>
+</div></div>
 			</div>
-			<div class="col s12 xl6 gears-1">
+<!-- 			<div class="col s12 xl6 gears-1">
 				<a href="<?php bloginfo('url'); ?>/mechanical-services/rnewal-services/"></a>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
-	<section class="content-section p0">
+	<section class="content-section p0 ">
 		<div class="row flex">
 			<div class="col s12 xl6 gears-2">
 				<!-- <img src="<?php echo bloginfo('template_url'); ?>/img/programmer-1.svg"> -->
 			</div>
-			<div class="col s12 xl6 p80	pl75">
+			<div class="col s12 xl6 p130x40	pl75">
 				<h2 class="gear-1">Mechanical Repairs<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/gears-2-icon.svg"></div></h2>
 				<p>Mechanical Service Repairs Planned Maintenance Maximizes Return and
 Minimizes Risk</p>
@@ -173,7 +232,7 @@ agreements. These options ensure you select a plan which meets the inherent dema
 critical and risk management objectives.</p>
 
 			<div class="row">
-				<div class="col m4 s12 ">
+				<div class="col l4 m8 offset-m2 s12 ">
 					<div class="card">
 						<div class="card-head">
 							<h5>Smart Services &amp; Remote
@@ -181,7 +240,7 @@ Monitoring</h5>
 						</div>
 						<div class="card-content">
 							<div class="center">
-								<h2><span class="dollar">$</span>565</h2>
+								<img src="<?php bloginfo('template_url'); ?>/img/sr.svg">
 							</div>
 							<ul>
 								<li><span>-Alarm Notification</span></li>
@@ -199,14 +258,14 @@ Monitoring</h5>
 						</div>
 					</div>
 				</div>
-				<div class="col m4 s12 ">
+				<div class="col l4 m8 offset-m2 s12 ">
 					<div class="card">
 						<div class="card-head">
 							<h5>Preventative <br>Maintenance</h5>
 						</div>
 						<div class="card-content">
 							<div class="center">
-								<h2><span class="dollar">$</span>565</h2>
+								<img src="<?php bloginfo('template_url'); ?>/img/pm.svg">
 							</div>
 							<ul>
 								<li><span>-Reduction in Downtime</span></li>
@@ -222,14 +281,14 @@ Monitoring</h5>
 						</div>
 					</div>
 				</div>
-				<div class="col m4 s12 ">
+				<div class="col l4 m8 offset-m2 s12 ">
 					<div class="card">
 						<div class="card-head">
 							<h5>Full <br>Maintenance</h5>
 						</div>
 						<div class="card-content">
 							<div class="center">
-								<h2><span class="dollar">$</span>565</h2>
+								<img src="<?php bloginfo('template_url'); ?>/img/fm.svg">
 							</div>
 							<ul>
 								<li><span>-Priority Services</span></li>
@@ -251,30 +310,38 @@ Labor &amp; Equipment Costs</span></li>
 	</div>
 
 	<div class="container">
-		<div class="content-block block">
+		<div class="content-block block pb0">
 			<h2 class="center bottom-line">Trane Factory OEM Solutions </h2>
-			<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="center after-title">As Houston’s only Trane OEM, Hunton Services can offer factory exclusive benefits to our customers.</p>
 
 			<div class="row solutions-list">
-				<div class="col m6 s12">
-					<div class="item">
-						<h2 >R'Newal Services</h2>
-					</div>
+				<div class="col m6 s12 rnewals">
+					<a href="http://www.trane.com/commercial/north-america/us/en/services/upgrade-improve/r_newal_-programs.html">
+						<div class="item">
+							<h2 >R'Newal Services</h2>
+						</div>
+					</a>
 				</div>
-				<div class="col m6 s12">
-					<div class="item">
-						<h2 >Adaptiview </h2>
-					</div>
+				<div class="col m6 s12 adaptview">
+					<a href="http://www.trane.com/commercial/north-america/us/en/services/upgrade-improve/chiller-upgrades/tracer-adaptiview-control-upgrades-for-ctv-chillers.html">
+						<div class="item">
+							<h2 >Adaptiview </h2>
+						</div>
+					</a>
 				</div>
-				<div class="col m6 s12">
-					<div class="item">
-						<h2 >Trane Literature</h2>
-					</div>
+				<div class="col m6 s12 tranelit">
+					<a href="http://www.trane.com/commercial/north-america/us/en/products-systems/literature.html">
+						<div class="item">
+							<h2 >Trane Literature</h2>
+						</div>
+					</a>
 				</div>
-				<div class="col m6 s12">
-					<div class="item">
-						<h2>Warranty Information</h2>
-					</div>
+				<div class="col m6 s12 warranty">
+					<a href="http://www.trane.com/commercial/north-america/us/en/services/elite-start-services/extended-factory-warranties.html">
+						<div class="item">
+							<h2>Warranty Information</h2>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>

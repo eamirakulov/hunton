@@ -1,5 +1,27 @@
 <?php get_header(); ?>
-	<section class="intro">
+
+	<section class="intro-video ">
+		<div class="item-content">
+			<h1>High Performance Buildings for Life</h1>
+			<a href="#video-1" class="modal-trigger play-btn" tabindex="0">
+				<img src="http://design-austin.com/hunton/wp-content/themes/hunton/img/play.svg">
+				<img class="rotate" src="http://design-austin.com/hunton/wp-content/themes/hunton/img/dottedcircle.svg">
+			</a>
+			<p></p><p>Delivering energy efficient HVAC systems and top-notch mechanical services.</p>
+			<p></p>
+		</div>
+		<video loop muted autoplay id="myVideo" >			
+			<source src="<?php bloginfo('template_url'); ?>/files/TraneBeyond.mp4" type="video/mp4">
+		</video>
+	</section>
+
+	<div id="video-1" class="modal">
+		<div class="modal-content">
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/UGfp338GyRc?feature=oembed&controls=0&hd=1&autohide=1&rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+		</div>
+	</div>
+
+	<section class="intro pt80a">
 		<a href="#why" class="smooth scroll"><img src="<?php bloginfo('template_url'); ?>/img/scroll.png"></a>
     <?php
         $args = array(
@@ -89,6 +111,14 @@
 						<a href="<?php bloginfo('url'); ?>/why-hunton#training" class="training"></a>
 						<a href="<?php bloginfo('url'); ?>/why-hunton#case_studies" class="case"></a>
 						<a href="<?php bloginfo('url'); ?>/safety" class="safety"></a>
+
+            <!-- preload hover images -->
+            <img width="0" height="0" src="<?php bloginfo('template_url'); ?>/img/casestudies-hover.svg" alt="">
+            <img width="0" height="0" src="<?php bloginfo('template_url'); ?>/img/safety-hover.svg" alt="">
+            <img width="0" height="0" src="<?php bloginfo('template_url'); ?>/img/training-hover.svg" alt="">
+            <img width="0" height="0" src="<?php bloginfo('template_url'); ?>/img/testimonials-hover.svg" alt="">
+            <img width="0" height="0" src="<?php bloginfo('template_url'); ?>/img/partners-hover.svg" alt="">
+            <img width="0" height="0" src="<?php bloginfo('template_url'); ?>/img/ourteam-hover.svg" alt="">
 					</div>
 				</div>
 			</div>
@@ -100,11 +130,10 @@
 			<div class="row valign-wrapper">
 				<div class="col s12 xl6">
 					<h2>Our Services<div class="num">02</div></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					<p><a href="<?php bloginfo('url'); ?>/markets-served" class="btn-green">CONTACT US TODAY!</a></p>
+					<p><a href="mailto:marketing@huntongroup.com" class="btn-green">CONTACT US TODAY!</a></p>
 				</div>
         <div class="col s12 xl6 right-align">
-					<img src="<?php bloginfo('template_url'); ?>/img/services.jpg">
+					<img src="<?php bloginfo('template_url'); ?>/img/services-2.jpg">
 				</div>
 			</div>
 		</div>
@@ -132,7 +161,7 @@
 					<p><a href="<?php bloginfo('url'); ?>/safety" class="learn">Learn more</a></p>
 				</div>
         <div class="col s12 xl6 right-align">
-					<img src="<?php bloginfo('template_url'); ?>/img/safety.jpg">
+					<img src="<?php bloginfo('template_url'); ?>/img/safety-2.jpg">
 				</div>
 			</div>
 		</div>
@@ -146,16 +175,15 @@
 					<p>Want to keep up with all of the latest Hunton Happenings? Be sure to follow us on social media and sign up for our informative quarterly newsletter. Engage with us, and discover HVAC tips and tools, new equipment offerings, and industry news.</p>
 					<p><a href="<?php bloginfo('url'); ?>/whats-happening" class="learn">Learn more</a></p>
 				</div>
-				<div class="col s12 xl6">
-					<div class="row">
-					    <div class="col s12">
+				<div class="col s12 xl5 offset-xl1">
+
 							<div class="tabs-box">
 								<ul class="tabs">
 									<li class="tab col s3"><a class="active" href="#news">news</a></li>
-									<li class="tab col s3"><a href="#archive">archive</a></li>
+<!-- 									<li class="tab col s3"><a href="#archive">archive</a></li>
 									<li class="tab col s3"><a href="#blog">blog</a></li>
 									<li class="tab col s3"><a href="#smedia">SOCIAL  MEDIA</a></li>
-									<li class="tab col s3"><a href="#ec">EVENT CALENDAR</a></li>
+									<li class="tab col s3"><a href="#ec">EVENT CALENDAR</a></li> -->
 								</ul>
 							    <div id="news" class="tab-content">
 							    	<div class="scroll-nav">
@@ -207,13 +235,12 @@
                       <?php endif; ?>
 									</div>
 							    </div>
-							    <div id="archive" class="col s12">Test 2</div>
+<!-- 							    <div id="archive" class="col s12">Test 2</div>
 							    <div id="blog" class="col s12">Test 3</div>
 							    <div id="smedia" class="col s12">Test 4</div>
-							    <div id="ec" class="col s12">Test 4</div>
+							    <div id="ec" class="col s12">Test 4</div> -->
 						    </div>
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -238,64 +265,23 @@
 				<div class="col s12 xl6">
 					<div class="faq-box" id="f1">
             <h3>How do I request a quote?</h3>
-            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorem ipsum dolor.</p>
-
-            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci et dolore magna aliqua lorem ipsum dolor.</p>
-
-            <p>Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto
-            Totam rem aperiam, eaque ipsa voluptatem sequi nesciunt
-            Tincidunt elit magnis nulla facilisis et dolore
-            Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto</p>
+            <p>Submitting a quote request is easy. You can call our main office number at 713-643- 8336 and our receptionist can place you in touch with a solution sales representative, or you can email marketing@huntongroup.com, and our team will forward your request to the appropriate person. Our website “Contact Us” form-fill can also be used to submit quote requests.</p>
           </div>
           <div class="faq-box" id="f2">
-            <h3>How do I request a quote?</h3>
-
-            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci et dolore magna aliqua lorem ipsum dolor.</p>
-
-            <p>Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto
-            Totam rem aperiam, eaque ipsa voluptatem sequi nesciunt
-            Tincidunt elit magnis nulla facilisis et dolore
-            Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto</p>
+            <h3>How do I schedule a service call?</h3>
+            <p>Submitting a quote request is easy. You can call our main office number at 713-643- 8336 and our receptionist can place you in touch with a solution sales representative, or you can email marketing@huntongroup.com, and our team will forward your request to the appropriate person. Our website “Contact Us” form-fill can also be used to submit quote requests.</p>
           </div>
           <div class="faq-box" id="f3">
-            <h3>How do I request a quote?</h3>
-
-            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci et dolore magna aliqua lorem ipsum dolor.</p>
-
-            <p>Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto
-            Totam rem aperiam, eaque ipsa voluptatem sequi nesciunt
-            Tincidunt elit magnis nulla facilisis et dolore
-            Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto</p>
+            <h3>I have a question about my invoice, who do I contact?</h3>
+            <p>Submitting a quote request is easy. You can call our main office number at 713-643- 8336 and our receptionist can place you in touch with a solution sales representative, or you can email marketing@huntongroup.com, and our team will forward your request to the appropriate person. Our website “Contact Us” form-fill can also be used to submit quote requests.</p>
           </div>
           <div class="faq-box" id="f4">
-            <h3>How do I request a quote?</h3>
-
-            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci et dolore magna aliqua lorem ipsum dolor.</p>
-
-            <p>Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto
-            Totam rem aperiam, eaque ipsa voluptatem sequi nesciunt
-            Tincidunt elit magnis nulla facilisis et dolore
-            Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto</p>
+            <h3>What is Hunton’s service territory?</h3>
+            <p>Submitting a quote request is easy. You can call our main office number at 713-643- 8336 and our receptionist can place you in touch with a solution sales representative, or you can email marketing@huntongroup.com, and our team will forward your request to the appropriate person. Our website “Contact Us” form-fill can also be used to submit quote requests.</p>
           </div>
           <div class="faq-box" id="f5">
-            <h3>How do I request a quote?</h3>
-
-            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci et dolore magna aliqua lorem ipsum dolor.</p>
-
-            <p>Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto
-            Totam rem aperiam, eaque ipsa voluptatem sequi nesciunt
-            Tincidunt elit magnis nulla facilisis et dolore
-            Sed ut perspiciatis unde omnis iste natus error
-            Veritatis et quasi architecto</p>
+            <h3>What is the latest version/replacement of summit?</h3>
+            <p>Submitting a quote request is easy. You can call our main office number at 713-643- 8336 and our receptionist can place you in touch with a solution sales representative, or you can email marketing@huntongroup.com, and our team will forward your request to the appropriate person. Our website “Contact Us” form-fill can also be used to submit quote requests.</p>
           </div>
 				</div>
 			</div>
@@ -308,11 +294,11 @@
       <div class="row valign-wrapper">
         <div class="col s12 xl6">
           <h2>Careers<div class="num">06</div></h2>
-          <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><a href="<?php bloginfo('url'); ?>/careers" class="btn-green">JOB OPENINGS</a></p>
+          <p>Want to work at a company that has been one of the Top Places to Work in Houston for 6 years?</p>
+          <p><a href="https://huntongroup.applicantpro.com/jobs/" class="btn-green">JOB OPENINGS</a></p>
         </div>
-        <div class="col s12 xl6 right-align">
-          <img src="<?php bloginfo('template_url'); ?>/img/careers.jpg">
+        <div class="col s12 xl6 center-align">
+          <img width="170" src="<?php bloginfo('template_url'); ?>/img/careersl.png">
         </div>
       </div>
     </div>
@@ -330,7 +316,7 @@
           <p class="phone">713 643-8336</p>
           <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.242371490553!2d-95.31578168489332!3d29.68375198201488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640be01c60b10af%3A0x3e52beab27e15af0!2sHunton+Services!5e0!3m2!1sru!2skg!4v1512938695670" width="380" height="240" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 
-          <p><a class="family" href="#">Click here to see Hunton Family of Companies</a></p>
+          <p><a class="family" href="http://www.huntongroup.com/about-us/contact-us">Click here to see Hunton Family of Companies</a></p>
         </div>
         <div class="col s12 xl6 contact-form">
           <h3>How can we help?</h3>
@@ -342,45 +328,50 @@
   </section>
 	  <script type="text/javascript">
 	    $(document).ready(function(){
-        $('.modal').modal({
-          ready: function(modal, trigger) {
-            var videoSrc = modal.find('iframe').attr("src");
-            modal.find('iframe').attr("src", videoSrc+"&amp;autoplay=1");
-          },
-          complete: function() {
-            $('iframe').attr('src', $('iframe').attr('src').replace("&amp;autoplay=1", ""));
-          }
-        });
 
-	      $('.main-slider').slick({
-	        arrows: false,
-	        dots: true,
-          autoplay: true,
-          autoplaySpeed: 5000
-	      });
+	    	if($('.intro-video').length){
+	    		var padd = $('footer').outerHeight() + $('header').outerHeight();
+	    		$('.intro-video').css('height', '-='+$('footer').outerHeight());
+	    	}
 
-	      $('.main-slider').append($('.scroll'));
+	        $('.modal').modal({
+	          ready: function(modal, trigger) {
+	            var videoSrc = modal.find('iframe').attr("src");
+	            modal.find('iframe').attr("src", videoSrc+"&amp;autoplay=1");
+	          },
+	          complete: function() {
+	            $('iframe').attr('src', $('iframe').attr('src').replace("&amp;autoplay=1", ""));
+	          }
+	        });
 
-        var $status = $('.count');
-        var $slickElement = $('.item-slider');
+		      $('.main-slider').slick({
+		        arrows: false,
+		        dots: true,
+	          autoplay: true,
+	          autoplaySpeed: 5000
+		      });
 
-        $slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
-            var i = (currentSlide ? currentSlide : 0) + 1;
-            $status.html('<span class="current">' + i + '/</span>' + slick.slideCount);
-        });
+		      $('.main-slider').append($('.scroll'));
 
-        $slickElement.slick({
-          arrows: true,
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          vertical: true,
-          infinite: false,
-          nextArrow: $('.arrow-right'),
-          prevArrow: $('.arrow-left')
-        });
+	        var $status = $('.count');
+	        var $slickElement = $('.item-slider');
+
+	        $slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+	            var i = (currentSlide ? currentSlide : 0) + 2;
+	            $status.html('<span class="current">' + i + '/</span>' + slick.slideCount);
+	        });
+
+	        $slickElement.slick({
+	          arrows: true,
+	          slidesToShow: 2,
+	          slidesToScroll: 1,
+	          vertical: true,
+	          verticalSwiping: true,
+	          infinite: false,
+	          nextArrow: $('.arrow-right'),
+	          prevArrow: $('.arrow-left')
+	        });
 	    });
-
-
 	  </script>
 	<?php if(have_posts()): the_post(); ?>
 		<div>

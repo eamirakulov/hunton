@@ -7,9 +7,9 @@
 		</div>
 	</div>
 
-	<section class="content-section">
+	<section class="content-section p0im mbpt40">
 		<div class="row flex">
-			<div class="col s12 xl6">
+			<div class="col s12 xl6 p130x40">
 				<h2>Hunton Services is your partner in transforming a business system into a business advantage.<div class="num"><img src="<?php echo bloginfo('template_url'); ?>/img/user.svg"></div></h2>
 				<p>Hunton Services is one of Houston’s largest and most experienced fully integrated facilities solutions companies.
 We design, install, and service building systems to meet the needs of customers in all markets.</p>
@@ -59,7 +59,7 @@ We design, install, and service building systems to meet the needs of customers 
 			<div class="col s12 m6 health">
 				<div class="inner">
 					<h3>Health Care</h3>
-					<p><a href="<?php bloginfo('url'); ?>/health-care">Read more</a></p>
+					<p><a href="<?php bloginfo('url'); ?>/healthcare">Read more</a></p>
 				</div>
 			</div>
 		</div>
@@ -68,7 +68,7 @@ We design, install, and service building systems to meet the needs of customers 
 			<div class="hosp">
 				<div class="inner">
 					<h3>Hospitality</h3>
-					<p><a href="#">Read more</a></p>
+					<p><a href="<?php bloginfo('url'); ?>/hospitality/">Read more</a></p>
 				</div>
 			</div>
 		</div>

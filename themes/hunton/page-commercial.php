@@ -21,44 +21,59 @@
 			</div>
 		</div>
 
-		<div class="row flex">
-			<div class="col s12 xl6 more-padding">
-				<h2>Going Beyond Building Maintenance<div class="num">01</h2>
-				<p>At Hunton Services, we speak the language of buildings. It is our mission to customize solutions that deliver the
-lowest total life-cycle cost of ownership for the operation, ownership, and maintenance of your facility’s
-mechanical systems. Our services encompass the entire life cycle of your building. We take into consideration
-the people inside the buildings, the way the buildings are used- the needs most important to those who make
-the space productive. Our approach is methodical and data-based to save both energy and costs, and we value
-each relationship we build as we work with our team of <a target="_blank" href="https://portal.aeecenter.org/i4a/pages/index.cfm?pageID=3351">Certified Energy Managers</a>, solutions experts, and
-<a href="https://www.nspe.org/resources/licensure/what-pe" target="_blank">Professional Engineers</a> to unlock the true potential of each facility. We want to look beyond the building, and
-we hope you will welcome our partnership as we aim to ensure our results truly support our messaging: “High
-Performance Buildings for Life.”</p>
+		<div class="row flex m0">
+			<div class="col s12 xl6 p130x40 pr100 mobile-pt50">
+				<h2>Going Beyond Building Maintenance</h2>
+					<p>At Hunton Services, we speak the language of buildings. It is our mission to customize solutions that deliver the
+						lowest total life-cycle cost of ownership for the operation, ownership, and maintenance of your facility’s
+						mechanical systems. Our services encompass the entire life cycle of your building. We take into consideration
+						the people inside the buildings, the way the buildings are used- the needs most important to those who make
+						the space productive. Our approach is methodical and data-based to save both energy and costs, and we value
+						each relationship we build as we work with our team of <a target="_blank" href="https://portal.aeecenter.org/i4a/pages/index.cfm?pageID=3351">Certified Energy Managers</a>, solutions experts, and
+						<a href="https://www.nspe.org/resources/licensure/what-pe" target="_blank">Professional Engineers</a> to unlock the true potential of each facility. We want to look beyond the building, and
+						we hope you will welcome our partnership as we aim to ensure our results truly support our messaging: “High
+					Performance Buildings for Life.”</p>
 			</div>
 			<div class="col s12 xl6 building"><div></div></div>
 		</div>
 
 		<div class="row flex">
-			<div class="col s12 xl6 woman"><div></div></div>
-			<div class="col s12 xl6 more-padding services">
-				<h2 class="smaller">Hunton Services offers commercial facilities services, including:<div class="num">02</h2>
+			<div class="col s12 xl8 offset-xl2 center-align pt80 pl75">
+				<h2 class="smaller no-before">Hunton Services offers commercial facilities services, including:</h2>
 				<p>
-					<ul class="custom-ul">
-						<li><a href="<?php bloginfo('url'); ?>/mechanical-services">Mechanical Services</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/energy-services">Energy Services</a></li> 
-						<li><a href="<?php bloginfo('url'); ?>/industrial-services">Building Automation Services</a></li> 
-						<li><a href="<?php bloginfo('url'); ?>/indoor-environmental-solutions">Indoor Environmental Solutions</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/rentals">Rental Services</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/engineered-fabricated-products">Engineered &amp; Fabricated Products</a></li>
+					<ul class="custom-ul ">
+						<li><a href="<?php bloginfo('url'); ?>/mechanical-services">Mechanical Services</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/energy-services">Energy Services</a></li> <br>
+						<li><a href="<?php bloginfo('url'); ?>/industrial-services">Building Automation Services</a></li> <br>
+						<li><a href="<?php bloginfo('url'); ?>/indoor-environmental-solutions">Indoor Environmental Solutions</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/rentals">Rental Services</a></li><br>
+						<li><a href="<?php bloginfo('url'); ?>/engineered-fabricated-products">Engineered &amp; Fabricated Products</a></li><br>
 					</ul>
 				</p>
 			</div>
 		</div>
 
-		<p class="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/UGfp338GyRc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+		<section class="content-block block main-slider">
+			<div class="page-bg item" style="background: url(<?php bloginfo('template_url'); ?>/img/energy-services-8.png) no-repeat top center; background-size: cover;">
+				<div class="text ">
+					<h3>High Performance Buildings for Life</h3>
+					<a href="#video-1" class="modal-trigger play-btn">
+						<img src="<?php bloginfo('template_url'); ?>/img/play.svg">
+						<img class="rotate" src="<?php bloginfo('template_url'); ?>/img/dottedcircle.svg">
+					</a>
+				</div>
+
+				<div id="video-1" class="modal">
+					<div class="modal-content">
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/UGfp338GyRc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen frameborder="0"></iframe>                  
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<div class="row building-carousel">
 			<h2 class="center bottom-line">Commercial Properties</h2>
-			<p class="center after-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="center after-title">&nbsp;</p>
 
 			<div id="building-slider">
 				<div class="item col s4">
@@ -159,6 +174,20 @@ Performance Buildings for Life.”</p>
 		</div>
 	</section>
 </div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.modal').modal({
+			ready: function(modal, trigger) {
+				var videoSrc = modal.find('iframe').attr("src");
+				modal.find('iframe').attr("src", videoSrc+"&amp;autoplay=1");
+			},
+			complete: function() {
+				$('iframe').attr('src', $('iframe').attr('src').replace("&amp;autoplay=1", ""));
+			}
+		});
+	});
+</script>
 
 <script type="text/javascript">
 	$('.slider-block-2').slick({

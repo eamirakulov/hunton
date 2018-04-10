@@ -8,12 +8,12 @@
       .cls-2 {
         fill: #313233;
         font-size: 11px;
-        font-family: OpenSans-Bold, Open Sans;
+        font-family: GothamPro-Bold, Gotham Pro;
         font-weight: 700;
       }
 
       .cls-3 {
-        fill: #228cef;
+        fill: url(#linear-gradient);
       }
 
       .cls-4 {
@@ -27,12 +27,16 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b782"/>
+      <stop offset="1" stop-color="#00afb7"/>
+    </linearGradient>
   </defs>
   <g id="_1" data-name="1" transform="translate(-594 -1978)">
     <g class="cls-4" transform="matrix(1, 0, 0, 1, 594, 1978)">
       <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(247.89 -983.76) rotate(-45)"/>
     </g>
-    <text id="SAFETY" class="cls-2" transform="translate(920 1015)"><tspan x="-19.54" y="0">SAFETY</tspan></text>
+    <text id="SAFETY" class="cls-2" transform="translate(920 1015)"><tspan x="-22.577" y="0">SAFETY</tspan></text>
     <g id="Group_141" data-name="Group 141" transform="translate(904 953)">
       <g id="Group_138" data-name="Group 138">
         <g id="Group_137" data-name="Group 137">

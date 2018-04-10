@@ -85,7 +85,10 @@ function the_slug()
 {
 	global $post;
 	$post_data = get_post($post->ID, ARRAY_A);
-	$slug = $post_data['post_name'].'_page';
+	$slug = $post_data['post_name'].'_page ID_'.$post->ID;
+	if(!is_front_page() && is_home()){
+		$slug .= ' blog_page';
+	}
 	return $slug;
 }
 
@@ -191,6 +194,8 @@ register_taxonomy_for_object_type( 'faq_categories', 'faq' );
 
 
 add_image_size( '550x550', 550, 550, array( 'center', 'center' ));
+add_image_size( '800x600', 800, 600, true);
+
 add_post_type_support( 'page', 'excerpt' );
 
 /**

@@ -22,42 +22,37 @@
 		</div>
 
 		<div class="row flex">
-			<div class="col s12 xl6 more-padding">
-				<h2>Keeping Institutions Effective<div class="num">01</h2>
-					<p>Local governments are forced to address economic shortfalls by reducing staff and dramatically scaling
-back capital budgets. This reality creates a growing need for cost efficient, low maintenance building
-solutions and facility management options. Hunton Services’ portfolio of energy services and solutions helps
-Federal agencies comply with government requirements, meet strategic sustainability performance goals, and
-enhance energy efficiency and security.</p>
+			<div class="col s12 xl6 p80 pr100">
+				<h2 class="smaller no-before">Keeping Institutions Effective</h2>
+				<p>Local governments are forced to address economic shortfalls by reducing staff and dramatically scaling
+					back capital budgets. This reality creates a growing need for cost efficient, low maintenance building
+					solutions and facility management options. Hunton Services’ portfolio of energy services and solutions helps
+					Federal agencies comply with government requirements, meet strategic sustainability performance goals, and
+				enhance energy efficiency and security.</p>
 				<p>Hunton Services installs HVAC, lighting, plumbing and building automation systems, which reduce
-energy consumption in existing government buildings. We also offer 24/7 monitoring and maintenance
-to ensure systems continue to work at peak efficiency.</p>
-<p>Whether working as a contributing partner or directly, Hunton Services collaborates with local
-governments and municipalities to perform facility infrastructure improvements in the most cost
-effective and efficient manner possible.</p>
+					energy consumption in existing government buildings. We also offer 24/7 monitoring and maintenance
+				to ensure systems continue to work at peak efficiency.</p>
+				<p>Whether working as a contributing partner or directly, Hunton Services collaborates with local
+					governments and municipalities to perform facility infrastructure improvements in the most cost
+				effective and efficient manner possible.</p>
 			</div>
-			<div class="col s12 xl6 gov1"><div></div></div>
-		</div>
-
-		<div class="row flex">
-			<div class="col s12 xl6 gov2"><div></div></div>
-			<div class="col s12 xl6 more-padding services">
-				<h2 class="smaller">Hunton Services’ Featured Government and Municipal Services:<div class="num">02</h2>
+			<div class="col s12 xl6 p80 pl75">
+				<h2 class="smaller no-before">Hunton Services’ Featured Government and Municipal Services:</h2>
 				<p>
 					<ul class="custom-ul">
 						<li><a href="<?php bloginfo('url'); ?>/mechanical-services">Mechanical Services</a>
-						<li><a href="<?php bloginfo('url'); ?>/industrial-services">Building Automation Services</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/energy-services">Energy Services</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/">Trane Factory OEM Solutions</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/">U.S. Communities Purchasing</a></li>
-					</ul>
-				</p>
+							<li><a href="<?php bloginfo('url'); ?>/industrial-services">Building Automation Services</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/energy-services">Energy Services</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/">Trane Factory OEM Solutions</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/">U.S. Communities Purchasing</a></li>
+						</ul>
+					</p>
 			</div>
 		</div>
 
 
 		<div class="row building-carousel">
-			<h2 class="center bottom-line">Featured Buildings:</h2>
+			<h2 class="center bottom-line mb40">Featured Buildings:</h2>
 
 			<div id="building-slider">
 				<div class="item col s4">

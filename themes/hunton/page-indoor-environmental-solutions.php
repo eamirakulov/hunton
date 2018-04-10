@@ -10,7 +10,7 @@
 
 	<section class="content-block" id="ies-bg">
 		<div class="block-840">
-			<h2 class="bottom-line center">Breathe Easier with Hunton Services – The IES Experts for Hot &amp; Humid Climates</h2>
+			<h2 class="bottom-line center">Breathe Easier with Hunton Services – The IES Experts for Hot &amp; Humid <br> Climates</h2>
 			<p>At Hunton Services, we help clients breathe easier knowing that the air quality in their facilities is clean
 			and free of contaminants. As Houston’s Indoor Environmental Solutions expert, we offer solutions for
 			mechanical air systems that incorporate uniquely engineered products developed specifically for the
@@ -22,8 +22,7 @@
 			solution for a specific building.</p>
 			<p>Acceptable indoor air quality (IAQ) is typically not achieved by addressing any one specific building
 			product, system, or procedure. Rather, it is the result of careful attention to each of the following
-			Fundamental Elements of Indoor Air Quality: (These can be the titles for four images that link to next
-			pages:</p>
+			Fundamental Elements of Indoor Air Quality:</p>
 			<p>
 			• Source/Containment Control: Planned VS. Unplanned Airflows<br>
 			• Ventilation Control: CO2 VS. VOC’s<br>
@@ -34,13 +33,13 @@
 
 	<section class="ies-list">
 		<?php
-		$mypages = get_pages( array( 'child_of' => $post->ID ) );
+		$mypages = get_pages( array( 'child_of' => $post->ID, 'sort_column' => 'post_date') );
 		$i = 0;
 
 		foreach( $mypages as $page ) {
 			if($i == 0) echo '<div class="row flex m0">'; ?>
 
-			<div class="col m6 s12 p30 " style="background: url(<?php echo get_the_post_thumbnail_url($page->ID, 'full') ?>);">
+			<div class="col m6 s12 p30 col<?php echo $page->ID; ?>" style="background: url(<?php echo get_the_post_thumbnail_url($page->ID, 'full') ?>);">
 				<h2><?php echo $page->post_title; ?></h2>
 				<a class="learn" href="<?php echo get_the_permalink($page->ID); ?>">READ MORE</a>
 			</div>

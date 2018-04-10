@@ -62,36 +62,53 @@
 			<li><a class="smooth" href="<?php bloginfo('url'); ?>#whats">WHAT'S HAPPENING</a></li>
 			<li><a href="<?php bloginfo('url'); ?>/rentals">RENTALS</a></li>
 			<li><a class="smooth" href="<?php bloginfo('url'); ?>#faq">FAQ</a></li>
-			<li><a class="smooth" href="<?php bloginfo('url'); ?>#careers">CAREERS</a></li>
+			<!--li><a class="smooth" href="<?php bloginfo('url'); ?>#careers">CAREERS</a></li-->
 		</ul>
 		<header>
 			<div class="container">
 				<div class="row header">
 					<div class="col s12 m12 l2">
-						<a class="logo" href="<?php echo get_site_url()?>"><img alt="Logo" src="<?php bloginfo('template_url'); ?>/img/logo.svg" /></a>
+						<a class="logo" href="<?php echo get_site_url()?>"><img alt="Logo" src="<?php bloginfo('template_url'); ?>/img/logo-v2.png" /></a>
 					</div>
 					<div class="col s6 m12 l8">
 						<div class="main-menu">
 							<ul>
-								<li><a class="smooth" href="<?php bloginfo('url'); ?>#why">our story</a>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>/why-hunton">our story</a>
 									<ul>
-										<li><a href="#">Menu 1 Submenu item 1</a></li>
-										<li><a href="#">Menu 1 Submenu item 2</a></li>
-										<li><a href="#">Menu 1 Submenu item 3</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/our-history">Our History</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/our-team/">Our Team</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/why-hunton/#partners">Our Partners</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/safety/">Safety</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/why-hunton/#case_studies">Case Studies</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/why-hunton/#testimonials">Testimonials</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/why-hunton/#training">Training</a></li>
 									</ul>
 								</li>
-								<li><a class="smooth" href="<?php bloginfo('url'); ?>#services">our services</a></li>
-								<li><a class="smooth" href="<?php bloginfo('url'); ?>#safety">safety</a></li>
-								<li><a class="smooth" href="<?php bloginfo('url'); ?>#whats">WHAT'S HAPPENING</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>#services">our services</a>
+									<ul>
+										<li><a href="<?php bloginfo('url'); ?>/indoor-environmental-solutions/">Indoor Environmental Solutions</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/mechanical-services/">Mechanical Services</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/building-automation/">Building Automation Services</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/energy-services/">Energy Services</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/industrial-services/">Industrial Services</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/rentals/">Rental Services</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/markets-served/">Markets Served</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/engineered-fabricated-products/">Engineered & Fabricated Products</a></li>
+										<li><a href="<?php bloginfo('url'); ?>/emergency-services/">Emergency Services</a></li>
+										<li><a href="<?php bloginfo('url'); ?>#">Special Projects</a></li>
+									</ul>
+								</li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>/safety">safety</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>/whats-happening">WHAT'S HAPPENING</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/rentals">RENTALS</a></li>
-								<li><a class="smooth" href="<?php bloginfo('url'); ?>#faq">FAQ</a></li>
-								<li><a class="smooth" href="<?php bloginfo('url'); ?>#careers">CAREERS</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>/faqs">FAQ</a></li>
+								<li><a class="smooth" href="<?php bloginfo('url'); ?>/careers">CAREERS</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col s12 m12 l2 contact">
-						<a href="#"><img src="<?php bloginfo('template_url'); ?>/img/phone.svg"></a>
-						<a href="<?php bloginfo('url'); ?>#contact" class="btn-green">contact us</a>
+						<a href="tel:7136438336"><img src="<?php bloginfo('template_url'); ?>/img/phone.svg"></a>
+						<a href="<?php bloginfo('url'); ?>/contact-us/" class="btn-green">contact us</a>
 					</div>
 					<div class="toggle-mobile">
   						<a href="#" data-activates="slide-out" class="button-collapse"><span></span><span></span><span></span></a>
@@ -103,7 +120,7 @@
 		<div class="content">
 			<div class="social">
 				<img src="<?php bloginfo('template_url'); ?>/img/social.png">
-				<a href="#" class="fb"></a>
-				<a href="#" class="tw"></a>
-				<a href="#" class="ln"></a>
+				<a href="https://www.facebook.com/huntonservices/" class="fb"></a>
+				<a href="https://twitter.com/HuntonServices" class="tw"></a>
+				<a href="https://www.linkedin.com/company/hunton-services/" class="ln"></a>
 			</div>

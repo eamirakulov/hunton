@@ -28,6 +28,14 @@ $blue: #228CEF
 		margin: 0 0 25px 0
 		position: relative
 		line-height: 52px
+		
+		@media (max-width: 768px)
+			font-size: 38px
+
+		@media (max-width: 480px)
+			font-size: 28px
+			line-height: 36px
+
 		&.bottom-line
 			&:after
 				content: " "
@@ -68,7 +76,7 @@ $blue: #228CEF
 	// - - - - Whats happening page - - - - //	
 	.content-block
 		padding: 65px 0 80px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding: 40px 0 60px
 		&.block, .block
 			padding-left: 90px
@@ -76,7 +84,7 @@ $blue: #228CEF
 			@media (max-width: 1024px)
 				padding-left: 60px
 				padding-right: 60px			
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding-left: 5px
 				padding-right: 5px
 	
@@ -87,7 +95,7 @@ $blue: #228CEF
 		@media (max-width: 1024px)
 			padding-left: 50px
 			padding-right: 50px		
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-left: 0px
 			margin-right: 0px
 			padding-left: 28px
@@ -99,7 +107,7 @@ $blue: #228CEF
 		&.slider-block-1 .item
 			.thumb
 				height: 235px
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					height: 150px
 		&.slider-block-2 .item
 			.meta
@@ -127,7 +135,7 @@ $blue: #228CEF
 				&.text
 					padding: 25px 15px
 			.meta
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					display: none	
 				span
 					display: block
@@ -148,7 +156,7 @@ $blue: #228CEF
 		padding: 15px 50px
 	.bg-gray
 		background: #F7F7F7
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			width: 100%
 			padding-left: 5%
 			padding-right: 5%
@@ -168,12 +176,12 @@ $blue: #228CEF
 	.team-list
 		padding: 15px 0 10px
 		.team-item
-			width: 219px
+			width: 215px
 			display: inline-block
 			padding: 0px 30px
 			vertical-align: top
 			min-height: 235px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				width: 49%
 				padding: 0 10px
 				min-height: 250px
@@ -195,7 +203,7 @@ $blue: #228CEF
 		padding: 45px 30px 50px
 		max-width: 1000px
 		margin: 20px auto 0
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding: 25px 20px 30px
 		.btn-green
 			margin-top: 20px
@@ -208,7 +216,7 @@ $blue: #228CEF
 	.why-about-block
 		background: url(img/why-2-bg.png) no-repeat top center
 		background-size: cover
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding: 40px 20px 40px
 		
 	h2.our-history
@@ -223,15 +231,23 @@ $blue: #228CEF
 			top: -70px
 			img
 				width: 120px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 50px
 				
 	h2.training
 		margin-top: 100px
+		@media (max-width: 480px)
+			margin-top: 60px
+
 		.num
 			top: -73px
+			@media (max-width: 480px)
+				top: -65px
+
 			img
 				width: 120px
+				@media (max-width: 480px)
+					width: 100px
 				
 	#services
 		.right-align
@@ -242,9 +258,9 @@ $blue: #228CEF
 		.team-list
 			padding: 15px 10px 10px 0
 			.team-item
-				width: 205px
+				width: 200px
 				padding: 0 20px
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					width: 49%
 					padding: 0 10px
 					min-height: 250px
@@ -252,7 +268,7 @@ $blue: #228CEF
 	section#testimonials
 		background: url(img/why-testimonials-bg.jpg) no-repeat top center
 		background-size: cover
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			width: 100%
 			padding-left: 5%
 			padding-right: 5%
@@ -270,7 +286,7 @@ $blue: #228CEF
 			background: url(img/why-testimonial-slider-bg.svg) no-repeat top center
 			background-size: cover
 			padding: 30px 110px 65px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding: 30px 40px 65px
 			img
 				width: 75px
@@ -292,18 +308,18 @@ $blue: #228CEF
 				line-height: 26px
 			.slick-prev
 				left: 60px
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					left: 10px	
 			.slick-next
 				right: 60px
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					right: 10px	
 			.slick-dots
 				bottom: auto
 				margin-top: 15px
 
 	.after-safety
-		padding: 0 1em
+		padding: 0 0.75em
 		.row
 			img
 				width: 100%
@@ -314,7 +330,7 @@ $blue: #228CEF
 			line-height: 30px
 			margin: -5px 30px 25px 8px
 			min-height: 90px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				min-height: 0px	
 	.learn
 		font-size: 10px
@@ -428,7 +444,7 @@ $blue: #228CEF
 		padding-bottom: 5px
 		margin-bottom: 15px
 		margin-top: 20px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding-bottom: 11px
 			&.m9 .m10
 				padding: 0px
@@ -441,7 +457,7 @@ $blue: #228CEF
 			font-weight: bold
 			color: #313233
 			margin: 3px 0px 4px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				text-align: center
 		a
 			font-size: 15px
@@ -477,53 +493,75 @@ $blue: #228CEF
 
 	.pr100
 		padding-right: 100px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding-right: 0
 		
 	.pl50
 		padding-left: 50px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding-left: .75rem
 
 	.pl75
 		padding-left: 75px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding-left: .75rem
-			
+
 	.mb0
 		margin-bottom: 0
-		@media (max-width: 767px)
-			margin-bottom: 60px
+		@media (max-width: 768px)
+			margin-bottom: 40px
+
+	.mb40
+		margin-bottom: 40px !important
+
+	.mb80
+		margin-bottom: 80px !important
 		
 	.pb0
 		padding-bottom: 0 !important
-
+		
+	.pb80
+		padding-bottom: 80px !important
+		@media (max-width: 768px)
+			padding-bottom: 40px !important
 	.pt0
 		padding-top: 0 !important
 		
 	.pt80
 		padding-top: 80px !important
 
+	.pt40
+		padding-top: 40px !important
+
 	.p0
 		padding: 0
 		
+	.p0i
+		padding: 0 !important
+		
 	.p30
 		padding: 30px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding: 20px
+
 	.p80
 		padding-top: 80px
 		padding-bottom: 80px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding-top: 30px
 			padding-bottom: 30px
+
+	.p40
+		padding-top: 40px !important
+		padding-bottom: 40px  !important		
+
 	.mt35
 		margin-top: 35px
 		
 	.p130x40
 		padding-top: 130px
 		padding-bottom: 40px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding-top: 70px
 			padding-bottom: 0px
 
@@ -551,7 +589,7 @@ $blue: #228CEF
 				transition: all 0.2s linear
 				background: #F7F7F7 url(img/arrow-down-blue.svg) no-repeat right 30px top 9px
 				background-size: 26px
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					padding: 17px 60px 20px 18px
 				&.active
 					background-color: #228CEF
@@ -565,13 +603,13 @@ $blue: #228CEF
 					font-weight: 500
 					color: #313233
 					margin: 0
-					@media (max-width: 767px)
+					@media (max-width: 768px)
 						font-size: 16px
 			.collapsible-body
 				padding: 1px 30px 10px
 				border: 0px
 				box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.1)
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					padding: 1px 20px 10px
 	
 	.custom-search
@@ -591,7 +629,7 @@ $blue: #228CEF
 			&::-webkit-input-placeholder
 				font-size: 13px
 				color: #919396
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				width: 100%
 		input[type="submit"]
 			position: absolute
@@ -608,6 +646,9 @@ $blue: #228CEF
 		h3
 			font-size: 30px
 			line-height: 45px
+			@media (max-width: 768px)
+				font-size: 24px
+				line-height: 40px
 			
 
 
@@ -617,7 +658,7 @@ $blue: #228CEF
 		&:before
 			display: none
 		.play-btn .rotate
-			top: -75px
+			top: -79px
 			left: 0px
 		h3
 			margin: 15px 0 30px
@@ -642,20 +683,20 @@ $blue: #228CEF
 	#advert
 		.green-2-block
 			padding: 30px 30px 10px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding: 5px 20px 10px 
 		
 		.gray-block
 			padding: 30px 30px 10px
 			color: #313233 
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding: 5px 20px 10px 
 	.green-2-block
 		background: #00B492
 		color: #FFF
 		
 	h2.mask
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 100px
 		.num
 			top: -70px
@@ -664,16 +705,18 @@ $blue: #228CEF
 				
 	h2.hat
 		margin-top: 50px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 100px	
 		.num
 			top: -70px
 			img
 				width: 140px
+				@media (max-width: 480px)
+					width: 120px	
 
 	h2.question
 		margin-top: 50px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 70px
 		.num
 			top: -85px
@@ -681,7 +724,7 @@ $blue: #228CEF
 				width: 140px	
 
 	h2.phone
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 100px
 		.num
 			top: -105px
@@ -725,7 +768,12 @@ $blue: #228CEF
 		
 	.flex
 		display: flex
-		@media (max-width: 767px)
+		@media (max-width: 768px)
+			display: block
+
+	.flex-tab
+		display: flex
+		@media (max-width: 480px)
 			display: block
 
 
@@ -805,9 +853,14 @@ $blue: #228CEF
 	h2.user
 		.num
 			top: -95px
+			@media (max-width: 480px)
+				top: -80px
 			img
 				width: 120px
-		@media (max-width: 767px)
+				@media (max-width: 480px)
+					width: 100px
+					
+		@media (max-width: 768px)
 			margin-top: 50px
 			
 	h2.hands
@@ -815,7 +868,7 @@ $blue: #228CEF
 			top: -70px
 			img
 				width: 120px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 50px
 			
 	h2.gear-1
@@ -823,14 +876,16 @@ $blue: #228CEF
 			top: -95px
 			img
 				width: 120px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 50px
 
 			
 	.programmer-1
 		background: url(img/servagreements.png) no-repeat center
+		background-size: cover
 	.office-1
 		background: url(img/servicesvan.png) no-repeat center
+		background-size: cover
 	.gears-1
 		background: url(img/rnewal.png) no-repeat center
 		position: relative
@@ -845,6 +900,7 @@ $blue: #228CEF
 
 	.gears-2
 		background: url(img/waterchiller.png) no-repeat center
+		background-size: cover
 		
 	.card
 		box-shadow: 0px 0px 15px 0px rgba(34, 140, 239, 0.1)
@@ -858,6 +914,9 @@ $blue: #228CEF
 				margin: 0
 				padding: 35px 0 10px
 		.card-content
+			img
+				height: 100px
+				
 			h2
 				position: relative
 				margin-bottom: 0
@@ -896,16 +955,42 @@ $blue: #228CEF
 	.solutions-list
 		.col
 			.item
-				min-height: 300px
-				background: url(img/solutions-img.jpg) no-repeat center
+				height: 300px
 				background-size: cover
 				text-align: center
 				padding: 120px 0
 				margin-bottom: 15px
+				position: relative
 				@media (max-width: 480px)
 					padding: 70px 0 30px
+					height: 220px
+				&:before
+					content: " "
+					position: absolute
+					top: 0
+					left: 0
+					width: 100%
+					height: 100%
+					background-size: 100% 100%
+					z-index: 8
+					background: rgba(0, 0, 0, 0.4)
 				h2
 					color: #FFF
+					position: relative
+					z-index: 9
+
+			&.rnewals
+				.item
+					background: url(img/rnewalm.png) no-repeat center
+			&.adaptview
+				.item
+					background: url(img/adaptview.jpg) no-repeat center
+			&.tranelit
+				.item
+					background: url(img/tranelit.jpg) no-repeat center
+			&.warranty
+				.item
+					background: url(img/rooftop.jpg) no-repeat center
 					
 	ul.green-circle
 		list-style: none
@@ -1003,21 +1088,22 @@ $blue: #228CEF
 			left: 10px
 			img
 				width: 71px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			margin-top: 50px
 
 	.energy-services-1
 		padding-left: 0
 		> div
-			background: url(img/energy-services-1.png) no-repeat center
+			background: url(img/oeem.jpg) no-repeat center
 			background-size: cover
+			background-position: left center
 			width: 100%
 			height: 100%
 			
 	.energy-services-2
 		padding-right: 0
 		> div
-			background: url(img/energy-services-2.png) no-repeat center
+			background: url(img/ap-as.jpg) no-repeat center
 			background-size: cover
 			width: 100%
 			height: 100%
@@ -1025,7 +1111,7 @@ $blue: #228CEF
 	.energy-services-3
 		padding-left: 0
 		> div
-			background: url(img/energy-services-3.png) no-repeat center
+			background: url(img/dynamic-com.png) no-repeat center
 			background-size: cover
 			width: 100%
 			height: 100%
@@ -1033,7 +1119,7 @@ $blue: #228CEF
 	.energy-services-4
 		padding-right: 0
 		> div
-			background: url(img/energy-services-4.png) no-repeat center
+			background: url(img/ex-retro.jpg) no-repeat center
 			background-size: cover
 			width: 100%
 			height: 100%
@@ -1049,7 +1135,7 @@ $blue: #228CEF
 	.energy-services-6
 		padding-right: 0
 		> div
-			background: url(img/energy-services-6.png) no-repeat center
+			background: url(img/energy-services-6.jpg) no-repeat center
 			background-size: cover
 			width: 100%
 			height: 100%
@@ -1057,16 +1143,23 @@ $blue: #228CEF
 	.energy-services-7
 		padding-left: 0
 		> div
-			background: url(img/energy-services-7.png) no-repeat center
+			background: url(img/ess.png) no-repeat center
 			background-size: cover
 			width: 100%
 			height: 100%
 			
 	.energy-services-logos
 		padding: 30px 30px 20px
+		
+		img
+			max-width: 250px
+			max-height: 100px
+			
+			@media (max-width: 480px)
+				max-width: 200px
 
 		@media (max-width: 480px)
-			padding: 30px 30px 10px
+			padding: 10px 30px
 			.s12
 				padding-bottom: 20px
 
@@ -1081,6 +1174,72 @@ $blue: #228CEF
 		.col
 			padding: 200px 30px 50px
 			background-size: cover !important
+			position: relative
+			&.col200	
+				&:before
+					position: absolute
+					right: -35px
+					width: 0
+					height: 0
+					border-top: 25px solid transparent
+					border-left: 35px solid #f2f4f5
+					border-bottom: 25px solid transparent
+					top: calc(50% - 20px)
+					content: " "
+					z-index: 2
+					@media (max-width: 480px)
+						display: none
+				
+			&.col202
+				&:before
+					position: absolute
+					bottom: -35px
+					width: 0
+					height: 0
+					border-left: 25px solid transparent
+					border-right: 25px solid transparent
+					border-top: 35px solid #56667d
+					left: calc(50% - 20px)
+					content: " "
+					z-index: 2
+					@media (max-width: 480px)
+						display: none
+						
+			&.col204
+				&:before
+					position: absolute
+					top: -35px
+					width: 0
+					height: 0
+					border-left: 25px solid transparent
+					border-right: 25px solid transparent
+					border-bottom: 35px solid #e4e3ea
+					left: calc(50% - 20px)
+					content: " "
+					z-index: 2
+					@media (max-width: 480px)
+						display: none
+						
+			&.col194
+				&:before
+					position: absolute
+					left: -35px
+					width: 0
+					height: 0
+					border-top: 25px solid transparent
+					border-right: 35px solid #069579
+					border-bottom: 25px solid transparent
+					top: calc(50% - 20px)
+					content: " "
+					z-index: 2
+					@media (max-width: 480px)
+						display: none
+
+
+			@media (max-width: 768px)
+				padding-top: 150px
+			@media (max-width: 480px)
+				padding-top: 100px
 			h2
 				margin-bottom: 15px
 			a
@@ -1095,7 +1254,7 @@ $blue: #228CEF
 	// - - - - Sliders - - - - //
 	.slick-dots
 		position: absolute
-		bottom: -15px
+		bottom: -30px
 		display: block
 		padding: 0
 		margin: 0
@@ -1141,7 +1300,7 @@ $blue: #228CEF
 		border: none
 		outline: none
 		background: transparent
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			//display: none !important
 
 	.slick-prev
@@ -1150,7 +1309,7 @@ $blue: #228CEF
 		height: 30px
 		background: url(img/arrowl.svg) no-repeat center
 		background-size: 13px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			left: 0px
 		
 		&:hover
@@ -1164,7 +1323,7 @@ $blue: #228CEF
 		height: 30px
 		background: url(img/arrowr.svg) no-repeat center
 		background-size: 13px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			right: 0px
 
 		&:hover
@@ -1196,7 +1355,7 @@ $blue: #228CEF
 				margin-left: 28px
 				@media (max-width: 1024px)
 					margin-left: 20px	
-				@media (max-width: 767px)
+				@media (max-width: 768px)
 					margin: 0px
 					max-width: inherit
 					width: 100%
@@ -1221,18 +1380,38 @@ $blue: #228CEF
 			line-height: 30px
 		h5
 			margin: 0
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding-left: 28px
+				
+	.mobile-pb0
+		@media (max-width: 480px)
+			padding-bottom: 0px !important 
+
+	.mobile-pt0
+		@media (max-width: 768px)
+			padding-top: 00px !important 
+
+	.mobile-pt50
+		@media (max-width: 480px)
+			padding-top: 50px !important
+			
+	.tab-pt50
+		@media (max-width: 768px)
+			padding-top: 50px !important 
+				
+	.tab-mt30
+		@media (max-width: 768px) and (min-width: 480px)
+			margin-top: 30px !important
 				
 .why-hunton_page
 	section
 		&.content-section
 			padding: 0 0 80px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding: 0 0 40px
 		&.content-block
 			padding: 65px 0 65px
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				padding: 40px 0 40px
 				
 .engineered-fabricated-products_page
@@ -1251,7 +1430,7 @@ $blue: #228CEF
 		margin: 45px 0 65px
 	.page .page-bg .text
 		padding: 110px 0 130px
-		@media (max-width: 767px)
+		@media (max-width: 768px)
 			padding: 50px 0 75px
 			
 .intellipak-refresh-program_page
@@ -1270,14 +1449,19 @@ $blue: #228CEF
 	.pt80 h2
 		&:before
 			left: 240px !important
-			@media (max-width: 767px)
+			@media (max-width: 768px)
 				left: 100px !important
 
 	.contact-us_page h2
 		.num
 			top: -65px !important
+			@media (max-width: 480px)
+				top: -50px !important
 			img
 				width: 150px !important
+
+				@media (max-width: 480px)
+					width: 110px !important
 
 	.nearby-box
 		.row
@@ -1305,4 +1489,216 @@ $blue: #228CEF
 				display: block
 				margin: 0 auto
 				width: auto
+
+	
+#whats #news .meta span.comments,
+.posts-grid .item .meta span.date
+	line-height: 18px
+	position: relative
+	top: 8px
+
+a,
+.slick-slide
+	outline: none !important
+
+#whats #news .item
+	padding-top: 10px
+	padding-bottom: 10px
+
+.main-slider .item:before
+	background: rgba(0, 0, 0, 0.5) !important
+	opacity: 1 !important
+
+.page .page-bg:before
+	background: rgba(0, 0, 0, 0.2) !important
+	opacity: 1 !important
+
+.ID_74 .page .page-bg:before,
+.ID_496 .page .page-bg:before,
+.ID_185 .page .page-bg:before,
+.ID_157 .page .page-bg:before,
+.ID_54 .page .page-bg:before,
+.ID_45 .page .page-bg:before,
+.ID_371 .page .page-bg:before,
+.ID_243 .page .page-bg:before
+	background: rgba(0, 0, 0, 0.4) !important
+	
+.ID_92 .page .page-bg:before
+	background: none !important 
+
+#rpwwt-recent-posts-widget-with-thumbnails-2 img
+	height: auto !important
+	margin-top: 0
+
+.p-excerpt
+	height: 65px
+
+.posts-grid .item h3
+	height: 50px
+
+#sidebar ul li
+	border-top: 0px dotted #D4D4D4
+
+#sidebar #archives-2 ul li:first-chil,
+#sidebar #categories-2 ul li:first-child
+	border-top: 1px dotted #D4D4D4
+
+.entry_content 
+	p
+		@media (max-width: 480px)
+			line-height: 26px
 			
+	h3
+		margin-top: 40px
+		color: #313233
+		@media (max-width: 768px)
+			font-size: 28px
+
+.entry_content b
+	color: #313233
+			
+.pt0
+	padding-top: 0 !important
+	
+.center-align
+	ul
+		li
+			display: inline-block
+			
+.no-before:before
+	display: none !important
+
+.slider-block-3 .slick-track
+	display: flex
+	align-items: stretch
+	justify-content: center
+	.slick-slide
+		height: auto
+		
+.form-slider
+	padding-bottom: 20px !important
+	
+.tiny-text
+	font-size: 14px
+	line-height: 26px
+	padding-bottom: 20px !important  
+	h4
+		font-size: 20px
+		line-height: 28px
+		margin-bottom: 0
+		
+.big-text-block
+	max-width: 1000px
+	margin: 0 auto
+
+.row .p130x40
+	padding-top: 130px
+	padding-bottom: 40px
+	@media (max-width: 768px)
+		padding-top: 70px
+		padding-bottom: 0px
+		
+.p0im
+	padding: 0 !important
+	
+.mbpt40
+	@media (max-width: 768px)
+		padding-top: 50px !important
+		
+.mobile-clean
+	@media (max-width: 480px)
+		float: none !important
+		margin: 0 !important
+		padding: 0 !important
+		img
+			float: none !important
+			margin: 0 !important
+			padding: 0 !important
+			
+.intro-video
+	width: 100%
+	height: 100vh
+	position: relative
+	overflow: hidden 
+	&:before
+		background: rgba(0, 0, 0, 0.4)
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		content: " "
+		top: 0
+		left: 0
+		z-index: 10
+		
+
+	.item-content
+		top: 150px
+		position: relative
+		z-index: 11
+		text-align: center
+		max-width: 840px
+		margin: 0 auto
+		@media (max-width: 480px)
+			top: 30px
+
+		h1
+			font-size: 45px
+			font-weight: bold
+			color: #fff
+			@media (max-width: 768px)
+				font-size: 35px
+				padding: 0 20px
+
+
+		p
+			font-size: 18px
+			margin-top: 17px
+			color: #fff
+			@media (max-width: 768px)
+				font-size: 16px
+				padding: 0 20px
+
+		.play-btn
+			margin: 0 auto
+			width: 80px
+			height: 80px
+			display: block
+
+			img
+				width: 60px
+
+			.rotate
+				position: relative
+				top: -78px
+				left: 0px
+				width: 80px
+				-webkit-animation: rotation 5s infinite linear
+
+				@-webkit-keyframes rotation
+					from
+						-webkit-transform: rotate(0deg)
+					to
+						-webkit-transform: rotate(359deg)
+    
+	
+#myVideo
+	position: absolute
+	right: 0
+	bottom: 0
+	top: 0
+	right: 0
+	width: 100%
+	height: 100%
+	object-position: center top
+	object-fit: cover
+	
+.pt80a
+	padding-top: 80px !important
+	@media (max-width: 480px)
+		padding-top: 30px !important
+		
+.our-team_page
+	.team-list
+		max-width: 890px
+		margin: 0 auto

@@ -10,7 +10,7 @@
 	<div class="breadcrumbs"></div>
 
 	<div class="row flex">
-		<div class="col m8 ">
+		<div class="col m12 ">
 
 			<h2>IntelliPak Refresh Program</h2>
 			<p>Trane's IntelliPak Refresh service program is a factory-warranty solution to replace worn materials, restore unit performance, and provide the same reliability for the replaced materials as seen on new IntelliPak units. This program is offered for Trane IntelliPak style rooftop units built in the 1980s or later.</p>
@@ -20,62 +20,10 @@
 			<p>This program is customizable for customers, allowing you to choose from a simple base refresh to a comprehensive overhaul of unit compressors, heat exchangers and motors.</p>
 
 			<p><b>The base refresh</b> generally takes technicians less than a day to install and is usually combined with other scheduled service. It includes these components:</p>
-			
-			<h4 class="bbf1f4fc">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt:</h4>
 
 			<ul class="green-circle">
 				<li><b>BAS R’newal Program Trane BAS R’newal™</b> is a building controls upgrade program designed to make existing building automation systems (BAS) more effective and to improve building performance, while leveraging the equipment you already have in place. With cost-effective options and open systems designed for flexibility and integration, Trane renews your system without the cost and inconvenience of a full replacement. Link to detailed description: <b class="blue-text">Trane BAS R'newal Program</b></li>
-				<li><b>BAS R’newal Program Trane BAS R’newal™</b> is a building controls upgrade program designed to make existing building automation systems (BAS) more effective and to improve building performance, while leveraging the equipment you already have in place. With cost-effective options and open systems designed for flexibility and integration, Trane renews your system without the cost and inconvenience of a full replacement. Link to detailed description: <b class="blue-text">Trane BAS R'newal Program</b></li>
-				<li><b>BAS R’newal Program Trane BAS R’newal™</b> is a building controls upgrade program designed to make existing building automation systems (BAS) more effective and to improve building performance, while leveraging the equipment you already have in place. With cost-effective options and open systems designed for flexibility and integration, Trane renews your system without the cost and inconvenience of a full replacement. Link to detailed description: <b class="blue-text">Trane BAS R'newal Program</b></li>
 			</ul>
-		</div>
-		<div class="col m4 item-list">
-			<h5>Sample text</h5>
-
-			<div class="row">
-				<div class="col m4">
-					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
-				</div>
-				<div class="col m8">
-					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col m4">
-					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
-				</div>
-				<div class="col m8">
-					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col m4">
-					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
-				</div>
-				<div class="col m8">
-					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col m4">
-					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
-				</div>
-				<div class="col m8">
-					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col m4">
-					<img src="<?php wp_upload_dir(); ?>/2017/12/products-3.png" alt="">
-				</div>
-				<div class="col m8">
-					<h5><a href="">Trane Series R R'newal Service Program</a></h5>
-				</div>
-			</div>
 		</div>
 	</div>
 

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="page dev2">
 	<div class="container">
-	<div class="page-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat top center; background-size: cover;">
+	<div class="page-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat 0 -200px; background-size: cover;">
 		<div class="text">
 			<h1><?php echo the_title(); ?></h1>
 			<p><?php echo get_field('subheading'); ?></p>
@@ -27,8 +27,8 @@ speak the language of buildings.</p>
 
 	<div class="container">
 		<section id="services" class="content-section">
-			<div class="row valign-wrapper">
-				<div class="col s12 xl6 pr100">
+			<div class="row flex">
+				<div class="col s12 xl6 p80 pr100 mobile-pb0">
 					<h2 class="our-history">Our History<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/our-history-icon.svg"></div></h2>
 					<p>Since 1981 when RO Hunton first founded Houston Trane as a subsidiary of The Trane
 Company, large and small customers have relied on Hunton to deliver innovative systems, professional
@@ -36,17 +36,16 @@ OEM service, comprehensive solutions, and Trane&#39;s high-quality products - al
 convenience - and from a company you can trust.</p>
 					<p><a href="<?php bloginfo('url'); ?>/our-history" class="btn-green">READ MORE</a></p>
 				</div>
-				<div class="col s12 xl6 right-align">
-					<img src="<?php bloginfo('template_url'); ?>/img/our-history-img.svg">
+				<div class="col s12 xl6 right-align hide-on-small-only" style="background: url(<?php bloginfo('template_url'); ?>/img/bottlebreaking.jpg) ;background-size: cover;background-position: center;">
 				</div>
 			</div>
 		</section>
 	</div>
 
 	<div class="container">
-		<section class="content-section">
-			<div class="row valign-wrapper">
-				<div class="col s12 xl6 pl50 hide-on-med-and-up show-on-small">
+		<section class="content-section mobile-pb0">
+			<div class="row ">
+				<div class="col s12 xl6 mb0 hide-on-large-only">
 					<h2 class="our-team">Our Team<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/our-team-icon.svg"></div></h2>
 					<p>At Hunton Services, we develop
 customer relationships by listening carefully to our customers in order to determine job performance,
@@ -73,29 +72,35 @@ value, our customers trust us and routinely reward us with their next project.</
 							<span class="team-pos">Manager of Special Projects & Construction</span>
 						</div>
 						<div class="team-item center">
-							<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen.svg" alt="">
-							<span class="team-name">RANDY WALLEN</span>
-							<span class="team-pos">Senior Vice President & General Manager</span>
+							<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen2.svg" alt="">
+							<span class="team-name">LEANNE STIERS</span>
+							<span class="team-pos">BAS Service Manager, CEM</span>
 						</div>
 						<div class="team-item center">
-							<img src="<?php bloginfo('template_url'); ?>/img/team/Randy_Wallen2.svg" alt="">
-							<span class="team-name">RANDY WALLEN</span>
-							<span class="team-pos">Senior Vice President & General Manager</span>
+							<img style="border-radius: 50%" src="<?php bloginfo('template_url'); ?>/img/team/RickMoreno2016-fv.jpg" alt="">
+							<span class="team-name">RICK MORENO</span>
+							<span class="team-pos">Vice President of Sales</span>
 						</div>
 						<div class="team-item center">
 							<img src="<?php bloginfo('template_url'); ?>/img/team/lenny.svg" alt="">
-							<span class="team-name">LEANNE STIERS</span>
-							<span class="team-pos">Senior Vice President & General Manager</span>
+							<span class="team-name">GARY CAMPBELL</span>
+							<span class="team-pos">Manager of Special </span>
+						</div>
+						<div class="team-item center">
+							<img src="<?php bloginfo('template_url'); ?>/img/team/mike.png" alt="">
+							<span class="team-name">Mike Pagan</span>
+							<span class="team-pos">Operations Manager</span>
+						</div>
+						<div class="team-item center">
+							<img src="<?php bloginfo('template_url'); ?>/img/team/steph.png" alt="">
+							<span class="team-name">Steph Mixon</span>
+							<span class="team-pos">Financial Manager</span>
 						</div>
 					</div>
 				</div>
-				<div class="col s12 xl6 pl50 hide-on-small-only">
+				<div class="col s12 xl6 pl50 p80 hide-on-med-and-down">
 					<h2 class="our-team">Our Team<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/our-team-icon.svg"></div></h2>
-					<p>At Hunton Services, we develop
-customer relationships by listening carefully to our customers in order to determine job performance,
-quality, and cost needs. By utilizing a staff of qualified managers, engineers, and skilled technicians, we
-are able to develop sound and cost-effective solutions that result in real value. By providing tangible
-value, our customers trust us and routinely reward us with their next project.</p>
+					<p>At Hunton Services, we develop customer relationships by listening carefully to our customers in order to determine job performance, quality, and cost needs. By utilizing a staff of qualified managers, engineers, and skilled technicians, we are able to develop sound and cost-effective solutions that result in real value. By providing tangible value, our customers trust us and routinely reward us with their next project. </p>
 					<p><a href="<?php bloginfo('url'); ?>/our-team" class="btn-green">READ MORE</a></p>
 				</div>
 			</div>
@@ -105,18 +110,18 @@ value, our customers trust us and routinely reward us with their next project.</
 	<div class="container bg-gray" id="partners">
 		<section class=" content-section content-block">
 			<h2 class="center bottom-line">Our Partners</h2>
-			<p class="center after-title">With the growing trend for connected lighting, today’s professional lighting projects are becoming more and more complex. This has sparked an increasing demand for quality consulting and design services.</p>
+			<p class="center after-title">By partnering with the industry’s leading trade and professional associations,  Hunton Services stays up to date on industry trends, news, and cutting edge technologies in order to provide the most value to you, our customer.</p>
 
 			<div class="slider-linear slider-block-3 posts-grid ">
 				<?php
-				$args = array( 'posts_per_page' => 8);
+				$args = array( 'posts_per_page' => -1, 'cat' => 23);
 				$myposts = get_posts( $args );
 				foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 
 				<div class="row item">
 					<div class="col l6 m6 s12 s3-thumb" style="background: #fff url(<?php the_post_thumbnail_url(); ?>) no-repeat center; background-size: 85%;">
 					</div>
-					<div class="col l6 m6 s12 text">
+					<div class="col l6 m6 s12 text no-shadow">
 						<div class="">
 							<h3><a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							<p><?php echo the_excerpt(); ?></p>
@@ -142,7 +147,7 @@ value, our customers trust us and routinely reward us with their next project.</
 				$args = array( 'hide_empty=0' );
 				$case_terms = get_terms( 'case_categories', $args ); 
 			?>
-			<div class="row block">
+<!-- 			<div class="row block">
 				<div class="case-cats">
 					<div class="col m2 s12"><h6>Categories:</h6></div>
 					<div class="col m10 s12">
@@ -154,7 +159,7 @@ value, our customers trust us and routinely reward us with their next project.</
 						}?>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="slider-linear posts-grid slider-block-2 row">
 				<?php
@@ -193,7 +198,7 @@ value, our customers trust us and routinely reward us with their next project.</
 	<section id="testimonials" class="container content-section content-block">
 		<div class="center">
 			<h2 class="bottom-line">Testimonials</h2>
-			<p class="deskr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="deskr"></p>
 		</div>
 
 		<div class="slider-linear slider-block-1  ">
@@ -258,7 +263,7 @@ commitment to safety: “We will live safety every day. Nobody Gets Hurt.” The
 protecting the health and safety of its workforce and to minimizing its environmental impact. To learn more
 about how we live safety every day, <a href="<?php bloginfo('url'); ?>/safety">click here</a>.</p>
 				</div>
-				<div class="col s12 xl6 right-align">
+				<div class="col s12 xl6 right-align hide-on-med-and-down">
 					<img class="right" src="<?php bloginfo('template_url'); ?>/img/hse.png">
 				</div>
 			</div>
@@ -266,7 +271,7 @@ about how we live safety every day, <a href="<?php bloginfo('url'); ?>/safety">c
 	</div>
 
 	<section class="after-safety container">
-		<div class="row">
+		<div class="row mb0">
 			<div class="col m4 s12 green-block ">
 				<div class="row"><img src="<?php bloginfo('template_url'); ?>/img/handsholdingearth.jpg"></div>
 				<h4>The President’s Mission Statement for Environmental Health</h4>
@@ -285,12 +290,11 @@ about how we live safety every day, <a href="<?php bloginfo('url'); ?>/safety">c
 		</div>
 	</section>
 
-	<section id="training" class="container content-section content-block">
-		<div class="row valign-wrapper">
-			<div class="col s12 xl6 right-align hide-on-small-only">
-				<img src="<?php bloginfo('template_url'); ?>/img/training.jpg">
+	<section id="training" class="container content-section p0i">
+		<div class="row m0 flex">
+			<div class="col s12 xl6 right-align hide-on-small-only" style="background: url(<?php bloginfo('template_url'); ?>/img/training.jpg) ;background-size: cover;">
 			</div>
-			<div class="col s12 xl6 pl75">
+			<div class="col s12 xl6 p80 pl75">
 				<h2 class="training">Training<div class="num"><img src="<?php bloginfo('template_url'); ?>/img/why-training-icon.svg"></div></h2>
 				<p>Our Commitment to Safety Through Training</p>
 				<p>Each year, Hunton provides 12 mandatory training topics for all employees actively working in the field.
@@ -300,9 +304,6 @@ Team ensures our employees stay on top of their skills, improve their knowledge 
 recognized for a job well done. Additionally, all field supervisors complete OSHA 10 certification and
 Supervisor Level LPS training. In the past few years alone, Hunton Group has invested over $200,000 in
 technician training.</p>
-			</div>
-			<div class="col s12 xl6 right-align show-on-small hide-on-med-and-up">
-				<img src="<?php bloginfo('template_url'); ?>/img/training.jpg">
 			</div>
 		</div>
 	</section>
@@ -357,6 +358,7 @@ technician training.</p>
 		speed: 300,
 		slidesToShow: 2,
 		slidesToScroll: 2,
+		equalizeHeight: true,
 		responsive: [
 		{
 			breakpoint: 1024,
@@ -419,6 +421,7 @@ technician training.</p>
 			},
 		});
 	});
+
 </script>
 
 <?php get_footer(); ?>

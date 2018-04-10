@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1367.5 -1166.5 200.563 200.563">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1368.5 -1168.5 200.563 200.563">
   <defs>
     <style>
       .cls-1 {
-        fill: #228cef;
+        fill: url(#linear-gradient);
       }
 
       .cls-2, .cls-3 {
@@ -11,7 +11,7 @@
 
       .cls-2 {
         font-size: 11px;
-        font-family: OpenSans-Bold, Open Sans;
+        font-family: GothamPro-Bold, Gotham Pro;
         font-weight: 700;
       }
 
@@ -19,7 +19,11 @@
         filter: url(#Path_110);
       }
     </style>
-    <filter id="Path_110" x="1367.5" y="-1166.5" width="200.563" height="200.563" filterUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b782"/>
+      <stop offset="1" stop-color="#00afb7"/>
+    </linearGradient>
+    <filter id="Path_110" x="1368.5" y="-1168.5" width="200.563" height="200.563" filterUnits="userSpaceOnUse">
       <feOffset dy="4" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="7.5" result="blur"/>
       <feFlood flood-color="#0f5699" flood-opacity="0.4"/>
@@ -27,13 +31,13 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="_3" data-name="3" transform="translate(548 -2064)">
+  <g id="_3" data-name="3" transform="translate(549 -2066)">
     <g id="Symbol_3_2" data-name="Symbol 3 – 2" transform="translate(0.111 -0.459)">
-      <g class="cls-4" transform="matrix(1, 0, 0, 1, -548.11, 2064.46)">
-        <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(1390 -1070.22) rotate(-45)"/>
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -549.11, 2066.46)">
+        <path id="Path_110-2" data-name="Path 110" class="cls-1" d="M0,0H110V110H0Z" transform="translate(1391 -1072.22) rotate(-45)"/>
       </g>
     </g>
-    <text id="TESTIMONIALS" class="cls-2" transform="translate(920 1015)"><tspan x="-40.087" y="0">TESTIMONIALS</tspan></text>
+    <text id="TESTIMONIALS" class="cls-2" transform="translate(920 1015)"><tspan x="-43.01" y="0">TESTIMONIALS</tspan></text>
     <path id="Path_126" data-name="Path 126" class="cls-3" d="M32.526,0H3.614A3.625,3.625,0,0,0,0,3.614V23.491A3.625,3.625,0,0,0,3.614,27.1H8.4v6.053a.61.61,0,0,0,.361.542h.181A.69.69,0,0,0,9.4,33.52L15.359,27.1H32.526a3.625,3.625,0,0,0,3.614-3.614V3.614A3.625,3.625,0,0,0,32.526,0ZM7.228,7.86h9.035a.618.618,0,0,1,.632.632c0,.361-.271.542-.632.542H7.228A.618.618,0,0,1,6.6,8.4C6.6,8.041,6.867,7.86,7.228,7.86ZM27.737,18.7H7.228a.632.632,0,0,1,0-1.265H27.737a.618.618,0,0,1,.632.632A.761.761,0,0,1,27.737,18.7Zm0-4.879H7.228a.618.618,0,0,1-.632-.632c0-.361.271-.542.632-.542H27.737a.618.618,0,0,1,.632.632A.6.6,0,0,1,27.737,13.823Z" transform="translate(901.93 956.8)"/>
     <g id="Group_149" data-name="Group 149" transform="translate(58 -40)">
       <path id="Union_4" data-name="Union 4" class="cls-3" d="M-689.457,2173.486a1,1,0,0,1,0-1.415l1.225-1.225H-696a1,1,0,0,1-1-1,1,1,0,0,1,1-1h8.268l-1.725-1.725a1,1,0,0,1,0-1.414,1,1,0,0,1,1.414,0l2.829,2.829a1,1,0,0,1,.229,1.061,1,1,0,0,1-.229,1.061l-2.829,2.829a1,1,0,0,1-.707.293A1,1,0,0,1-689.457,2173.486Z" transform="translate(1553 -1091.846)"/>

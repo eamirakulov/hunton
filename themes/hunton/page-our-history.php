@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="page container dev2">
-	<div class="page-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat top center; background-size: cover;">
+	<div class="page-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat 0 -185px; background-size: cover;">
 		<div class="text">
 			<h1><?php echo the_title(); ?></h1>
 			<p><?php echo get_field('subheading'); ?></p>
@@ -29,13 +29,13 @@ and to bring real added value to the table.&quot;</p>
 		<img src="<?php bloginfo('template_url'); ?>/img/our-history-1.svg" alt="">
 
 		<h4 class="bbf1f4fc mt50">Hunton Ranked Top 10 Midsize Companies</h4>
-		p>Hunton Group placed 5th in midsize companies in the Houston area based on the surveys of our
-employees. This is our 5 th year to be voted a top place to work: <a href="http://www.chron.com/business/article/Family-helps-make-a-comfortable-climate-at-The-12303216.php">Read more here...</a></p>
+		<p>Hunton Group placed 5th in midsize companies in the Houston area based on the surveys of our
+employees. This is our 5th year to be voted a top place to work: <a href="http://www.chron.com/business/article/Family-helps-make-a-comfortable-climate-at-The-12303216.php">Read more here...</a></p>
 
-		<div class="row">
+<!-- 		<div class="row">
 			<div class="col m6 s12"><img src="<?php bloginfo('template_url'); ?>/img/our-history-2.svg" alt=""></div>
 			<div class="col m6 s12"><img src="<?php bloginfo('template_url'); ?>/img/our-history-3.svg" alt=""></div>
-		</div>
+		</div> -->
 
 		<h4 class="bbf1f4fc mt50">Hunton Group is the Largest Trane Franchise Office in North America</h4>
 		<p>By partnering with the most recognized and trusted brand in the industry, Hunton Services offers our customers
@@ -45,10 +45,9 @@ people who are working, learning, healing, storing, and innovating.</p>
 Performance - Customers experience efficiency, effectiveness, and reliability 24/7</p>
 
 <p>Innovation -Trane brings new ideas, problem solving and an inquisitive look and guidance to impact
-energy
-efficiency and sustainability</p>
-<p>Commitment - Customers can trust Trane to deliver loyalty, passion and dedication to their mission
-Knowledge - Trane’s legacy of excellence delivers knowledge and the true expertise that customers trust
+energy efficiency and sustainability</p>
+<p>Commitment - Customers can trust Trane to deliver loyalty, passion and dedication to their mission</p>
+<p>Knowledge - Trane’s legacy of excellence delivers knowledge and the true expertise that customers trust
 We are proud to be Houston’s only Trane OEM.</p>
 	</div>
 

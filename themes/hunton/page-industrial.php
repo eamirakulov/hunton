@@ -22,28 +22,28 @@
 		</div>
 
 		<div class="row flex">
-			<div class="col s12 xl6 more-padding">
-				<h2>Keeping Industry Productive<div class="num">01</h2>
+			<div class="col s12 xl6 p130x40 pr100">
+				<h2>Keeping Industry Productive<div class="num">01</div></h2>
 					<p>At Hunton Services we understand that industrial and petrochemical facilities balance many challenges
-and diverse needs. They must ensure the safest environment possible for their staff, maximize
-production, and minimize pollution levels while reducing their carbon footprint and lowering operation
-and energy costs.</p>
-				<p>To meet the high demand of our customer’s manufacturing needs, our team of safe, (link to page on
-Safety) qualified technicians is available 24/7 to troubleshoot, service, and repair your equipment. We
-have the technical expertise necessary to tackle any issue and mitigate unforeseen risks, and our
-Industrial Plant Service Team and Trane Rental Services divisions work as one, cohesive unit – making
-installation of rental equipment seamless.</p>
-				<p>Visualize our services as a virtual toolkit for plant optimization. We recognize the critical nature of plant
-process cooling systems. Our goal is to provide a comfortable working environment, assure minimal
-downtime, protect plant revenue, and meet all environmental requirements.</p>
-			</div>
-			<div class="col s12 xl6 industrial1"><div></div></div>
+						and diverse needs. They must ensure the safest environment possible for their staff, maximize
+						production, and minimize pollution levels while reducing their carbon footprint and lowering operation
+					and energy costs.</p>
+					<p>To meet the high demand of our customer’s manufacturing needs, our team of safe, (link to page on
+						Safety) qualified technicians is available 24/7 to troubleshoot, service, and repair your equipment. We
+						have the technical expertise necessary to tackle any issue and mitigate unforeseen risks, and our
+						Industrial Plant Service Team and Trane Rental Services divisions work as one, cohesive unit – making
+					installation of rental equipment seamless.</p>
+					<p>Visualize our services as a virtual toolkit for plant optimization. We recognize the critical nature of plant
+						process cooling systems. Our goal is to provide a comfortable working environment, assure minimal
+					downtime, protect plant revenue, and meet all environmental requirements.</p>
+				</div>
+				<div class="col s12 xl6 industrial1"></div>
 		</div>
 
 		<div class="row flex">
-			<div class="col s12 xl6 industrial2"><div></div></div>
-			<div class="col s12 xl6 more-padding services">
-				<h2 class="smaller">Featured Industrial Services<div class="num">02</h2>
+			<div class="col s12 xl6 industrial2"></div>
+			<div class="col s12 xl6 more-padding p130x40 pl75">
+				<h2 class="smaller">Featured Industrial Services<div class="num">02</div></h2>
 				<p>
 					<ul class="custom-ul">
 						<li><a href="<?php bloginfo('url'); ?>/industrial-services#refrigeration">Process Refrigeration</a></li>
@@ -51,6 +51,7 @@ downtime, protect plant revenue, and meet all environmental requirements.</p>
 						<li><a href="<?php bloginfo('url'); ?>/mechanical-services/">Mechanical Services</a></li>
 						<li><a href="<?php bloginfo('url'); ?>/rentals">Rental Services</a></li>
 						<li><a href="<?php bloginfo('url'); ?>/mechanical-services/rnewal-services/">Trane Factory OEM Solutions</a></li>
+						<li><a href="#">Upgrades and Retrofitting</a></li>
 						<li><a href="<?php bloginfo('url'); ?>/energy-services">Energy Services &amp; Performance Contracting</a></li>
 						<li><a href="<?php bloginfo('url'); ?>/">Lighting &amp; Plumbing Solutions</a></li>
 						<li class="has-child"><a href="<?php bloginfo('url'); ?>/engineered-fabricated-products/">Engineered &amp; Fabricated Products</a>
@@ -67,71 +68,57 @@ downtime, protect plant revenue, and meet all environmental requirements.</p>
 
 
 		<div class="row building-carousel">
-			<h2 class="center bottom-line">We’re Proud to Work with the Following Companies:</h2>
+			<h2 class="center bottom-line mb40">We’re Proud to Work with the Following Companies:</h2>
 
 			<div id="building-slider">
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>DOW</p>
+					<p class="center-align">DOW</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Shintech</p>
+					<p class="center-align">Shintech</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Hexion/Momentive</p>
+					<p class="center-align">Hexion/Momentive</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Dixie Chemical</p>
+					<p class="center-align">Dixie Chemical</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Western Container</p>
+					<p class="center-align">Western Container</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Plastipak</p>
+					<p class="center-align">Plastipak</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Flex Steel</p>
+					<p class="center-align">Flex Steel</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Calpine</p>
+					<p class="center-align">Calpine</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/exon.jpg"></div>
-					<p>Exxon</p>
+					<p class="center-align">Exxon</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Arkema</p>
+					<p class="center-align">Arkema</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>BASF</p>
+					<p class="center-align">BASF</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Baker Hughes</p>
+					<p class="center-align">Baker Hughes</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>Halliburton</p>
+					<p class="center-align">Halliburton</p>
 				</div>
 				<div class="item col s4">
-					<div class="img"><img src="<?php echo bloginfo('template_url'); ?>/img/calpine.jpg"></div>
-					<p>El Dorado Nitrogen</p>
+					<p class="center-align">El Dorado Nitrogen</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="case_studies" class="content-section content-block">
 		<div class="center">
-			<h2 class="bottom-line">Case Studies</h2>
+			<h2 class="bottom-line ">Case Studies</h2>
 			<p class="center after-title">Our case studies are a reflection of our commitment to our core values. We will perform every job with pride of ownership and provide satisfaction by meeting or exceeding every customer’s expectations. Take a look at our featured jobs, and <a href="<?php bloginfo('url'); ?>/contact-us">let us know what you think!</a></p>
 		</div>
 		
@@ -169,7 +156,7 @@ downtime, protect plant revenue, and meet all environmental requirements.</p>
 		<div class="center">
 			<br>
 			<br>
-			<h2 class="bottom-line">Featured Award</h2>
+			<h2 class="bottom-line mb40">Featured Award </h2>
 			<div class="center">
 				<a href="<?php bloginfo('url'); ?>/wp-content/uploads/2018/02/El-Dorado-Nitrogen-L.P.-Press-Release.pdf" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/award.jpg"></a>
 			</div>
